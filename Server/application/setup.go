@@ -2,8 +2,8 @@ package application
 
 import (
 	"encoding/json"
-	"os"
 	"log"
+	"os"
 )
 
 type Config struct{
@@ -28,6 +28,6 @@ func LoadConfig(filePath string) (*Config, error) {
 		log.Println("Error decoding JSON:", err)
 		return nil, err
 	}
-
+	log.Println("Configuration loaded successfully")
 	return config, nil
 }
