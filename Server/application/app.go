@@ -21,7 +21,7 @@ func StartServer(){
 		errors.New("Failed to load config")
 		panic(err)
 	}
-	log.Println(Config)
+	log.Println(":"+string(Config.Port))
 	http.HandleFunc("/task/add", NewHandler)
 	http.ListenAndServe(":"+string(Config.Port), nil)
 }
