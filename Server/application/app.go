@@ -22,8 +22,9 @@ func NewHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func StartServer(){
-	logger := CreateLogger("./log/server.log")
+	logger := CreateLogger("/app.log")
 	logger.Println("Starting server...")
+	// Load the configuration file
 	Config, err := LoadConfig("./configs/config/json")
 	if err != nil {
 		logger.Fatal("Error loading config:", err)
