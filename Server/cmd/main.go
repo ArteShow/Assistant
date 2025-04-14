@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/ArteShow/HomeAssistant/Server/application"
+	"github.com/ArteShow/Assistant/Server/application"
 )
 
 func main(){

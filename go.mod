@@ -1,4 +1,4 @@
-module github.com/ArteShow/HomeAssistant
+module github.com/ArteShow/Assistant
 
 go 1.23.1
 
