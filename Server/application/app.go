@@ -24,6 +24,7 @@ func StartServer(){
 	}
 
 	port := ":" + strconv.Itoa(Config.Port) 
+	log.Println(port)
 	http.HandleFunc("/task/add", NewHandler)
 	http.ListenAndServe(port, nil)
 }
