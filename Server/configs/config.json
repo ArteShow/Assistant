@@ -1,0 +1,19 @@
+{
+    "language": "en",
+    "theme": "dark",
+    "port": 8080,
+    "host": "localhost",
+    "autostart": true,
+    "log_file": "./log/server.log",
+    "logging": {
+        "enabled": true,
+        "level": "info"
+    },
+    "update_check": true,
+    "gui": {
+        "enabled": true,
+        "width": 1024,
+        "height": 768,
+        "fullscreen": false
+    }
+}
