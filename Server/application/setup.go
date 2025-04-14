@@ -3,6 +3,7 @@ package application
 import (
 	"encoding/json"
 	"os"
+	"log"
 )
 
 type Config struct{
@@ -12,11 +13,10 @@ type Config struct{
 }
 
 func LoadConfig(filePath string) (*Config, error) {
-	logger := CreateLogger("./log/server.log")
-	logger.Println("Loading configuration from", filePath)
+	log.Println("Loading configuration from", filePath)
 	configFile, err := os.Open(filePath)
 	if err != nil {
-		logger.Println("Error opening config file:", err)
+		log.Println("Error opening config file:", err)
 		return nil, err
 	}
 	defer configFile.Close()
@@ -25,7 +25,7 @@ func LoadConfig(filePath string) (*Config, error) {
 	decoder := json.NewDecoder(configFile)
 	err = decoder.Decode(config)
 	if err != nil {
-		logger.Println("Error decoding JSON:", err)
+		log.Println("Error decoding JSON:", err)
 		return nil, err
 	}
 
