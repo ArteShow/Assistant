@@ -93,7 +93,7 @@ func GetUsersTaskByID(userID int64, taskID int64, db *sql.DB) (*Task, error) {
     return task, nil
 }
 
-func DeletUSersTaskByID(userID int64, taskID int64, db *sql.DB) (bool, error){
+func DeletUsersTaskByID(userID int64, taskID int64, db *sql.DB) (bool, error){
 	log.Printf("Deleting task with ID %d for user ID %d", taskID, userID)
 
 	query := `DELETE FROM tasks WHERE user_id = ? AND id = ?`

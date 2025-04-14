@@ -1,0 +1,4 @@
+TODO:
+    -Make a test
+    -Make a function: GetUsersSats(userID int64, db *sql.DB) (*Userm error)
+    -Don't forget to connect the data base in authorization.go
