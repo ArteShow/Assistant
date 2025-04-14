@@ -1,0 +1,4 @@
+TODO:
+    - Create a test for task.go
+    - Don't forget to make a function that will create a db(UserTable: TaskTaable: ...)
+    - Add function: SearchForStatus
