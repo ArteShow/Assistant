@@ -4,6 +4,7 @@ import (
 	"errors"
 	"log"
 	"net/http"
+	"strconv"
 )
 
 
@@ -21,8 +22,9 @@ func StartServer(){
 		errors.New("Failed to load config")
 		panic(err)
 	}
-	log.Println(":"+string(Config.Port))
+
+	port := ":" + strconv.Itoa(Config.Port) 
 	http.HandleFunc("/task/add", NewHandler)
-	http.ListenAndServe(":"+string(Config.Port), nil)
+	http.ListenAndServe(port, nil)
 }
 
