@@ -8,7 +8,5 @@ import (
 
 func main(){
 	log.Println("Starting Application server...")
-	go func(){
-		application.StartServer()
-	}()
+	application.StartServer()
 }
