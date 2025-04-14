@@ -24,8 +24,7 @@ func StartServer(){
 	}
 
 	port := ":" + strconv.Itoa(Config.Port) 
-	log.Println(port)
 	http.HandleFunc("/task/add", NewHandler)
-	log.Fatal(http.ListenAndServe(":8083", nil))
+	log.Fatal(http.ListenAndServe(port, nil))
 }
 

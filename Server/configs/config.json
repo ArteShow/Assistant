@@ -1,7 +1,7 @@
 {
     "language": "en",
     "theme": "dark",
-    "port": 8080,
+    "port": 8083,
     "host": "localhost",
     "autostart": true,
     "log_file": "./log/server.log",
