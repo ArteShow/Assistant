@@ -1,0 +1,2 @@
+TODO
+    -Add an own package for log function such as Setoutput

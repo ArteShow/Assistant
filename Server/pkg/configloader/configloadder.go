@@ -1,4 +1,4 @@
-package application
+package configloader
 
 import (
 	"encoding/json"
@@ -10,6 +10,7 @@ type Config struct{
 	Port int `json:"port"`
 	Language string `json:"language"`
 	Log_file string `json:"log_file"`
+	Database_path string `json:"database_path"`
 }
 
 func LoadConfig(filePath string) (*Config, error) {
@@ -30,4 +31,9 @@ func LoadConfig(filePath string) (*Config, error) {
 	}
 	log.Println("Configuration loaded successfully")
 	return config, nil
+}
+
+func GetDatabasePath() (string, error){
+	config, err := LoadConfig("Server/configs/config.json")
+	return config.Log_file, err
 }

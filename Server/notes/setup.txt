@@ -2,3 +2,4 @@ TODO:
     -Expend the config
     -Add function RefreshConfigStats(file_path) *Config
     -Check the logger
+    -Create an own package for this file

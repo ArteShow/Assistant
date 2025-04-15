@@ -4,7 +4,7 @@
     "port": 8083,
     "host": "localhost",
     "autostart": true,
-    "log_file": "./log/server.log",
+    "database_path": "Server/db/homeassistant.db",
     "logging": {
         "enabled": true,
         "level": "info"
