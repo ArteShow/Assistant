@@ -1,14 +1,16 @@
 package internal
 
 import (
+	"database/sql"
 	"encoding/json"
 	"log"
 	"net/http"
 	"os"
 	"strconv"
 
+	_ "github.com/mattn/go-sqlite3"
+
 	"github.com/ArteShow/Assistant/Server/pkg/configloader"
-	"github.com/ArteShow/Assistant/Server/pkg/database"
 	"github.com/ArteShow/Assistant/Server/pkg/task"
 )
 
@@ -31,19 +33,25 @@ func AddTask(w http.ResponseWriter, r *http.Request){
 		http.Error(w, "Failed to decode JSON", http.StatusBadRequest)
 		return
 	}
-	db, err := database.OpenDatabase()
+	dbpath, err := configloader.GetDatabasePath()
 	if err != nil {
 		log.Println("Error opening database:", err)
 		http.Error(w, "Failed to open database", http.StatusInternalServerError)
 		return
 	}
-	task.SaveTask(Task, Task.ID, db)
+	db, err := sql.Open("sqlite3", dbpath)
+	if err != nil {
+		log.Println("Error opening database:", err)
+		http.Error(w, "Failed to open database", http.StatusInternalServerError)
+		return
+	}
+	log.Println(task.SaveTask(Task, Task.ID, db))
 	defer db.Close()
 	w.WriteHeader(http.StatusOK)
 }
 
 func StartServer(){
-	log.Println("Starting server...")
+	log.Println("Starting server internal")
 	// Load the configuration file
 	port, err := configloader.GetInternalPort()
 	if err != nil {
@@ -52,6 +60,6 @@ func StartServer(){
 	}
 
 	port2 := ":" + strconv.Itoa(port) 
-	http.HandleFunc("/task/add", AddTask)
-	log.Fatal(http.ListenAndServe(port2, nil))
+	http.HandleFunc("/internal/task/add", AddTask)
+	http.ListenAndServe(port2, nil)
 }

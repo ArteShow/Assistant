@@ -1,0 +1,10 @@
+2025/04/15 13:20:45 Inserting task 'NewTask' for user ID 1 into the database
+2025/04/15 13:20:45 Error inserting task into database: <nil>
+2025/04/15 13:23:28 Inserting task 'NewTask' for user ID 1 into the database
+2025/04/15 13:23:28 Error inserting task into database: <nil>
+2025/04/15 13:24:46 Inserting task 'NewTask' for user ID 1 into the database
+2025/04/15 13:24:46 Error inserting task into database: <nil>
+2025/04/15 13:27:23 Inserting task 'NewTask' for user ID 1 into the database
+2025/04/15 13:27:23 Error inserting task into database: <nil>
+2025/04/15 13:30:26 Inserting task 'NewTask' for user ID 1 into the database
+2025/04/15 13:30:26 Error inserting task into database: <nil>

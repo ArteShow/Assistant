@@ -23,7 +23,7 @@ func AddTask(w http.ResponseWriter, r *http.Request) {
 	log.SetOutput(log_file)
 	
 	log.Println("Received request to add task")
-	_, err2 := http.Post("http://localhost:8082/task/add", "application/json", r.Body)
+	_, err2 := http.Post("http://localhost:8082/internal/task/add", "application/json", r.Body)
 	if err2 != nil {
 		log.Println("Error making POST request:", err)
 		http.Error(w, "Failed to make POST request", http.StatusInternalServerError)

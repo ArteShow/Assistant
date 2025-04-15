@@ -36,7 +36,7 @@ func LoadConfig(filePath string) (*Config, error) {
 
 func GetDatabasePath() (string, error){
 	config, err := LoadConfig("Server/configs/config.json")
-	return config.Log_file, err
+	return config.Database_path, err
 }
 
 func GetApplicationPort() (int, error){

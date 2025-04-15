@@ -3,16 +3,17 @@ package task
 import (
 	"database/sql"
 	"log"
+	"os"
 
 	_ "github.com/mattn/go-sqlite3"
 )
 
 type Task struct {
-	ID          int64
-	Titel       string
-	Status      string
-	Description string
-	userID    int64
+	ID          int64 `json:"id"`
+	Titel       string `json:"titel"`
+	Status      string 	`json:"status"`
+	Description string 	`json:"description"`
+	userID    int64 `json:"user_id"`
 }
 
 type User struct {
@@ -29,12 +30,18 @@ func NewTask(titel, description, status string) *Task {
 }
 
 func SaveTask(task *Task, userID int64, db *sql.DB) error {
+	log_file, err := os.OpenFile("Server/log/task.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer log_file.Close()
+	log.SetOutput(log_file)
 	log.Printf("Inserting task '%s' for user ID %d into the database", task.Titel, userID)
 
 	query := `INSERT INTO tasks (titel, description, status, user_id) VALUES (?, ?, ?, ?)`
 
-	_, err := db.Exec(query, task.Titel, task.Description, task.Status, userID)
-	if err != nil {
+	_, err2 := db.Exec(query, task.Titel, task.Description, task.Status, userID)
+	if err2 != nil {
 		log.Println("Error inserting task into database:", err)
 		return err
 	}
