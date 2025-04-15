@@ -1,10 +1,4 @@
-2025/04/15 13:20:45 Inserting task 'NewTask' for user ID 1 into the database
-2025/04/15 13:20:45 Error inserting task into database: <nil>
-2025/04/15 13:23:28 Inserting task 'NewTask' for user ID 1 into the database
-2025/04/15 13:23:28 Error inserting task into database: <nil>
-2025/04/15 13:24:46 Inserting task 'NewTask' for user ID 1 into the database
-2025/04/15 13:24:46 Error inserting task into database: <nil>
-2025/04/15 13:27:23 Inserting task 'NewTask' for user ID 1 into the database
-2025/04/15 13:27:23 Error inserting task into database: <nil>
-2025/04/15 13:30:26 Inserting task 'NewTask' for user ID 1 into the database
-2025/04/15 13:30:26 Error inserting task into database: <nil>
+2025/04/15 17:25:13 Inserting task 'NewTask' for user ID 1 into the database
+2025/04/15 17:25:13 Error inserting task into database: SQL logic error: table tasks has no column named titel (1)
+2025/04/15 17:29:11 Inserting task 'NewTask' for user ID 1 into the database
+2025/04/15 17:29:11 Error inserting task into database: database disk image is malformed (11)

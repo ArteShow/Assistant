@@ -1,16 +1,17 @@
 package internal
 
 import (
-	"database/sql"
 	"encoding/json"
 	"log"
 	"net/http"
 	"os"
 	"strconv"
 
-	_ "github.com/mattn/go-sqlite3"
+	_ "modernc.org/sqlite"
 
 	"github.com/ArteShow/Assistant/Server/pkg/configloader"
+	"github.com/ArteShow/Assistant/Server/pkg/database"
+
 	"github.com/ArteShow/Assistant/Server/pkg/task"
 )
 
@@ -33,19 +34,13 @@ func AddTask(w http.ResponseWriter, r *http.Request){
 		http.Error(w, "Failed to decode JSON", http.StatusBadRequest)
 		return
 	}
-	dbpath, err := configloader.GetDatabasePath()
-	if err != nil {
+	db, err := database.OpenDataBase()
+	if err != nil{
 		log.Println("Error opening database:", err)
 		http.Error(w, "Failed to open database", http.StatusInternalServerError)
 		return
 	}
-	db, err := sql.Open("sqlite3", dbpath)
-	if err != nil {
-		log.Println("Error opening database:", err)
-		http.Error(w, "Failed to open database", http.StatusInternalServerError)
-		return
-	}
-	log.Println(task.SaveTask(Task, Task.ID, db))
+	log.Println(task.SaveTask(Task, db))
 	defer db.Close()
 	w.WriteHeader(http.StatusOK)
 }

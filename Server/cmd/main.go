@@ -5,7 +5,6 @@ import (
 
 	"github.com/ArteShow/Assistant/Server/application"
 	"github.com/ArteShow/Assistant/Server/internal"
-
 )
 
 func main(){
