@@ -7,7 +7,8 @@ import (
 )
 
 type Config struct{
-	Port int `json:"port"`
+	Application_port int `json:"application_port"`
+	Internal_port int `json:"internal_port"`
 	Language string `json:"language"`
 	Log_file string `json:"log_file"`
 	Database_path string `json:"database_path"`
@@ -36,4 +37,19 @@ func LoadConfig(filePath string) (*Config, error) {
 func GetDatabasePath() (string, error){
 	config, err := LoadConfig("Server/configs/config.json")
 	return config.Log_file, err
+}
+
+func GetApplicationPort() (int, error){
+	config, err := LoadConfig("Server/configs/config.json")
+	return config.Application_port, err
+}
+
+func GetInternalPort() (int, error){
+	config, err := LoadConfig("Server/configs/config.json")
+	return config.Internal_port, err
+}
+
+func GetLanguage() (string, error){
+	config, err := LoadConfig("Server/configs/config.json")
+	return config.Language, err
 }

@@ -12,6 +12,7 @@ type Task struct {
 	Titel       string
 	Status      string
 	Description string
+	userID    int64
 }
 
 type User struct {

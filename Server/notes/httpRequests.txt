@@ -1,0 +1,4 @@
+Note
+    -/task/add client http: POST{*Task, "user"} - localhost:8083/task/add
+        server app.go http: POST{*Task, "user"} - localhost:8082/task/add, POST{status}
+        server internal.go http: GET - localhost:8082/task/add, POST{status} 
