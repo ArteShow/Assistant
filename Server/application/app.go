@@ -10,8 +10,6 @@ import (
 	"github.com/ArteShow/Assistant/Server/pkg/configloader"
 )
 
-
-
 func AddTask(w http.ResponseWriter, r *http.Request) {
 	log_file, err := os.OpenFile("Server/log/app.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	defer log_file.Close()
@@ -21,7 +19,7 @@ func AddTask(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	log.SetOutput(log_file)
-	
+
 	log.Println("Received request to add task")
 	_, err2 := http.Post("http://localhost:8082/internal/task/add", "application/json", r.Body)
 	if err2 != nil {
@@ -32,7 +30,7 @@ func AddTask(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(r.Response.StatusCode)
 }
 
-func StartServer(){
+func StartApplicationServer() error {
 	log.Println("Starting server...")
 	// Load the configuration file
 	port, err := configloader.GetApplicationPort()
@@ -42,8 +40,7 @@ func StartServer(){
 		panic(err)
 	}
 
-	port2 := ":" + strconv.Itoa(port) 
+	port2 := ":" + strconv.Itoa(port)
 	http.HandleFunc("/task/add", AddTask)
-	log.Fatal(http.ListenAndServe(port2, nil))
+	return http.ListenAndServe(port2, nil)
 }
-

@@ -1,11 +1,13 @@
-package database
+package setup
 
 import (
 	"log"
 	"os"
+
+	"github.com/ArteShow/Assistant/Server/pkg/database"
 )
 
-func main(){
+func SetUpDatabase() {
 	log_file, err := os.OpenFile("Server/log/database.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
 		log.Fatal(err)
@@ -14,12 +16,12 @@ func main(){
 	log.SetOutput(log_file)
 
 	log.Println("Starting database setup...")
-	db, err := OpenDataBase()
+	db, err := database.OpenDataBase()
 	if err != nil {
-    	log.Fatal(err)
+		log.Fatal(err)
 	}
-	if err := SetupDatabase(db); err != nil {
-    	log.Fatal("DB setup failed:", err)
+	if err := database.SetupDatabase(db); err != nil {
+		log.Fatal("DB setup failed:", err)
 	}
 
 }

@@ -15,9 +15,7 @@ import (
 	"github.com/ArteShow/Assistant/Server/pkg/task"
 )
 
-
-
-func AddTask(w http.ResponseWriter, r *http.Request){
+func AddTask(w http.ResponseWriter, r *http.Request) {
 	log_file, err := os.OpenFile("Server/log/internal.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	defer log_file.Close()
 	if err != nil {
@@ -35,7 +33,7 @@ func AddTask(w http.ResponseWriter, r *http.Request){
 		return
 	}
 	db, err := database.OpenDataBase()
-	if err != nil{
+	if err != nil {
 		log.Println("Error opening database:", err)
 		http.Error(w, "Failed to open database", http.StatusInternalServerError)
 		return
@@ -45,16 +43,16 @@ func AddTask(w http.ResponseWriter, r *http.Request){
 	w.WriteHeader(http.StatusOK)
 }
 
-func StartServer(){
-	log.Println("Starting server internal")
-	// Load the configuration file
+func StartInternalServer() error {
+	log.Println("Starting internal server...")
+
 	port, err := configloader.GetInternalPort()
 	if err != nil {
-		log.Fatal("Error loading config:", err)
-		panic(err)
+		return err
 	}
 
-	port2 := ":" + strconv.Itoa(port) 
+	portStr := ":" + strconv.Itoa(port)
 	http.HandleFunc("/internal/task/add", AddTask)
-	http.ListenAndServe(port2, nil)
+
+	return http.ListenAndServe(portStr, nil)
 }
