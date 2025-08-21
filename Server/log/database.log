@@ -1,0 +1,136 @@
+2025/08/21 16:19:04 Starting database setup...
+2025/08/21 16:19:04 Loading configuration from Server/configs/config.json
+2025/08/21 16:19:04 Configuration loaded successfully
+2025/08/21 16:19:04 All tables created successfully.
+2025/08/21 16:19:04 Starting Internal server...
+2025/08/21 16:19:11 Loading configuration from Server/configs/config.json
+2025/08/21 16:19:11 Configuration loaded successfully
+2025/08/21 16:24:15 Starting database setup...
+2025/08/21 16:24:15 Loading configuration from Server/configs/config.json
+2025/08/21 16:24:15 Configuration loaded successfully
+2025/08/21 16:24:15 All tables created successfully.
+2025/08/21 16:24:15 Starting Internal server...
+2025/08/21 16:24:15 Starting Internal server...
+2025/08/21 16:24:20 Loading configuration from Server/configs/config.json
+2025/08/21 16:24:20 Configuration loaded successfully
+2025/08/21 16:24:20 Yo from internal!
+2025/08/21 16:24:20 Getting all tasks from the database
+2025/08/21 16:24:20 [91 123 34 105 100 34 58 49 44 34 116 105 116 108 101 34 58 34 77 121 32 84 97 115 107 34 44 34 115 116 97 116 117 115 34 58 34 111 112 101 110 34 44 34 100 101 115 99 114 105 112 116 105 111 110 34 58 34 84 104 105 115 32 105 115 32 97 32 116 101 115 116 32 116 97 115 107 34 44 34 117 115 101 114 95 105 100 34 58 49 125 44 123 34 105 100 34 58 50 44 34 116 105 116 108 101 34 58 34 77 121 32 84 97 115 107 34 44 34 115 116 97 116 117 115 34 58 34 111 112 101 110 34 44 34 100 101 115 99 114 105 112 116 105 111 110 34 58 34 84 104 105 115 32 105 115 32 97 32 116 101 115 116 32 116 97 115 107 34 44 34 117 115 101 114 95 105 100 34 58 49 125 44 123 34 105 100 34 58 51 44 34 116 105 116 108 101 34 58 34 77 121 32 84 97 115 107 34 44 34 115 116 97 116 117 115 34 58 34 111 112 101 110 34 44 34 100 101 115 99 114 105 112 116 105 111 110 34 58 34 84 104 105 115 32 105 115 32 97 32 116 101 115 116 32 116 97 115 107 34 44 34 117 115 101 114 95 105 100 34 58 49 125 44 123 34 105 100 34 58 52 44 34 116 105 116 108 101 34 58 34 77 121 32 84 97 115 107 34 44 34 115 116 97 116 117 115 34 58 34 111 112 101 110 34 44 34 100 101 115 99 114 105 112 116 105 111 110 34 58 34 84 104 105 115 32 105 115 32 97 32 116 101 115 116 32 116 97 115 107 34 44 34 117 115 101 114 95 105 100 34 58 49 125 44 123 34 105 100 34 58 53 44 34 116 105 116 108 101 34 58 34 77 121 32 84 97 115 107 34 44 34 115 116 97 116 117 115 34 58 34 111 112 101 110 34 44 34 100 101 115 99 114 105 112 116 105 111 110 34 58 34 84 104 105 115 32 105 115 32 97 32 116 101 115 116 32 116 97 115 107 34 44 34 117 115 101 114 95 105 100 34 58 49 125 93] That was the body as you can see
+2025/08/21 16:26:36 Starting database setup...
+2025/08/21 16:26:36 Loading configuration from Server/configs/config.json
+2025/08/21 16:26:36 Configuration loaded successfully
+2025/08/21 16:26:36 All tables created successfully.
+2025/08/21 16:26:36 Starting Internal server...
+2025/08/21 16:26:36 Starting Internal server...
+2025/08/21 16:29:04 Starting database setup...
+2025/08/21 16:29:04 Loading configuration from Server/configs/config.json
+2025/08/21 16:29:04 Configuration loaded successfully
+2025/08/21 16:29:04 All tables created successfully.
+2025/08/21 16:29:04 Starting Internal server...
+2025/08/21 16:29:10 Loading configuration from Server/configs/config.json
+2025/08/21 16:29:10 Configuration loaded successfully
+2025/08/21 16:29:10 Yo from internal!
+2025/08/21 16:29:10 Getting all tasks from the database
+2025/08/21 16:29:10 [110 117 108 108] That was the body as you can see
+2025/08/21 16:36:49 Starting database setup...
+2025/08/21 16:36:49 Loading configuration from Server/configs/config.json
+2025/08/21 16:36:49 Configuration loaded successfully
+2025/08/21 16:36:49 All tables created successfully.
+2025/08/21 16:36:49 Starting Internal server...
+2025/08/21 16:36:49 Starting Internal server...
+2025/08/21 16:36:57 Loading configuration from Server/configs/config.json
+2025/08/21 16:36:57 Configuration loaded successfully
+2025/08/21 16:37:02 Loading configuration from Server/configs/config.json
+2025/08/21 16:37:02 Configuration loaded successfully
+2025/08/21 16:37:02 Yo from internal!
+2025/08/21 16:37:02 Getting all tasks from the database
+2025/08/21 16:37:02 [91 123 34 105 100 34 58 49 44 34 116 105 116 108 101 34 58 34 77 121 32 84 97 115 107 34 44 34 115 116 97 116 117 115 34 58 34 111 112 101 110 34 44 34 100 101 115 99 114 105 112 116 105 111 110 34 58 34 84 104 105 115 32 105 115 32 97 32 116 101 115 116 32 116 97 115 107 34 44 34 117 115 101 114 95 105 100 34 58 49 125 93] That was the body as you can see
+2025/08/21 16:37:08 Loading configuration from Server/configs/config.json
+2025/08/21 16:37:08 Configuration loaded successfully
+2025/08/21 16:37:10 Loading configuration from Server/configs/config.json
+2025/08/21 16:37:10 Configuration loaded successfully
+2025/08/21 16:37:10 Yo from internal!
+2025/08/21 16:37:10 Getting all tasks from the database
+2025/08/21 16:37:10 [91 123 34 105 100 34 58 49 44 34 116 105 116 108 101 34 58 34 77 121 32 84 97 115 107 34 44 34 115 116 97 116 117 115 34 58 34 111 112 101 110 34 44 34 100 101 115 99 114 105 112 116 105 111 110 34 58 34 84 104 105 115 32 105 115 32 97 32 116 101 115 116 32 116 97 115 107 34 44 34 117 115 101 114 95 105 100 34 58 49 125 44 123 34 105 100 34 58 50 44 34 116 105 116 108 101 34 58 34 77 121 32 84 97 115 107 34 44 34 115 116 97 116 117 115 34 58 34 111 112 101 110 34 44 34 100 101 115 99 114 105 112 116 105 111 110 34 58 34 84 104 105 115 32 105 115 32 97 32 116 101 115 116 32 116 97 115 107 34 44 34 117 115 101 114 95 105 100 34 58 49 125 93] That was the body as you can see
+2025/08/21 17:13:05 Starting database setup...
+2025/08/21 17:13:05 Loading configuration from Server/configs/config.json
+2025/08/21 17:13:05 Configuration loaded successfully
+2025/08/21 17:13:05 All tables created successfully.
+2025/08/21 17:13:05 Starting Internal server...
+2025/08/21 17:13:19 Loading configuration from Server/configs/config.json
+2025/08/21 17:13:19 Configuration loaded successfully
+2025/08/21 17:13:19 Yo from internal!
+2025/08/21 17:13:19 Getting all tasks from the database
+2025/08/21 17:13:19 [110 117 108 108] That was the body as you can see
+2025/08/21 17:13:24 Loading configuration from Server/configs/config.json
+2025/08/21 17:13:24 Configuration loaded successfully
+2025/08/21 17:13:27 Loading configuration from Server/configs/config.json
+2025/08/21 17:13:27 Configuration loaded successfully
+2025/08/21 17:13:27 Yo from internal!
+2025/08/21 17:13:27 Getting all tasks from the database
+2025/08/21 17:13:27 [91 123 34 105 100 34 58 49 44 34 116 105 116 108 101 34 58 34 77 121 32 84 97 115 107 34 44 34 115 116 97 116 117 115 34 58 34 111 112 101 110 34 44 34 100 101 115 99 114 105 112 116 105 111 110 34 58 34 84 104 105 115 32 105 115 32 97 32 116 101 115 116 32 116 97 115 107 34 44 34 117 115 101 114 95 105 100 34 58 49 125 93] That was the body as you can see
+2025/08/21 17:15:50 Starting database setup...
+2025/08/21 17:15:50 Loading configuration from Server/configs/config.json
+2025/08/21 17:15:50 Configuration loaded successfully
+2025/08/21 17:15:50 All tables created successfully.
+2025/08/21 17:15:50 Starting Internal server...
+2025/08/21 17:16:11 Loading configuration from Server/configs/config.json
+2025/08/21 17:16:11 Configuration loaded successfully
+2025/08/21 17:16:11 Getting task with ID 0 for user ID 1
+2025/08/21 17:16:11 Error scanning task: SQL logic error: no such column: titel (1)
+2025/08/21 17:19:41 Starting database setup...
+2025/08/21 17:19:41 Loading configuration from Server/configs/config.json
+2025/08/21 17:19:41 Configuration loaded successfully
+2025/08/21 17:19:41 All tables created successfully.
+2025/08/21 17:19:41 Starting Internal server...
+2025/08/21 17:19:41 Starting Internal server...
+2025/08/21 17:19:56 Loading configuration from Server/configs/config.json
+2025/08/21 17:19:56 Configuration loaded successfully
+2025/08/21 17:20:37 Starting database setup...
+2025/08/21 17:20:37 Loading configuration from Server/configs/config.json
+2025/08/21 17:20:37 Configuration loaded successfully
+2025/08/21 17:20:37 All tables created successfully.
+2025/08/21 17:20:37 Starting Internal server...
+2025/08/21 17:20:37 Starting Internal server...
+2025/08/21 17:20:42 Loading configuration from Server/configs/config.json
+2025/08/21 17:20:42 Configuration loaded successfully
+2025/08/21 17:21:30 Loading configuration from Server/configs/config.json
+2025/08/21 17:21:30 Configuration loaded successfully
+2025/08/21 17:22:47 Starting database setup...
+2025/08/21 17:22:47 Loading configuration from Server/configs/config.json
+2025/08/21 17:22:47 Configuration loaded successfully
+2025/08/21 17:22:47 All tables created successfully.
+2025/08/21 17:22:47 Starting Internal server...
+2025/08/21 17:22:51 Loading configuration from Server/configs/config.json
+2025/08/21 17:22:51 Configuration loaded successfully
+2025/08/21 17:25:57 Starting database setup...
+2025/08/21 17:25:57 Loading configuration from Server/configs/config.json
+2025/08/21 17:25:57 Configuration loaded successfully
+2025/08/21 17:25:57 All tables created successfully.
+2025/08/21 17:25:57 Starting Internal server...
+2025/08/21 17:25:57 Starting Internal server...
+2025/08/21 17:26:04 Loading configuration from Server/configs/config.json
+2025/08/21 17:26:04 Configuration loaded successfully
+2025/08/21 17:40:33 Starting database setup...
+2025/08/21 17:40:33 Loading configuration from Server/configs/config.json
+2025/08/21 17:40:33 Configuration loaded successfully
+2025/08/21 17:40:33 All tables created successfully.
+2025/08/21 17:40:33 Starting Internal server...
+2025/08/21 17:40:52 Loading configuration from Server/configs/config.json
+2025/08/21 17:40:52 Configuration loaded successfully
+2025/08/21 17:40:55 Loading configuration from Server/configs/config.json
+2025/08/21 17:40:55 Configuration loaded successfully
+2025/08/21 17:40:59 Loading configuration from Server/configs/config.json
+2025/08/21 17:40:59 Configuration loaded successfully
+2025/08/21 17:41:58 Loading configuration from Server/configs/config.json
+2025/08/21 17:41:58 Configuration loaded successfully
+2025/08/21 17:42:52 Starting database setup...
+2025/08/21 17:42:52 Loading configuration from Server/configs/config.json
+2025/08/21 17:42:52 Configuration loaded successfully
+2025/08/21 17:42:52 All tables created successfully.
+2025/08/21 17:42:52 Starting Internal server...
+2025/08/21 17:42:52 Starting Internal server...
+2025/08/21 17:42:58 Loading configuration from Server/configs/config.json
+2025/08/21 17:42:58 Configuration loaded successfully
+2025/08/21 17:43:06 Loading configuration from Server/configs/config.json
+2025/08/21 17:43:06 Configuration loaded successfully
