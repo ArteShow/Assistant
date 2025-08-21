@@ -1,20 +1,6 @@
 {
-    "language": "en",
-    "theme": "dark",
     "application_port": 8082,
     "internal_port": 8083,
-    "host": "localhost",
-    "autostart": true,
     "database_path": "Server/db/homeassistant.db",
-    "logging": {
-        "enabled": true,
-        "level": "info"
-    },
-    "update_check": true,
-    "gui": {
-        "enabled": true,
-        "width": 1024,
-        "height": 768,
-        "fullscreen": false
-    }
+    "money_database_path": "Server/db/money_database.db"
 }

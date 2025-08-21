@@ -132,3 +132,6 @@
 2025/08/21 17:42:52 Loading configuration from Server/configs/config.json
 2025/08/21 17:42:58 Getting all tasks for user ID 1 from the database
 2025/08/21 17:43:06 Getting all tasks for user ID 2 from the database
+2025/08/21 18:04:44 Starting internal server...
+2025/08/21 18:04:44 Loading configuration from Server/configs/config.json
+2025/08/21 18:05:32 Getting task with ID 1 for user ID 2

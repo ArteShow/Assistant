@@ -5,6 +5,8 @@ import (
 	"os"
 
 	"github.com/ArteShow/Assistant/Server/pkg/database"
+	"github.com/ArteShow/Assistant/Server/pkg/money"
+
 )
 
 func SetUpDatabase() {
@@ -23,5 +25,6 @@ func SetUpDatabase() {
 	if err := database.SetupDatabase(db); err != nil {
 		log.Fatal("DB setup failed:", err)
 	}
-
+	
+	moeyDb := 
 }
