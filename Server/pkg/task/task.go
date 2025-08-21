@@ -2,6 +2,7 @@ package task
 
 import (
 	"database/sql"
+	"errors"
 	"log"
 	"os"
 )
@@ -30,6 +31,26 @@ func SaveTask(task *Task, db *sql.DB) error {
 		log.Println("Error inserting task into database:", err)
 	}
 	return err
+}
+
+func ChangeTasksStatusByID(db *sql.DB, user_ID, task_ID int64, status string) error {
+	result, err := db.Exec(`UPDATE tasks 
+		SET status = ? 
+		WHERE id = ? AND user_id = ?;`, status, task_ID, user_ID)
+	if err != nil {
+		return err
+	}
+
+	rowsAffected, err := result.RowsAffected()
+	if err != nil {
+		return err
+	}
+
+	if rowsAffected == 0 {
+		return errors.New("no task found with id %d for user %d")
+	}
+
+	return nil
 }
 
 func GetAllUsersTasks(db *sql.DB, userID int64) ([]*Task, error) {

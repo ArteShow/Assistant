@@ -14,6 +14,7 @@ import (
 	"github.com/ArteShow/Assistant/Server/pkg/database"
 
 	"github.com/ArteShow/Assistant/Server/models"
+	money_database "github.com/ArteShow/Assistant/Server/pkg/money"
 	"github.com/ArteShow/Assistant/Server/pkg/task"
 )
 
@@ -182,6 +183,45 @@ func DeleteTask(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(http.StatusOK)
 }
 
+func EditTasksStatus(w http.ResponseWriter, r *http.Request) {
+	logFile, err := os.OpenFile("Server/log/internal.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		log.Fatal(err)
+		return
+	}
+	defer logFile.Close()
+	log.SetOutput(logFile)
+
+	defer r.Body.Close()
+	body, err := io.ReadAll(r.Body)
+	if err != nil {
+		http.Error(w, "Error while reading request", http.StatusInternalServerError)
+		return
+	}
+
+	var IDS models.TaskIdFromRequest
+	err = json.Unmarshal(body, &IDS)
+	if err != nil {
+		http.Error(w, "Error unmarshling the body", http.StatusInternalServerError)
+		return
+	}
+	db, err := database.OpenDataBase()
+	if err != nil {
+		http.Error(w, "Failed to open database", http.StatusInternalServerError)
+		return
+	}
+	defer db.Close()
+	log.SetOutput(logFile)
+
+	err2 := task.ChangeTasksStatusByID(db, IDS.User_ID, IDS.ID, IDS.Status)
+	if err2 != nil {
+		http.Error(w, "Failed to change Status", http.StatusInternalServerError)
+		return
+	}
+
+	w.WriteHeader(http.StatusOK)
+}
+
 func GetTasksList(w http.ResponseWriter, r *http.Request) {
 	logFile, err := os.OpenFile("Server/log/internal.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
@@ -197,8 +237,6 @@ func GetTasksList(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	log.Println("Yo from internal!")
-
 	list, err := task.GetTasksList(db)
 	if err != nil {
 		http.Error(w, "Failed to get Tasks", http.StatusInternalServerError)
@@ -206,6 +244,114 @@ func GetTasksList(w http.ResponseWriter, r *http.Request) {
 	}
 
 	jsonData, err := json.Marshal(list)
+	if err != nil {
+		http.Error(w, "Failed to encode tasks", http.StatusInternalServerError)
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(http.StatusOK)
+	w.Write(jsonData)
+}
+
+func SetNewGoal(w http.ResponseWriter, r *http.Request) {
+	logFile, err := os.OpenFile("Server/log/internal.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		log.Fatal(err)
+		return
+	}
+	defer logFile.Close()
+	log.SetOutput(logFile)
+
+	defer r.Body.Close()
+	body, err := io.ReadAll(r.Body)
+	if err != nil {
+		http.Error(w, "Error while reading request", http.StatusInternalServerError)
+		return
+	}
+
+	var GOAL models.MoneyDataBase
+	err = json.Unmarshal(body, &GOAL)
+	if err != nil {
+		http.Error(w, "Error unmarshling the body", http.StatusInternalServerError)
+		return
+	}
+	db, err := money_database.OpenDataBase()
+	if err != nil {
+		http.Error(w, "Failed to open database", http.StatusInternalServerError)
+		return
+	}
+	defer db.Close()
+	log.SetOutput(logFile)
+
+	err2 := money_database.SetSum(db, GOAL.Goal)
+	if err2 != nil {
+		http.Error(w, "Error while setting new goal", http.StatusInternalServerError)
+	}
+
+	w.WriteHeader(http.StatusOK)
+}
+
+func AddMoney(w http.ResponseWriter, r *http.Request) {
+	logFile, err := os.OpenFile("Server/log/internal.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		log.Fatal(err)
+		return
+	}
+	defer logFile.Close()
+	log.SetOutput(logFile)
+
+	defer r.Body.Close()
+	body, err := io.ReadAll(r.Body)
+	if err != nil {
+		http.Error(w, "Error while reading request", http.StatusInternalServerError)
+		return
+	}
+
+	var GOAL models.MoneyDataBase
+	err = json.Unmarshal(body, &GOAL)
+	if err != nil {
+		http.Error(w, "Error unmarshling the body", http.StatusInternalServerError)
+		return
+	}
+	db, err := money_database.OpenDataBase()
+	if err != nil {
+		http.Error(w, "Failed to open database", http.StatusInternalServerError)
+		return
+	}
+	defer db.Close()
+	log.SetOutput(logFile)
+
+	err2 := money_database.AddMoney(db, GOAL.Amount)
+	if err2 != nil {
+		http.Error(w, "Error while adding new amount of money", http.StatusInternalServerError)
+	}
+
+	w.WriteHeader(http.StatusOK)
+}
+
+func GetMoneyDatabaseStats(w http.ResponseWriter, r *http.Request) {
+	logFile, err := os.OpenFile("Server/log/internal.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		log.Fatal(err)
+		return
+	}
+	defer logFile.Close()
+	log.SetOutput(logFile)
+
+	db, err := money_database.OpenDataBase()
+	if err != nil {
+		http.Error(w, "Failed to connect to database", http.StatusInternalServerError)
+		return
+	}
+
+	Stats, err := money_database.GetStats(db)
+	if err != nil {
+		http.Error(w, "Failed to get Stats", http.StatusInternalServerError)
+		return
+	}
+
+	jsonData, err := json.Marshal(Stats)
 	if err != nil {
 		http.Error(w, "Failed to encode tasks", http.StatusInternalServerError)
 		return
@@ -231,11 +377,19 @@ func StartInternalServer() error {
 		return err
 	}
 	portStr := ":" + strconv.Itoa(port)
+
+	//Task
 	http.HandleFunc("/internal/task/add", AddTask)
 	http.HandleFunc("/internal/task/delete", DeleteTask)
 	http.HandleFunc("/internal/task/getTasksList", GetTasksList)
 	http.HandleFunc("/internal/getTaskByID", GetTaskByID)
 	http.HandleFunc("/internal/getUsersTaskList", GetAllUsersTasks)
+	http.HandleFunc("/internal/editTasksStatus", EditTasksStatus)
+
+	//Money
+	http.HandleFunc("/internal/money/setGoal", SetNewGoal)
+	http.HandleFunc("/internal/money/addMoney", AddMoney)
+	http.HandleFunc("/internal/money/getStats", GetMoneyDatabaseStats)
 
 	return http.ListenAndServe(portStr, nil)
 }

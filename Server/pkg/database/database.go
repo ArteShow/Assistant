@@ -21,6 +21,7 @@ func SetupDatabase(db *sql.DB) error {
             title TEXT NOT NULL,
             description TEXT,
             status TEXT,
+			money INTEGER NOT NULL,
             user_id INTEGER
         );`,
 	}

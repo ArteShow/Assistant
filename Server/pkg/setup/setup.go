@@ -5,12 +5,11 @@ import (
 	"os"
 
 	"github.com/ArteShow/Assistant/Server/pkg/database"
-	"github.com/ArteShow/Assistant/Server/pkg/money"
-
+	money_database "github.com/ArteShow/Assistant/Server/pkg/money"
 )
 
 func SetUpDatabase() {
-	log_file, err := os.OpenFile("Server/log/database.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	log_file, err := os.OpenFile("Server/log/setup.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -25,6 +24,12 @@ func SetUpDatabase() {
 	if err := database.SetupDatabase(db); err != nil {
 		log.Fatal("DB setup failed:", err)
 	}
-	
-	moeyDb := 
+
+	moeyDb, err := money_database.OpenDataBase()
+	if err != nil {
+		log.Fatal(err)
+	}
+	if err := money_database.SetupDatabase(moeyDb); err != nil {
+		log.Fatal("DB money setup failed:", err)
+	}
 }

@@ -65,7 +65,6 @@ func GetTasksList(w http.ResponseWriter, r *http.Request) {
 	defer res.Body.Close()
 
 	body, err := io.ReadAll(res.Body)
-	log.Println(body, "That was the body as you can see")
 	if err != nil {
 		http.Error(w, "Failed to read response body", http.StatusInternalServerError)
 		return
@@ -134,6 +133,92 @@ func GetAllUsersTasks(w http.ResponseWriter, r *http.Request) {
 	w.Write(body)
 }
 
+func EditTasksStatus(w http.ResponseWriter, r *http.Request) {
+	logFile, err := os.OpenFile("Server/log/app.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		log.Println("Error opening log file:", err)
+		return
+	}
+	defer logFile.Close()
+	log.SetOutput(logFile)
+
+	resp, err := http.Post("http://localhost:8083/internal/editTasksStatus", "application/json", r.Body)
+	if err != nil {
+		http.Error(w, "Error while getting your task", http.StatusInternalServerError)
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(resp.StatusCode)
+}
+
+func AddMoney(w http.ResponseWriter, r *http.Request) {
+	logFile, err := os.OpenFile("Server/log/app.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		log.Println("Error opening log file:", err)
+		return
+	}
+	defer logFile.Close()
+	log.SetOutput(logFile)
+
+	resp, err := http.Post("http://localhost:8083/internal/money/addMoney", "application/json", r.Body)
+	if err != nil {
+		http.Error(w, "Error while setting new amount of money", http.StatusInternalServerError)
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(resp.StatusCode)
+}
+
+func SetGoalForMoneyDatabase(w http.ResponseWriter, r *http.Request) {
+	logFile, err := os.OpenFile("Server/log/app.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		log.Println("Error opening log file:", err)
+		return
+	}
+	defer logFile.Close()
+	log.SetOutput(logFile)
+
+	resp, err := http.Post("http://localhost:8083/internal/money/setGoal", "application/json", r.Body)
+	if err != nil {
+		http.Error(w, "Error while setting new goal", http.StatusInternalServerError)
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(resp.StatusCode)
+}
+
+func GetMoneyDatabaseStats(w http.ResponseWriter, r *http.Request) {
+	logFile, err := os.OpenFile("Server/log/app.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		http.Error(w, "Failed to open log file", http.StatusInternalServerError)
+		return
+	}
+	defer logFile.Close()
+	log.SetOutput(logFile)
+
+	res, err := http.Get("http://localhost:8083/internal/money/getStats")
+	if err != nil {
+		log.Println("Failed to get Task List")
+		http.Error(w, "Failed to get Task List", http.StatusInternalServerError)
+		return
+	}
+	defer res.Body.Close()
+
+	body, err := io.ReadAll(res.Body)
+	log.Println(body, "That was the body as you can see")
+	if err != nil {
+		http.Error(w, "Failed to read response body", http.StatusInternalServerError)
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(res.StatusCode)
+	w.Write(body)
+}
+
 func StartApplicationServer() error {
 	logFile, err := os.OpenFile("Server/log/app.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
@@ -152,11 +237,18 @@ func StartApplicationServer() error {
 	}
 
 	portStr := ":" + strconv.Itoa(port)
+	//Tasks
 	http.HandleFunc("/task/add", AddTask)
 	http.HandleFunc("/task/delete", DeleteTask)
 	http.HandleFunc("/task/getTasksList", GetTasksList)
 	http.HandleFunc("/task/getTaskByID", GetTaskById)
 	http.HandleFunc("/task/getUsersTaskList", GetAllUsersTasks)
+	http.HandleFunc("/task/editTasksStatus", EditTasksStatus)
+
+	//Money
+	http.HandleFunc("/money/setGoal", SetGoalForMoneyDatabase)
+	http.HandleFunc("/money/addMoney", AddMoney)
+	http.HandleFunc("/money/getStats", GetMoneyDatabaseStats)
 
 	return http.ListenAndServe(portStr, nil)
 }

@@ -6,18 +6,14 @@ import (
 	"log"
 	"os"
 
+	"github.com/ArteShow/Assistant/Server/models"
 	"github.com/ArteShow/Assistant/Server/pkg/configloader"
+
 	_ "modernc.org/sqlite"
 )
 
-type Stats struct {
-	MoneyLeft int
-	Sum       int
-	MoneyToGo int
-}
-
 func OpenDataBase() (*sql.DB, error) {
-	logFile, err := os.OpenFile("Server/log/database.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	logFile, err := os.OpenFile("Server/log/money_database.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
 		return nil, err
 	}
@@ -28,10 +24,16 @@ func OpenDataBase() (*sql.DB, error) {
 		log.Println("Config error:", err)
 		return nil, err
 	}
+	log.Println(dbPath)
 
 	db, err := sql.Open("sqlite", dbPath)
 	if err != nil {
 		log.Println("DB open error:", err)
+		return nil, err
+	}
+
+	if err := db.Ping(); err != nil {
+		log.Println("DB ping error:", err)
 		return nil, err
 	}
 
@@ -51,7 +53,7 @@ func SetupDatabase(db *sql.DB) error {
 		return err
 	}
 
-	_, err := db.Exec(`INSERT INTO moneyData (money_left, sum, current_money) SELECT 0, 0, 0 WHERE NOT EXISTS (SELECT 1 FROM userdata);`)
+	_, err := db.Exec(`INSERT INTO moneyData (money_left, sum, current_money) SELECT 0, 0, 0 WHERE NOT EXISTS (SELECT 1 FROM moneyData);`)
 	if err != nil {
 		return err
 	}
@@ -81,9 +83,9 @@ func AddMoney(db *sql.DB, money int) error {
 	return err
 }
 
-func GetStats(db *sql.DB) (Stats, error) {
+func GetStats(db *sql.DB) (models.Stats, error) {
 	row := db.QueryRow(`SELECT money_left, sum, current_money FROM moneyData WHERE id = 1;`)
-	var s Stats
+	var s models.Stats
 	err := row.Scan(&s.MoneyLeft, &s.Sum, &s.MoneyToGo)
 	return s, err
 }

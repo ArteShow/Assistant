@@ -12,7 +12,7 @@ type Config struct {
 	Language          string `json:"language"`
 	Log_file          string `json:"log_file"`
 	Database_path     string `json:"database_path"`
-	MoneyDataBasePath string `json:"money_database_pathee"`
+	MoneyDataBasePath string `json:"money_database_path"`
 }
 
 func LoadConfig(filePath string) (*Config, error) {

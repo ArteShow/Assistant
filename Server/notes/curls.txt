@@ -1,5 +1,5 @@
 Add Task
-    curl -X POST http://localhost:8082/task/add -H "Content-Type: application/json" -d "{\"title\": \"My Task\", \"status\": \"open\", \"description\": \"This is a test task\", \"user_id\": 1}"
+    curl -X POST http://localhost:8082/task/add -H "Content-Type: application/json" -d "{\"title\": \"My Task\", \"status\": \"In Progress\", \"description\": \"This is a test task\", \"user_id\": 1, \"money\": 100}"
 
 Delete Task
     curl -X POST http://localhost:8082/task/delete -H "Content-Type: application/json" -d "{\"task_ID\": 1, \"user_ID\": 1}"
@@ -10,5 +10,17 @@ GetTasks
 GetTaskByIDAndUserID
     curl -X POST http://localhost:8082/task/getTaskByID -H "Content-Type: application/json" -d "{\"user_id\": 1, \"task_id\": 1}"
 
-GetallUserstaskByUserID
-        curl -X POST http://localhost:8082/task/getUsersTaskList -H "Content-Type: application/json" -d "{\"user_id\": 1}"
+GetAllUserstaskByUserID
+    curl -X POST http://localhost:8082/task/getUsersTaskList -H "Content-Type: application/json" -d "{\"user_id\": 1}"
+
+ChangeTasksStatusByID
+    curl -X POST http://localhost:8082/task/editTasksStatus -H "Content-Type: application/json" -d "{\"user_id\": 1, \"task_id\": 1, \"status\": \"Finished\"}"
+
+SetNewGoal
+    curl -X POST http://localhost:8082/money/setGoal -H "Content-Type: application/json" -d "{\"goal\": 1000}"
+
+AddMoney
+    curl -X POST http://localhost:8082/money/addMoney -H "Content-Type: application/json" -d "{\"amount\": 100}"
+
+GetMoneyDatabaseStats
+    curl -X GET "http://localhost:8082/money/getStats" -H "Content-Type: application/json"
