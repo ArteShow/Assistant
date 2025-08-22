@@ -27,3 +27,6 @@ GetMoneyDatabaseStats
 
 Register
     curl -X POST http://localhost:8082/registration -H "Content-Type: application/json" -d "{\"username\": \"ArteShow\", \"password\": \"arteshow\"}"
+
+Login
+    curl -X POST http://localhost:8082/login -H "Content-Type: application/json" -d "{\"username\": \"ArteShow\", \"password\": \"arteshow\"}"

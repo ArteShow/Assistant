@@ -399,6 +399,53 @@ func RegisterNewUser(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(http.StatusOK)
 }
 
+func LoginUser(w http.ResponseWriter, r *http.Request) {
+	logFile, err := os.OpenFile("Server/log/internal.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		log.Fatal(err)
+		return
+	}
+	defer logFile.Close()
+	log.SetOutput(logFile)
+
+	db, err := database.OpenDataBase()
+	if err != nil {
+		http.Error(w, "Failed to connect to database", http.StatusInternalServerError)
+		return
+	}
+
+	defer r.Body.Close()
+	body, err := io.ReadAll(r.Body)
+	if err != nil {
+		http.Error(w, "Error while reading request", http.StatusInternalServerError)
+		return
+	}
+	var UserData models.User
+	err = json.Unmarshal(body, &UserData)
+	if err != nil {
+		http.Error(w, "Error unmarshling the body", http.StatusInternalServerError)
+		return
+	}
+
+	var Token2 models.Token
+
+	token, err := authorization.LoginUser(db, UserData.Username, UserData.Password)
+	if err != nil {
+		http.Error(w, "Failed to get new token", http.StatusInternalServerError)
+		return
+	}
+	Token2.Token = token
+	jsonData, err := json.Marshal(Token2)
+	if err != nil {
+		http.Error(w, "Failed to encode tasks", http.StatusInternalServerError)
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(http.StatusOK)
+	w.Write(jsonData)
+}
+
 func StartInternalServer() error {
 	log_file, err := os.OpenFile("Server/log/internal.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 
@@ -430,6 +477,7 @@ func StartInternalServer() error {
 
 	//Authorization
 	http.HandleFunc("/internal/register/newUser", RegisterNewUser)
+	http.HandleFunc("/internal/login", LoginUser)
 
 	return http.ListenAndServe(portStr, nil)
 }

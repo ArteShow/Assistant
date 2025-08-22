@@ -238,6 +238,34 @@ func RegistereNewUser(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(resp.StatusCode)
 }
 
+func LoginNewUser(w http.ResponseWriter, r *http.Request) {
+	logFile, err := os.OpenFile("Server/log/app.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		log.Println("Error opening log file:", err)
+		return
+	}
+	defer logFile.Close()
+	log.SetOutput(logFile)
+
+	resp, err := http.Post("http://localhost:8083/internal/login", "application/json", r.Body)
+	if err != nil {
+		http.Error(w, "Error while getting your task", http.StatusInternalServerError)
+		return
+	}
+
+	defer resp.Body.Close()
+
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		http.Error(w, "Error while reading new token from internal", http.StatusInternalServerError)
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(resp.StatusCode)
+	w.Write(body)
+}
+
 func StartApplicationServer() error {
 	logFile, err := os.OpenFile("Server/log/app.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
@@ -271,6 +299,7 @@ func StartApplicationServer() error {
 
 	//Registration
 	http.HandleFunc("/registration", RegistereNewUser)
+	http.HandleFunc("/login", LoginNewUser)
 
 	return http.ListenAndServe(portStr, nil)
 }

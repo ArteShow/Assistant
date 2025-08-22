@@ -132,3 +132,42 @@
 2025/08/22 18:56:19 Server/db/money_database.db
 2025/08/22 18:56:19 Table created successfully.
 2025/08/22 18:56:19 Starting Internal server...
+2025/08/23 00:23:14 Loading configuration from Server/configs/config.json
+2025/08/23 00:23:14 Configuration loaded successfully
+2025/08/23 00:23:14 Server/db/money_database.db
+2025/08/23 00:23:14 Table created successfully.
+2025/08/23 00:23:14 Starting Internal server...
+2025/08/23 00:23:14 Starting Internal server...
+2025/08/23 00:23:31 Loading configuration from Server/configs/config.json
+2025/08/23 00:23:31 Configuration loaded successfully
+2025/08/23 00:23:31 Server/db/money_database.db
+2025/08/23 00:24:24 Loading configuration from Server/configs/config.json
+2025/08/23 00:24:24 Configuration loaded successfully
+2025/08/23 00:24:24 Server/db/money_database.db
+2025/08/23 00:24:24 Table created successfully.
+2025/08/23 00:24:24 Starting Internal server...
+2025/08/23 00:24:31 Loading configuration from Server/configs/config.json
+2025/08/23 00:24:31 Configuration loaded successfully
+2025/08/23 00:24:31 Server/db/money_database.db
+2025/08/23 00:24:31 user not found
+2025/08/23 00:26:45 Loading configuration from Server/configs/config.json
+2025/08/23 00:26:45 Configuration loaded successfully
+2025/08/23 00:26:45 Server/db/money_database.db
+2025/08/23 00:26:45 Table created successfully.
+2025/08/23 00:26:45 Starting Internal server...
+2025/08/23 00:26:45 Starting Internal server...
+2025/08/23 00:26:55 Loading configuration from Server/configs/config.json
+2025/08/23 00:26:55 Configuration loaded successfully
+2025/08/23 00:26:55 Server/db/money_database.db
+2025/08/23 00:26:55 SQL logic error: no such table: users (1)
+2025/08/23 00:28:17 Loading configuration from Server/configs/config.json
+2025/08/23 00:28:17 Configuration loaded successfully
+2025/08/23 00:28:17 Server/db/money_database.db
+2025/08/23 00:28:17 Table created successfully.
+2025/08/23 00:28:17 Starting Internal server...
+2025/08/23 00:28:17 Starting Internal server...
+2025/08/23 00:31:07 Loading configuration from Server/configs/config.json
+2025/08/23 00:31:07 Configuration loaded successfully
+2025/08/23 00:31:07 Server/db/money_database.db
+2025/08/23 00:31:07 Table created successfully.
+2025/08/23 00:31:07 Starting Internal server...

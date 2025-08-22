@@ -32,3 +32,7 @@ type Claims struct {
 	UserID int64 `json:"user_id"`
 	jwt.RegisteredClaims
 }
+
+type Token struct {
+	Token string `json:"token"`
+}
