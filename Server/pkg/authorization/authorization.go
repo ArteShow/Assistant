@@ -2,110 +2,119 @@ package authorization
 
 import (
 	"database/sql"
-	"log"
+	"errors"
+	"time"
+
+	"github.com/ArteShow/Assistant/Server/models"
+	"github.com/golang-jwt/jwt/v5"
+	"golang.org/x/crypto/bcrypt"
 )
 
-type User struct {
-	UserID   int64
-	Username string
-	Password string
-	Email    string
-}
-
-func NewUser(username, password, email string) *User {
-	return &User{
-		Username: username,
-		Password: password,
-		Email:    email,
-	}
-}
-
-func CheckForUser(userID int64, db *sql.DB) (bool, error) {
-	log.Printf("Checking if user with ID %d exists in the database", userID)
-
-	query := `SELECT COUNT(*) FROM users WHERE user_id = ?`
-	row := db.QueryRow(query, userID)
-	var count int
-	err := row.Scan(&count)
+func SaveJwtKey(jwtKey []byte, db *sql.DB) error {
+	// Ensure table exists
+	_, err := db.Exec(`CREATE TABLE IF NOT EXISTS jwt_token (
+		id INTEGER PRIMARY KEY AUTOINCREMENT,
+		jwt_key BLOB NOT NULL
+	);`)
 	if err != nil {
-		log.Println("Error checking user in database:", err)
-		return false, err
-	}
-	if count > 0 || count == 1 {
-		log.Printf("User with ID %d exists in the database", userID)
-		return true, nil
-	}
-	return false, nil
-}
-
-func SaveUser(user *User, db *sql.DB) error {
-	log.Printf("Inserting user '%s' into the database", user.Username)
-
-	query := `INSERT INTO users (username, password) VALUES (?, ?)`
-
-	_, err := db.Exec(query, user.Username, user.Password, user.Email)
-	if err != nil {
-		log.Println("Error inserting user into database:", err)
 		return err
 	}
 
-	return nil
-}
-
-func DeletUser(userID int64, db *sql.DB) error {
-	log.Printf("Deleting user with ID %d from the database", userID)
-
-	query := `DELETE FROM users WHERE user_id = ?`
-
-	_, err := db.Exec(query, userID)
+	// Insert the key (overwrite old key by clearing first)
+	_, err = db.Exec(`DELETE FROM jwt_token;`)
 	if err != nil {
-		log.Println("Error deleting user from database:", err)
 		return err
 	}
 
-	return nil
+	_, err = db.Exec(`INSERT INTO jwt_token (jwt_key) VALUES (?)`, jwtKey)
+	return err
 }
 
-func GetUserById(userId int64, db *sql.DB) (*User, error) {
-	log.Printf("Getting user with ID %d from the database", userId)
-
-	query := `SELECT * FROM users WHERE user_id = ?`
-	row := db.QueryRow(query, userId)
-
-	user := &User{}
-	err := row.Scan(&user.UserID, &user.Username, &user.Password, &user.Email)
+func GetJwtKey(db *sql.DB) ([]byte, error) {
+	_, err := db.Exec(`CREATE TABLE IF NOT EXISTS jwt_token (
+		id INTEGER PRIMARY KEY AUTOINCREMENT,
+		jwt_key BLOB NOT NULL
+	);`)
 	if err != nil {
-		log.Println("Error getting user from database:", err)
 		return nil, err
 	}
 
-	return user, nil
-}
-
-func ChangeUsersPassword(userID int64, newPassword string, db *sql.DB) error {
-	log.Printf("Changing password for user with ID %d", userID)
-
-	query := `UPDATE users SET password = ? WHERE user_id = ?`
-
-	_, err := db.Exec(query, newPassword, userID)
+	var key []byte
+	err = db.QueryRow(`SELECT jwt_key FROM jwt_token ORDER BY id DESC LIMIT 1;`).Scan(&key)
 	if err != nil {
-		log.Println("Error changing user password in database:", err)
-		return err
+		return nil, err
 	}
 
-	return nil
+	return key, nil
 }
 
-func ChangeUsersUsername(userID int64, newUsername string, db *sql.DB) error {
-	log.Printf("Changing username for user with ID %d", userID)
+func SetupUserTable(db *sql.DB) error {
+	query := `
+	CREATE TABLE IF NOT EXISTS users (
+		user_id INTEGER PRIMARY KEY AUTOINCREMENT,
+		username TEXT UNIQUE NOT NULL,
+		password TEXT NOT NULL
+	);`
+	_, err := db.Exec(query)
+	return err
+}
 
-	query := `UPDATE users SET username = ? WHERE user_id = ?`
+func HashPassword(password string) (string, error) {
+	bytes, err := bcrypt.GenerateFromPassword([]byte(password), bcrypt.DefaultCost)
+	return string(bytes), err
+}
 
-	_, err := db.Exec(query, newUsername, userID)
+func CheckPasswordHash(password, hash string) bool {
+	err := bcrypt.CompareHashAndPassword([]byte(hash), []byte(password))
+	return err == nil
+}
+
+func SaveUser(db *sql.DB, username, password string) error {
+	hashed, err := HashPassword(password)
 	if err != nil {
-		log.Println("Error changing user username in database:", err)
 		return err
 	}
+	_, err = db.Exec(`INSERT INTO users (username, password) VALUES (?, ?)`, username, hashed)
+	return err
+}
 
-	return nil
+func LoginUser(db *sql.DB, username, password string) (string, error) {
+	var id int64
+	var hashed string
+	err := db.QueryRow(`SELECT user_id, password FROM users WHERE username = ?`, username).Scan(&id, &hashed)
+	if err != nil {
+		return "", errors.New("user not found")
+	}
+	if !CheckPasswordHash(password, hashed) {
+		return "", errors.New("invalid password")
+	}
+
+	expiration := time.Now().Add(time.Hour)
+	claims := &models.Claims{
+		UserID: id,
+		RegisteredClaims: jwt.RegisteredClaims{
+			ExpiresAt: jwt.NewNumericDate(expiration),
+		},
+	}
+	token := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)
+	jwtKey, err := GetJwtKey(db)
+	if err != nil {
+		return "", errors.New("Failed to get the key")
+	}
+	return token.SignedString(jwtKey)
+}
+
+func ValidateJWT(tokenStr string, db *sql.DB) (*models.Claims, error) {
+	claims := &models.Claims{}
+	jwtKey, err := GetJwtKey(db)
+	if err != nil {
+		return nil, errors.New("Failed to get the key")
+	}
+	token, err := jwt.ParseWithClaims(tokenStr, claims, func(token *jwt.Token) (interface{}, error) {
+		return jwtKey, nil
+	})
+	if err != nil || !token.Valid {
+		return nil, errors.New("invalid token")
+	}
+	return claims, nil
 }

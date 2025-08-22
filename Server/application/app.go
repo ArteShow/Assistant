@@ -219,6 +219,25 @@ func GetMoneyDatabaseStats(w http.ResponseWriter, r *http.Request) {
 	w.Write(body)
 }
 
+func RegistereNewUser(w http.ResponseWriter, r *http.Request) {
+	logFile, err := os.OpenFile("Server/log/app.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		log.Println("Error opening log file:", err)
+		return
+	}
+	defer logFile.Close()
+	log.SetOutput(logFile)
+
+	resp, err := http.Post("http://localhost:8083/internal/register/newUser", "application/json", r.Body)
+	if err != nil {
+		http.Error(w, "Error while creating new user", http.StatusInternalServerError)
+		return
+	}
+	log.Println(resp.StatusCode)
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(resp.StatusCode)
+}
+
 func StartApplicationServer() error {
 	logFile, err := os.OpenFile("Server/log/app.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
@@ -249,6 +268,9 @@ func StartApplicationServer() error {
 	http.HandleFunc("/money/setGoal", SetGoalForMoneyDatabase)
 	http.HandleFunc("/money/addMoney", AddMoney)
 	http.HandleFunc("/money/getStats", GetMoneyDatabaseStats)
+
+	//Registration
+	http.HandleFunc("/registration", RegistereNewUser)
 
 	return http.ListenAndServe(portStr, nil)
 }

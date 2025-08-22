@@ -10,7 +10,9 @@ import (
 
 	_ "modernc.org/sqlite"
 
+	"github.com/ArteShow/Assistant/Server/pkg/authorization"
 	"github.com/ArteShow/Assistant/Server/pkg/configloader"
+
 	"github.com/ArteShow/Assistant/Server/pkg/database"
 
 	"github.com/ArteShow/Assistant/Server/models"
@@ -362,6 +364,41 @@ func GetMoneyDatabaseStats(w http.ResponseWriter, r *http.Request) {
 	w.Write(jsonData)
 }
 
+func RegisterNewUser(w http.ResponseWriter, r *http.Request) {
+	logFile, err := os.OpenFile("Server/log/internal.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		log.Fatal(err)
+		return
+	}
+	defer logFile.Close()
+	log.SetOutput(logFile)
+	db, err := database.OpenDataBase()
+	if err != nil {
+		http.Error(w, "Failed to connect to database", http.StatusInternalServerError)
+		return
+	}
+	defer r.Body.Close()
+	body, err := io.ReadAll(r.Body)
+	if err != nil {
+		http.Error(w, "Error while reading request", http.StatusInternalServerError)
+		return
+	}
+	var UserData models.User
+	err = json.Unmarshal(body, &UserData)
+	if err != nil {
+		http.Error(w, "Error unmarshling the body", http.StatusInternalServerError)
+		return
+	}
+	err2 := authorization.SaveUser(db, UserData.Username, UserData.Password)
+	if err2 != nil {
+		http.Error(w, "Failed to save new user", http.StatusInternalServerError)
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(http.StatusOK)
+}
+
 func StartInternalServer() error {
 	log_file, err := os.OpenFile("Server/log/internal.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 
@@ -390,6 +427,9 @@ func StartInternalServer() error {
 	http.HandleFunc("/internal/money/setGoal", SetNewGoal)
 	http.HandleFunc("/internal/money/addMoney", AddMoney)
 	http.HandleFunc("/internal/money/getStats", GetMoneyDatabaseStats)
+
+	//Authorization
+	http.HandleFunc("/internal/register/newUser", RegisterNewUser)
 
 	return http.ListenAndServe(portStr, nil)
 }

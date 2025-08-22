@@ -11,11 +11,6 @@ import (
 
 func SetupDatabase(db *sql.DB) error {
 	queries := []string{
-		`CREATE TABLE IF NOT EXISTS userdata (
-            username TEXT NOT NULL,
-            password TEXT NOT NULL,
-            user_id INTEGER PRIMARY KEY AUTOINCREMENT
-        );`,
 		`CREATE TABLE IF NOT EXISTS tasks (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             title TEXT NOT NULL,
@@ -24,6 +19,10 @@ func SetupDatabase(db *sql.DB) error {
 			money INTEGER NOT NULL,
             user_id INTEGER
         );`,
+		`CREATE TABLE IF NOT EXISTS jwt_token (
+			id INTEGER PRIMARY KEY AUTOINCREMENT,
+			jwt_key BLOB NOT NULL
+		);`,
 	}
 
 	for _, query := range queries {
