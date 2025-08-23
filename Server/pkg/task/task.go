@@ -68,7 +68,7 @@ func GetAllUsersTasks(db *sql.DB, userID int64) ([]*Task, error) {
 	var tasks []*Task
 	for rows.Next() {
 		task := &Task{}
-		err := rows.Scan(&task.ID, &task.Titel, &task.Description, &task.Status, &task.UserID)
+		err := rows.Scan(&task.ID, &task.Titel, &task.Description, &task.Status, &task.UserID, &task.Money)
 		if err != nil {
 			log.Println("Error scanning task:", err)
 			return nil, err

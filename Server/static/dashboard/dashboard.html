@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🌸 Japan Trip Dashboard 🌸</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>🌸 Japan Trip Dashboard 🌸</h1>
+    </header>
+
+    <div class="background-cherry-tree-left"></div>
+    <div class="background-samurai-right"></div>
+
+    <canvas id="sakuraCanvas"></canvas>
+
+    <section class="money-section">
+        <h2>Money Progress</h2>
+        <div class="money-bar-container">
+            <div class="money-bar" id="moneyBar"></div>
+        </div>
+        <p id="moneyInfo">Collected: €0 / Goal: €13,500</p>
+    </section>
+
+    <section class="tasks-section">
+        <button id="createTaskBtn">🌸 Create New Task 🌸</button>
+
+        <h2>Tasks</h2>
+        <div class="filters">
+            <button onclick="filterTasks('all')">All</button>
+            <button onclick="filterTasks('finished')">Finished</button>
+            <button onclick="filterTasks('unfinished')">Unfinished</button>
+        </div>
+        <div id="tasksContainer"></div>
+    </section>
+
+    <!-- Move modal OUTSIDE the tasks section -->
+    <div id="taskModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Create New Task</h3>
+            <form id="taskForm">
+                <label>Title:</label>
+                <input type="text" id="taskTitle" required>
+                <label>Description:</label>
+                <textarea id="taskDesc" required></textarea>
+                <label>Worth (€):</label>
+                <input type="number" id="taskWorth" required>
+                <label>Status:</label>
+                <select id="taskStatus">
+                    <option value="In Progress">In Progress</option>
+                    <option value="Finished">Finished</option>
+                </select>
+                <button type="submit">✨ Add Task ✨</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="../js/app.js"></script>
+</body>
+</html>

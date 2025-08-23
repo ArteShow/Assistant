@@ -314,7 +314,6 @@ func LoginNewUser(w http.ResponseWriter, r *http.Request) {
 }
 
 // =============== Server Start ===============
-
 func StartApplicationServer() error {
 	logFile, err := os.OpenFile("Server/log/app.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
@@ -331,7 +330,6 @@ func StartApplicationServer() error {
 		log.Println("Error loading config:", err)
 		return err
 	}
-
 	portStr := ":" + strconv.Itoa(port)
 
 	// Tasks
@@ -350,6 +348,18 @@ func StartApplicationServer() error {
 	// Registration & login (public)
 	http.HandleFunc("/registration", RegistereNewUser)
 	http.HandleFunc("/login", LoginNewUser)
+
+	// -------- Static frontend (auto-detect path) --------
+	staticDir := "Server/static"
+	if _, err := os.Stat(staticDir); os.IsNotExist(err) {
+		if _, err2 := os.Stat("./static"); err2 == nil {
+			staticDir = "./static"
+		}
+	}
+	log.Println("Serving static from:", staticDir)
+
+	fs := http.FileServer(http.Dir(staticDir))
+	http.Handle("/", fs) // <-- serve all static files normally
 
 	return http.ListenAndServe(portStr, nil)
 }

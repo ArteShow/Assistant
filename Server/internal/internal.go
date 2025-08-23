@@ -431,6 +431,7 @@ func LoginUser(w http.ResponseWriter, r *http.Request) {
 
 	token, err := authorization.LoginUser(db, UserData.Username, UserData.Password)
 	if err != nil {
+		log.Println(err)
 		http.Error(w, "Failed to get new token", http.StatusInternalServerError)
 		return
 	}

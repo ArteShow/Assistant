@@ -19,7 +19,7 @@ curl -X POST http://localhost:8082/task/editTasksStatus -H "Authorization: Beare
 
 # ---------- MONEY ----------
 # Set a new savings goal
-curl -X POST http://localhost:8082/money/setGoal -H "Authorization: Bearer " -H "Content-Type: application/json" -d "{\"goal\": 1000}"
+curl -X POST http://localhost:8082/money/setGoal -H "Authorization: Bearer " -H "Content-Type: application/json" -d "{\"goal\": 13500}"
 
 # Add money towards the goal
 curl -X POST http://localhost:8082/money/addMoney -H "Authorization: Bearer " -H "Content-Type: application/json" -d "{\"amount\": 100}"
