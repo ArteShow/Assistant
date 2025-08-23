@@ -13,6 +13,7 @@ type Task struct {
 	Status      string `json:"status"`
 	Description string `json:"description"`
 	UserID      int64  `json:"user_id"`
+	Money       int64  `json:"money"`
 }
 
 func SaveTask(task *Task, db *sql.DB) error {
@@ -25,8 +26,8 @@ func SaveTask(task *Task, db *sql.DB) error {
 
 	log.Printf("Inserting task '%s' for user ID %d into the database", task.Titel, task.UserID)
 
-	query := `INSERT INTO tasks (title, description, status, user_id) VALUES (?, ?, ?, ?)`
-	_, err = db.Exec(query, task.Titel, task.Description, task.Status, task.UserID)
+	query := `INSERT INTO tasks (title, description, status, user_id, money) VALUES (?, ?, ?, ?, ?)`
+	_, err = db.Exec(query, task.Titel, task.Description, task.Status, task.UserID, task.Money)
 	if err != nil {
 		log.Println("Error inserting task into database:", err)
 	}
@@ -56,7 +57,7 @@ func ChangeTasksStatusByID(db *sql.DB, user_ID, task_ID int64, status string) er
 func GetAllUsersTasks(db *sql.DB, userID int64) ([]*Task, error) {
 	log.Printf("Getting all tasks for user ID %d from the database", userID)
 
-	query := `SELECT id, title, description, status, user_id FROM tasks WHERE user_id = ?`
+	query := `SELECT id, title, description, status, user_id, money FROM tasks WHERE user_id = ?`
 	rows, err := db.Query(query, userID)
 	if err != nil {
 		log.Println("Error getting tasks from database:", err)

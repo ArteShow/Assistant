@@ -8,3 +8,11 @@
 2025/08/21 17:40:55 Inserting task 'My Task' for user ID 1 into the database
 2025/08/21 17:40:59 Inserting task 'My Task' for user ID 2 into the database
 2025/08/21 18:05:02 Inserting task 'My Task' for user ID 2 into the database
+2025/08/23 10:06:34 Inserting task 'My Task' for user ID 1 into the database
+2025/08/23 10:06:34 Error inserting task into database: constraint failed: NOT NULL constraint failed: tasks.money (1299)
+2025/08/23 10:11:48 Inserting task 'My Task' for user ID 1 into the database
+2025/08/23 10:11:49 Error inserting task into database: constraint failed: NOT NULL constraint failed: tasks.money (1299)
+2025/08/23 10:14:06 Inserting task 'My Task' for user ID 1 into the database
+2025/08/23 10:14:59 Inserting task 'My Task' for user ID 1 into the database
+2025/08/23 10:15:23 Inserting task 'ArteSHow Task' for user ID 1 into the database
+2025/08/23 10:19:58 Inserting task 'My Task' for user ID 2 into the database

@@ -1,19 +1,77 @@
 package application
 
 import (
+	"context"
+	"encoding/json"
 	"io"
 	"log"
 	"net/http"
 	"os"
 	"strconv"
+	"strings"
 
+	"github.com/ArteShow/Assistant/Server/pkg/authorization"
 	"github.com/ArteShow/Assistant/Server/pkg/configloader"
+	"github.com/ArteShow/Assistant/Server/pkg/database"
 )
+
+// =============== Middleware & Helpers ===============
+
+type contextKey string
+
+var userIDKey = contextKey("userID")
+
+func JWTMiddleware(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		authHeader := r.Header.Get("Authorization")
+		if authHeader == "" {
+			http.Error(w, "Missing token", http.StatusUnauthorized)
+			return
+		}
+		tokenStr := strings.TrimPrefix(authHeader, "Bearer ")
+
+		db, err := database.OpenDataBase()
+		if err != nil {
+			http.Error(w, "Failed to open database", http.StatusInternalServerError)
+			return
+		}
+		defer db.Close()
+
+		claims, err := authorization.ValidateJWT(tokenStr, db)
+		if err != nil {
+			http.Error(w, "Invalid token", http.StatusUnauthorized)
+			return
+		}
+
+		ctx := context.WithValue(r.Context(), userIDKey, claims.UserID)
+		next.ServeHTTP(w, r.WithContext(ctx))
+	})
+}
+
+func GetUserIDFromContext(r *http.Request) int64 {
+	if val, ok := r.Context().Value(userIDKey).(int64); ok {
+		return val
+	}
+	return 0
+}
+
+// =============== Handlers ===============
 
 func AddTask(w http.ResponseWriter, r *http.Request) {
 	log.Println("Received request to add task")
 
-	res, err := http.Post("http://localhost:8083/internal/task/add", "application/json", r.Body)
+	userID := GetUserIDFromContext(r)
+
+	// Read body into map to inject user_id
+	var bodyMap map[string]interface{}
+	if err := json.NewDecoder(r.Body).Decode(&bodyMap); err != nil {
+		http.Error(w, "Invalid body", http.StatusBadRequest)
+		return
+	}
+	bodyMap["user_id"] = userID
+	bodyBytes, _ := json.Marshal(bodyMap)
+
+	res, err := http.Post("http://localhost:8083/internal/task/add", "application/json", strings.NewReader(string(bodyBytes)))
 	if err != nil {
 		log.Println("Error making POST request to internal server:", err)
 		http.Error(w, "Failed to forward request", http.StatusInternalServerError)
@@ -25,17 +83,19 @@ func AddTask(w http.ResponseWriter, r *http.Request) {
 }
 
 func DeleteTask(w http.ResponseWriter, r *http.Request) {
-	logFile, err := os.OpenFile("Server/log/app.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
-	if err != nil {
-		http.Error(w, "Failed to open log file", http.StatusInternalServerError)
-		return
-	}
-	defer logFile.Close()
-	log.SetOutput(logFile)
-
 	log.Println("Received request to delete task")
 
-	res, err := http.Post("http://localhost:8083/internal/task/delete", "application/json", r.Body)
+	userID := GetUserIDFromContext(r)
+
+	var bodyMap map[string]interface{}
+	if err := json.NewDecoder(r.Body).Decode(&bodyMap); err != nil {
+		http.Error(w, "Invalid body", http.StatusBadRequest)
+		return
+	}
+	bodyMap["user_id"] = userID
+	bodyBytes, _ := json.Marshal(bodyMap)
+
+	res, err := http.Post("http://localhost:8083/internal/task/delete", "application/json", strings.NewReader(string(bodyBytes)))
 	if err != nil {
 		log.Println("Error making DELETE request to internal server:", err)
 		http.Error(w, "Failed to forward delete request", http.StatusInternalServerError)
@@ -47,18 +107,15 @@ func DeleteTask(w http.ResponseWriter, r *http.Request) {
 }
 
 func GetTasksList(w http.ResponseWriter, r *http.Request) {
-	logFile, err := os.OpenFile("Server/log/app.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
-	if err != nil {
-		http.Error(w, "Failed to open log file", http.StatusInternalServerError)
-		return
-	}
-	defer logFile.Close()
-	log.SetOutput(logFile)
 	log.Println("Getting tasks for user")
 
-	res, err := http.Get("http://localhost:8083/internal/task/getTasksList")
+	userID := GetUserIDFromContext(r)
+
+	bodyMap := map[string]interface{}{"user_id": userID}
+	bodyBytes, _ := json.Marshal(bodyMap)
+
+	res, err := http.Post("http://localhost:8083/internal/task/getTasksList", "application/json", strings.NewReader(string(bodyBytes)))
 	if err != nil {
-		log.Println("Failed to get Task List")
 		http.Error(w, "Failed to get Task List", http.StatusInternalServerError)
 		return
 	}
@@ -76,22 +133,23 @@ func GetTasksList(w http.ResponseWriter, r *http.Request) {
 }
 
 func GetTaskById(w http.ResponseWriter, r *http.Request) {
-	logFile, err := os.OpenFile("Server/log/app.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
-	if err != nil {
-		log.Println("Error opening log file:", err)
+	log.Println("Getting task for user")
+
+	userID := GetUserIDFromContext(r)
+
+	var bodyMap map[string]interface{}
+	if err := json.NewDecoder(r.Body).Decode(&bodyMap); err != nil {
+		http.Error(w, "Invalid body", http.StatusBadRequest)
 		return
 	}
-	defer logFile.Close()
-	log.SetOutput(logFile)
+	bodyMap["user_id"] = userID
+	bodyBytes, _ := json.Marshal(bodyMap)
 
-	log.Println("Getting task for u, hi-hi")
-
-	resp, err := http.Post("http://localhost:8083/internal/getTaskByID", "application/json", r.Body)
+	resp, err := http.Post("http://localhost:8083/internal/getTaskByID", "application/json", strings.NewReader(string(bodyBytes)))
 	if err != nil {
 		http.Error(w, "Error while getting your task", http.StatusInternalServerError)
 		return
 	}
-
 	defer resp.Body.Close()
 
 	body, err := io.ReadAll(resp.Body)
@@ -106,20 +164,18 @@ func GetTaskById(w http.ResponseWriter, r *http.Request) {
 }
 
 func GetAllUsersTasks(w http.ResponseWriter, r *http.Request) {
-	logFile, err := os.OpenFile("Server/log/app.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	log.Println("Getting all tasks for user")
+
+	userID := GetUserIDFromContext(r)
+
+	bodyMap := map[string]interface{}{"user_id": userID}
+	bodyBytes, _ := json.Marshal(bodyMap)
+
+	resp, err := http.Post("http://localhost:8083/internal/getUsersTaskList", "application/json", strings.NewReader(string(bodyBytes)))
 	if err != nil {
-		log.Println("Error opening log file:", err)
+		http.Error(w, "Error while getting tasks", http.StatusInternalServerError)
 		return
 	}
-	defer logFile.Close()
-	log.SetOutput(logFile)
-
-	resp, err := http.Post("http://localhost:8083/internal/getUsersTaskList", "application/json", r.Body)
-	if err != nil {
-		http.Error(w, "Error while getting your task", http.StatusInternalServerError)
-		return
-	}
-
 	defer resp.Body.Close()
 
 	body, err := io.ReadAll(resp.Body)
@@ -134,17 +190,21 @@ func GetAllUsersTasks(w http.ResponseWriter, r *http.Request) {
 }
 
 func EditTasksStatus(w http.ResponseWriter, r *http.Request) {
-	logFile, err := os.OpenFile("Server/log/app.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
-	if err != nil {
-		log.Println("Error opening log file:", err)
+	log.Println("Editing task status")
+
+	userID := GetUserIDFromContext(r)
+
+	var bodyMap map[string]interface{}
+	if err := json.NewDecoder(r.Body).Decode(&bodyMap); err != nil {
+		http.Error(w, "Invalid body", http.StatusBadRequest)
 		return
 	}
-	defer logFile.Close()
-	log.SetOutput(logFile)
+	bodyMap["user_id"] = userID
+	bodyBytes, _ := json.Marshal(bodyMap)
 
-	resp, err := http.Post("http://localhost:8083/internal/editTasksStatus", "application/json", r.Body)
+	resp, err := http.Post("http://localhost:8083/internal/editTasksStatus", "application/json", strings.NewReader(string(bodyBytes)))
 	if err != nil {
-		http.Error(w, "Error while getting your task", http.StatusInternalServerError)
+		http.Error(w, "Error while editing task status", http.StatusInternalServerError)
 		return
 	}
 
@@ -153,17 +213,21 @@ func EditTasksStatus(w http.ResponseWriter, r *http.Request) {
 }
 
 func AddMoney(w http.ResponseWriter, r *http.Request) {
-	logFile, err := os.OpenFile("Server/log/app.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
-	if err != nil {
-		log.Println("Error opening log file:", err)
+	log.Println("Adding money")
+
+	userID := GetUserIDFromContext(r)
+
+	var bodyMap map[string]interface{}
+	if err := json.NewDecoder(r.Body).Decode(&bodyMap); err != nil {
+		http.Error(w, "Invalid body", http.StatusBadRequest)
 		return
 	}
-	defer logFile.Close()
-	log.SetOutput(logFile)
+	bodyMap["user_id"] = userID
+	bodyBytes, _ := json.Marshal(bodyMap)
 
-	resp, err := http.Post("http://localhost:8083/internal/money/addMoney", "application/json", r.Body)
+	resp, err := http.Post("http://localhost:8083/internal/money/addMoney", "application/json", strings.NewReader(string(bodyBytes)))
 	if err != nil {
-		http.Error(w, "Error while setting new amount of money", http.StatusInternalServerError)
+		http.Error(w, "Error while adding money", http.StatusInternalServerError)
 		return
 	}
 
@@ -172,15 +236,19 @@ func AddMoney(w http.ResponseWriter, r *http.Request) {
 }
 
 func SetGoalForMoneyDatabase(w http.ResponseWriter, r *http.Request) {
-	logFile, err := os.OpenFile("Server/log/app.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
-	if err != nil {
-		log.Println("Error opening log file:", err)
+	log.Println("Setting money goal")
+
+	userID := GetUserIDFromContext(r)
+
+	var bodyMap map[string]interface{}
+	if err := json.NewDecoder(r.Body).Decode(&bodyMap); err != nil {
+		http.Error(w, "Invalid body", http.StatusBadRequest)
 		return
 	}
-	defer logFile.Close()
-	log.SetOutput(logFile)
+	bodyMap["user_id"] = userID
+	bodyBytes, _ := json.Marshal(bodyMap)
 
-	resp, err := http.Post("http://localhost:8083/internal/money/setGoal", "application/json", r.Body)
+	resp, err := http.Post("http://localhost:8083/internal/money/setGoal", "application/json", strings.NewReader(string(bodyBytes)))
 	if err != nil {
 		http.Error(w, "Error while setting new goal", http.StatusInternalServerError)
 		return
@@ -191,24 +259,21 @@ func SetGoalForMoneyDatabase(w http.ResponseWriter, r *http.Request) {
 }
 
 func GetMoneyDatabaseStats(w http.ResponseWriter, r *http.Request) {
-	logFile, err := os.OpenFile("Server/log/app.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
-	if err != nil {
-		http.Error(w, "Failed to open log file", http.StatusInternalServerError)
-		return
-	}
-	defer logFile.Close()
-	log.SetOutput(logFile)
+	log.Println("Getting money stats")
 
-	res, err := http.Get("http://localhost:8083/internal/money/getStats")
+	userID := GetUserIDFromContext(r)
+
+	bodyMap := map[string]interface{}{"user_id": userID}
+	bodyBytes, _ := json.Marshal(bodyMap)
+
+	res, err := http.Post("http://localhost:8083/internal/money/getStats", "application/json", strings.NewReader(string(bodyBytes)))
 	if err != nil {
-		log.Println("Failed to get Task List")
-		http.Error(w, "Failed to get Task List", http.StatusInternalServerError)
+		http.Error(w, "Failed to get stats", http.StatusInternalServerError)
 		return
 	}
 	defer res.Body.Close()
 
 	body, err := io.ReadAll(res.Body)
-	log.Println(body, "That was the body as you can see")
 	if err != nil {
 		http.Error(w, "Failed to read response body", http.StatusInternalServerError)
 		return
@@ -220,44 +285,26 @@ func GetMoneyDatabaseStats(w http.ResponseWriter, r *http.Request) {
 }
 
 func RegistereNewUser(w http.ResponseWriter, r *http.Request) {
-	logFile, err := os.OpenFile("Server/log/app.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
-	if err != nil {
-		log.Println("Error opening log file:", err)
-		return
-	}
-	defer logFile.Close()
-	log.SetOutput(logFile)
-
 	resp, err := http.Post("http://localhost:8083/internal/register/newUser", "application/json", r.Body)
 	if err != nil {
 		http.Error(w, "Error while creating new user", http.StatusInternalServerError)
 		return
 	}
-	log.Println(resp.StatusCode)
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(resp.StatusCode)
 }
 
 func LoginNewUser(w http.ResponseWriter, r *http.Request) {
-	logFile, err := os.OpenFile("Server/log/app.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
-	if err != nil {
-		log.Println("Error opening log file:", err)
-		return
-	}
-	defer logFile.Close()
-	log.SetOutput(logFile)
-
 	resp, err := http.Post("http://localhost:8083/internal/login", "application/json", r.Body)
 	if err != nil {
-		http.Error(w, "Error while getting your task", http.StatusInternalServerError)
+		http.Error(w, "Error while logging in", http.StatusInternalServerError)
 		return
 	}
-
 	defer resp.Body.Close()
 
 	body, err := io.ReadAll(resp.Body)
 	if err != nil {
-		http.Error(w, "Error while reading new token from internal", http.StatusInternalServerError)
+		http.Error(w, "Error while reading token from internal", http.StatusInternalServerError)
 		return
 	}
 
@@ -265,6 +312,8 @@ func LoginNewUser(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(resp.StatusCode)
 	w.Write(body)
 }
+
+// =============== Server Start ===============
 
 func StartApplicationServer() error {
 	logFile, err := os.OpenFile("Server/log/app.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
@@ -284,20 +333,21 @@ func StartApplicationServer() error {
 	}
 
 	portStr := ":" + strconv.Itoa(port)
-	//Tasks
-	http.HandleFunc("/task/add", AddTask)
-	http.HandleFunc("/task/delete", DeleteTask)
-	http.HandleFunc("/task/getTasksList", GetTasksList)
-	http.HandleFunc("/task/getTaskByID", GetTaskById)
-	http.HandleFunc("/task/getUsersTaskList", GetAllUsersTasks)
-	http.HandleFunc("/task/editTasksStatus", EditTasksStatus)
 
-	//Money
-	http.HandleFunc("/money/setGoal", SetGoalForMoneyDatabase)
-	http.HandleFunc("/money/addMoney", AddMoney)
-	http.HandleFunc("/money/getStats", GetMoneyDatabaseStats)
+	// Tasks
+	http.Handle("/task/add", JWTMiddleware(http.HandlerFunc(AddTask)))
+	http.Handle("/task/delete", JWTMiddleware(http.HandlerFunc(DeleteTask)))
+	http.Handle("/task/getTasksList", JWTMiddleware(http.HandlerFunc(GetTasksList)))
+	http.Handle("/task/getTaskByID", JWTMiddleware(http.HandlerFunc(GetTaskById)))
+	http.Handle("/task/getUsersTaskList", JWTMiddleware(http.HandlerFunc(GetAllUsersTasks)))
+	http.Handle("/task/editTasksStatus", JWTMiddleware(http.HandlerFunc(EditTasksStatus)))
 
-	//Registration
+	// Money
+	http.Handle("/money/setGoal", JWTMiddleware(http.HandlerFunc(SetGoalForMoneyDatabase)))
+	http.Handle("/money/addMoney", JWTMiddleware(http.HandlerFunc(AddMoney)))
+	http.Handle("/money/getStats", JWTMiddleware(http.HandlerFunc(GetMoneyDatabaseStats)))
+
+	// Registration & login (public)
 	http.HandleFunc("/registration", RegistereNewUser)
 	http.HandleFunc("/login", LoginNewUser)
 

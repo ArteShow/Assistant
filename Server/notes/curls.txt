@@ -1,32 +1,35 @@
-Add Task
-    curl -X POST http://localhost:8082/task/add -H "Content-Type: application/json" -d "{\"title\": \"My Task\", \"status\": \"In Progress\", \"description\": \"This is a test task\", \"user_id\": 1, \"money\": 100}"
+# ---------- TASKS ----------
+# Add a new task (user_id auto from token, money = worth of task)
+curl -X POST http://localhost:8082/task/add -H "Authorization: Bearer " -H "Content-Type: application/json" -d "{\"title\": \"My Task\", \"status\": \"In Progress\", \"description\": \"This is a test task\", \"money\": 100}"
 
-Delete Task
-    curl -X POST http://localhost:8082/task/delete -H "Content-Type: application/json" -d "{\"task_ID\": 1, \"user_ID\": 1}"
+# Delete a task by ID
+curl -X POST http://localhost:8082/task/delete -H "Authorization: Bearer " -H "Content-Type: application/json" -d "{\"task_ID\": 1}"
 
-GetTasks
-    curl -X GET "http://localhost:8082/task/getTasksList" -H "Content-Type: application/json"
+# Get ALL tasks in the database (admin/global view)
+curl -X GET http://localhost:8082/task/getTasksList -H "Authorization: Bearer " -H "Content-Type: application/json"
 
-GetTaskByIDAndUserID
-    curl -X POST http://localhost:8082/task/getTaskByID -H "Content-Type: application/json" -d "{\"user_id\": 1, \"task_id\": 1}"
+# Get all tasks for the logged-in user
+curl -X POST http://localhost:8082/task/getUsersTaskList -H "Authorization: Bearer " -H "Content-Type: application/json"
 
-GetAllUserstaskByUserID
-    curl -X POST http://localhost:8082/task/getUsersTaskList -H "Content-Type: application/json" -d "{\"user_id\": 1}"
+# Get a single task by its ID (only if it belongs to logged-in user)
+curl -X POST http://localhost:8082/task/getTaskByID -H "Authorization: Bearer " -H "Content-Type: application/json" -d "{\"task_id\": 1}"
 
-ChangeTasksStatusByID
-    curl -X POST http://localhost:8082/task/editTasksStatus -H "Content-Type: application/json" -d "{\"user_id\": 1, \"task_id\": 1, \"status\": \"Finished\"}"
+# Change the status of a task
+curl -X POST http://localhost:8082/task/editTasksStatus -H "Authorization: Bearer " -H "Content-Type: application/json" -d "{\"task_id\": 1, \"status\": \"Finished\"}"
 
-SetNewGoal
-    curl -X POST http://localhost:8082/money/setGoal -H "Content-Type: application/json" -d "{\"goal\": 1000}"
+# ---------- MONEY ----------
+# Set a new savings goal
+curl -X POST http://localhost:8082/money/setGoal -H "Authorization: Bearer " -H "Content-Type: application/json" -d "{\"goal\": 1000}"
 
-AddMoney
-    curl -X POST http://localhost:8082/money/addMoney -H "Content-Type: application/json" -d "{\"amount\": 100}"
+# Add money towards the goal
+curl -X POST http://localhost:8082/money/addMoney -H "Authorization: Bearer " -H "Content-Type: application/json" -d "{\"amount\": 100}"
 
-GetMoneyDatabaseStats
-    curl -X GET "http://localhost:8082/money/getStats" -H "Content-Type: application/json"
+# Get current savings stats
+curl -X GET http://localhost:8082/money/getStats -H "Authorization: Bearer " -H "Content-Type: application/json"
 
-Register
-    curl -X POST http://localhost:8082/registration -H "Content-Type: application/json" -d "{\"username\": \"ArteShow\", \"password\": \"arteshow\"}"
+# ---------- AUTH ----------
+# Register a new user
+curl -X POST http://localhost:8082/registration -H "Content-Type: application/json" -d "{\"username\": \"ArteShow\", \"password\": \"arteshow\"}"
 
-Login
-    curl -X POST http://localhost:8082/login -H "Content-Type: application/json" -d "{\"username\": \"ArteShow\", \"password\": \"arteshow\"}"
+# Login (returns JWT token)
+curl -X POST http://localhost:8082/login -H "Content-Type: application/json" -d "{\"username\": \"ArteShow\", \"password\": \"arteshow\"}"
