@@ -48,6 +48,7 @@ loginForm.addEventListener('submit', async (e)=>{
 
 
 
+
 // ---------- REGISTER ----------
 registerForm.addEventListener('submit', async (e)=>{
     e.preventDefault();

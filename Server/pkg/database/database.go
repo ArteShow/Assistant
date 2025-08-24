@@ -17,7 +17,8 @@ func SetupDatabase(db *sql.DB) error {
             description TEXT,
             status TEXT,
 			money INTEGER NOT NULL,
-            user_id INTEGER
+            user_id INTEGER,
+			deadline TEXT NOT NULL
         );`,
 		`CREATE TABLE IF NOT EXISTS jwt_token (
 			id INTEGER PRIMARY KEY AUTOINCREMENT,

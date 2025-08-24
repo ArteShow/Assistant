@@ -29,7 +29,7 @@ curl -X GET http://localhost:8082/money/getStats -H "Authorization: Bearer " -H 
 
 # ---------- AUTH ----------
 # Register a new user
-curl -X POST http://localhost:8082/registration -H "Content-Type: application/json" -d "{\"username\": \"ArteShow\", \"password\": \"arteshow\"}"
+curl -X POST http://localhost:8082/registration -H "Content-Type: application/json" -d "{\"username\": \"ArteShow\", \"password\": \"123\"}"
 
 # Login (returns JWT token)
-curl -X POST http://localhost:8082/login -H "Content-Type: application/json" -d "{\"username\": \"ArteShow\", \"password\": \"arteshow\"}"
+curl -X POST http://localhost:8082/login -H "Content-Type: application/json" -d "{\"username\": \"ArteShow\", \"password\": \"123\"}"

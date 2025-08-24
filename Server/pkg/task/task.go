@@ -14,6 +14,7 @@ type Task struct {
 	Description string `json:"description"`
 	UserID      int64  `json:"user_id"`
 	Money       int64  `json:"money"`
+	Deadline    string `json:"deadline"`
 }
 
 func SaveTask(task *Task, db *sql.DB) error {
@@ -26,8 +27,8 @@ func SaveTask(task *Task, db *sql.DB) error {
 
 	log.Printf("Inserting task '%s' for user ID %d into the database", task.Titel, task.UserID)
 
-	query := `INSERT INTO tasks (title, description, status, user_id, money) VALUES (?, ?, ?, ?, ?)`
-	_, err = db.Exec(query, task.Titel, task.Description, task.Status, task.UserID, task.Money)
+	query := `INSERT INTO tasks (title, description, status, user_id, money, deadline) VALUES (?, ?, ?, ?, ?, ?)`
+	_, err = db.Exec(query, task.Titel, task.Description, task.Status, task.UserID, task.Money, task.Deadline)
 	if err != nil {
 		log.Println("Error inserting task into database:", err)
 	}
@@ -57,7 +58,7 @@ func ChangeTasksStatusByID(db *sql.DB, user_ID, task_ID int64, status string) er
 func GetAllUsersTasks(db *sql.DB, userID int64) ([]*Task, error) {
 	log.Printf("Getting all tasks for user ID %d from the database", userID)
 
-	query := `SELECT id, title, description, status, user_id, money FROM tasks WHERE user_id = ?`
+	query := `SELECT id, title, description, status, user_id, money, deadline FROM tasks WHERE user_id = ?`
 	rows, err := db.Query(query, userID)
 	if err != nil {
 		log.Println("Error getting tasks from database:", err)
@@ -68,7 +69,7 @@ func GetAllUsersTasks(db *sql.DB, userID int64) ([]*Task, error) {
 	var tasks []*Task
 	for rows.Next() {
 		task := &Task{}
-		err := rows.Scan(&task.ID, &task.Titel, &task.Description, &task.Status, &task.UserID, &task.Money)
+		err := rows.Scan(&task.ID, &task.Titel, &task.Description, &task.Status, &task.UserID, &task.Money, &task.Deadline)
 		if err != nil {
 			log.Println("Error scanning task:", err)
 			return nil, err
@@ -82,7 +83,7 @@ func GetAllUsersTasks(db *sql.DB, userID int64) ([]*Task, error) {
 func GetTasksList(db *sql.DB) ([]*Task, error) {
 	log.Println("Getting all tasks from the database")
 
-	query := `SELECT id, title, description, status, user_id FROM tasks`
+	query := `SELECT id, title, description, status, user_id, money, deadline FROM tasks`
 	rows, err := db.Query(query)
 	if err != nil {
 		log.Println("Error getting tasks from database:", err)
@@ -93,7 +94,7 @@ func GetTasksList(db *sql.DB) ([]*Task, error) {
 	var tasks []*Task
 	for rows.Next() {
 		task := &Task{}
-		err := rows.Scan(&task.ID, &task.Titel, &task.Description, &task.Status, &task.UserID)
+		err := rows.Scan(&task.ID, &task.Titel, &task.Description, &task.Status, &task.UserID, &task.Money, &task.Deadline)
 		if err != nil {
 			log.Println("Error scanning task:", err)
 			return nil, err
@@ -112,11 +113,11 @@ func GetTasksList(db *sql.DB) ([]*Task, error) {
 func GetUsersTaskByID(db *sql.DB, userID, taskID int64) (*Task, error) {
 	log.Printf("Getting task with ID %d for user ID %d", taskID, userID)
 
-	query := `SELECT id, title, description, status, user_id FROM tasks WHERE user_id = ? AND id = ?`
+	query := `SELECT id, title, description, status, user_id, money, deadline FROM tasks WHERE user_id = ? AND id = ?`
 	row := db.QueryRow(query, userID, taskID)
 
 	task := &Task{}
-	err := row.Scan(&task.ID, &task.Titel, &task.Description, &task.Status, &task.UserID)
+	err := row.Scan(&task.ID, &task.Titel, &task.Description, &task.Status, &task.UserID, &task.Money, &task.Deadline)
 	if err != nil {
 		log.Println("Error scanning task:", err)
 		return nil, err

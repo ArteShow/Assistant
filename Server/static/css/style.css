@@ -99,44 +99,70 @@ header {
 }
 
 /* Tasks */
+.tasks-section {
+    padding: 20px;              /* space around the tasks area */
+    max-width: 1000px;          /* limit total width */
+    margin: 0 auto;             /* center the container */
+}
+
 #tasksContainer {
     display: flex;
-    flex-wrap: wrap;
-    gap: 25px 62px; /* horizontal 25px, vertical 62px (≈2.5× previous 25px) */
+    flex-wrap: wrap;             /* wrap cards to next line if needed */
+    gap: 20px;                   /* spacing between cards */
+}
+
+#tasksContainer .task-card {
+    flex: 0 0 30%; /* every card = 30% width */
+    margin-right: 20px; /* space between cards */
 }
 
 
 
 .task-card {
     background-color: #2b001f;
-    padding: 20px;
-    border-radius: 15px;
-    flex: 0 0 calc(26% - 12.5px); 
-    min-width: 0; 
-    box-shadow: 0 0 15px rgba(0,0,0,0.4);
-    transition: transform 0.3s, box-shadow 0.3s;
-    position: relative;
+    border-radius: 10px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 220px;
-    z-index: 1;
+    min-width: 250px;
+    flex: 1 1 calc(50% - 20px);
+    box-sizing: border-box;
+
+    /* Smooth transform */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.task-content p {
+    margin: 3px 0;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    max-width: 120px;      /* <- limit width */
+    white-space: nowrap;    /* keep text in one line */
+    overflow: hidden;       /* hide overflow */
+    text-overflow: ellipsis; /* add "..." if too long */
+}
+
+
+.task-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: auto; /* pushes buttons to bottom */
+}
+
 
 
 .task-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 0 30px rgba(155, 48, 173,0.6);
+    transform: scale(1.05); /* slightly bigger */
+    box-shadow: 0 0 30px rgba(155, 48, 173, 0.6);
 }
-.status-badge {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-weight: bold;
-    color: #fff;
-}
+
 
 .status-finished { background-color: #00FF7F; }
 .status-unfinished { background-color: #FF6347; }
@@ -182,6 +208,27 @@ header {
     transform: scale(1.05);
     box-shadow: 0 4px 10px rgba(0,0,0,0.6);
 }
+
+#logoutBtn {
+    background-color: #ff4d6d;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#logoutBtn:hover {
+    background-color: #e63950;
+    transform: scale(1.05);
+}
+
 
 /* Filters Buttons */
 .filters button {
@@ -296,4 +343,42 @@ header {
 #taskForm button:hover {
     transform: scale(1.05);
     box-shadow: 0 0 25px rgba(255,136,255,0.9);
+}
+
+/* --- Mobile Friendly Styling --- */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .filters {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        justify-content: center;
+    }
+
+    #createTaskBtn, .filters button, #logoutBtn {
+        font-size: 0.9rem;
+        padding: 0.5rem 0.8rem;
+    }
+
+    .money-section, .tasks-section {
+        padding: 1rem;
+        margin: 0.5rem;
+    }
+
+    .money-bar-container {
+        height: 20px;
+    }
+
+    .card {
+        width: 100%;   /* tasks fill width on mobile */
+        margin: 0.5rem 0;
+    }
+
+    .modal-content {
+        width: 90%;   /* modal fits on small screens */
+    }
 }

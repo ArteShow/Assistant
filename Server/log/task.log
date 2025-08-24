@@ -39,3 +39,42 @@
 2025/08/23 22:46:36 Inserting task 'sadf' for user ID 1 into the database
 2025/08/23 22:47:17 Inserting task 'asdf' for user ID 1 into the database
 2025/08/23 22:51:57 Inserting task 'asdf' for user ID 1 into the database
+2025/08/24 09:19:07 Inserting task 'TEst 1' for user ID 1 into the database
+2025/08/24 09:27:37 Inserting task 'asdf' for user ID 1 into the database
+2025/08/24 09:27:37 Error inserting task into database: constraint failed: NOT NULL constraint failed: tasks.deadline (1299)
+2025/08/24 09:27:59 Inserting task 'asdf' for user ID 1 into the database
+2025/08/24 09:27:59 Error inserting task into database: constraint failed: NOT NULL constraint failed: tasks.deadline (1299)
+2025/08/24 09:30:29 Inserting task 'sadf' for user ID 1 into the database
+2025/08/24 09:30:29 Error inserting task into database: constraint failed: NOT NULL constraint failed: tasks.deadline (1299)
+2025/08/24 09:32:09 Inserting task 'asdf' for user ID 1 into the database
+2025/08/24 09:32:09 Error inserting task into database: constraint failed: NOT NULL constraint failed: tasks.deadline (1299)
+2025/08/24 09:36:15 Inserting task 'test2' for user ID 1 into the database
+2025/08/24 09:38:35 Inserting task 'asdf' for user ID 1 into the database
+2025/08/24 09:41:02 Inserting task 'sadf' for user ID 1 into the database
+2025/08/24 09:41:18 Inserting task 'f' for user ID 1 into the database
+2025/08/24 09:41:26 Inserting task '123' for user ID 1 into the database
+2025/08/24 09:41:35 Inserting task '123445' for user ID 1 into the database
+2025/08/24 11:39:21 Inserting task 'asdf' for user ID 1 into the database
+2025/08/24 11:40:54 Inserting task 'asdf' for user ID 1 into the database
+2025/08/24 11:41:26 Inserting task 'asdf' for user ID 1 into the database
+2025/08/24 11:41:33 Inserting task 'adsf' for user ID 1 into the database
+2025/08/24 13:51:17 Inserting task 'i' for user ID 1 into the database
+2025/08/24 13:56:10 Inserting task 'tz' for user ID 1 into the database
+2025/08/24 13:56:24 Inserting task 'asfqwer' for user ID 1 into the database
+2025/08/24 14:05:38 Inserting task 'asdf' for user ID 1 into the database
+2025/08/24 14:06:26 Inserting task 'asdf' for user ID 1 into the database
+2025/08/24 14:28:34 Inserting task 'adsf' for user ID 1 into the database
+2025/08/24 14:38:19 Inserting task 'Track weekly savings' for user ID 1 into the database
+2025/08/24 17:02:58 Inserting task 'Track weekly savings' for user ID 1 into the database
+2025/08/24 17:03:25 Inserting task 'Check Revolut balance' for user ID 1 into the database
+2025/08/24 17:03:57 Inserting task 'Calculate daily spending' for user ID 1 into the database
+2025/08/24 17:04:32 Inserting task 'Plan monthly freelance income' for user ID 1 into the database
+2025/08/24 17:05:01 Inserting task 'Create mini budget spreadsheet' for user ID 1 into the database
+2025/08/24 17:06:13 Inserting task 'Plan monthly freelance income' for user ID 1 into the database
+2025/08/24 17:06:36 Inserting task 'Create mini budget spreadsheet' for user ID 1 into the database
+2025/08/24 17:09:44 Inserting task 'Small project' for user ID 1 into the database
+2025/08/24 17:10:03 Inserting task 'Small project' for user ID 1 into the database
+2025/08/24 17:10:18 Inserting task 'Small project' for user ID 1 into the database
+2025/08/24 17:10:48 Inserting task 'Medium project' for user ID 1 into the database
+2025/08/24 17:11:07 Inserting task 'Medium project' for user ID 1 into the database
+2025/08/24 17:11:57 Inserting task 'EXTRA - One small and one medium project' for user ID 1 into the database

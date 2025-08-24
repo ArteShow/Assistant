@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🌸 Japan Trip Dashboard 🌸</title>
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
@@ -10,9 +11,9 @@
     <header>
         <h1>🌸 Japan Trip Dashboard 🌸</h1>
     </header>
-
     <div class="background-cherry-tree-left"></div>
     <div class="background-samurai-right"></div>
+    <button id="logoutBtn" class="logout-btn">🚪 Logout</button>
 
     <canvas id="sakuraCanvas"></canvas>
 
@@ -23,16 +24,21 @@
         </div>
         <p id="moneyInfo">Collected: €0 / Goal: €13,500</p>
     </section>
-
+    
     <section class="tasks-section">
         <button id="createTaskBtn">🌸 Create New Task 🌸</button>
 
+
         <h2>Tasks</h2>
         <div class="filters">
-            <button onclick="filterTasks('all')">All</button>
-            <button onclick="filterTasks('finished')">Finished</button>
-            <button onclick="filterTasks('unfinished')">Unfinished</button>
+            <button id="filterAllBtn">All</button>
+            <button id="filterFinishedBtn">Finished</button>
+            <button id="filterUnfinishedBtn">Unfinished</button>
+            <button id="filterUpcomingBtn">Upcoming Deadlines</button>
+            <button id="sortDeadlineBtn">Sort by Deadline ⏱️</button>
+            <button id="resetFiltersBtn">Reset Filters</button>
         </div>
+
         <div id="tasksContainer"></div>
     </section>
 
@@ -53,6 +59,9 @@
                     <option value="In Progress">In Progress</option>
                     <option value="Finished">Finished</option>
                 </select>
+                <label>Deadline:</label>
+                <input type="date" id="taskDeadline" required>
+
                 <button type="submit">✨ Add Task ✨</button>
             </form>
         </div>

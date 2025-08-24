@@ -3,6 +3,7 @@ package authorization
 import (
 	"database/sql"
 	"errors"
+	"log"
 	"time"
 
 	"github.com/ArteShow/Assistant/Server/models"
@@ -83,6 +84,7 @@ func LoginUser(db *sql.DB, username, password string) (string, error) {
 	var hashed string
 	err := db.QueryRow(`SELECT user_id, password FROM users WHERE username = ?`, username).Scan(&id, &hashed)
 	if err != nil {
+		log.Println(err)
 		return "", errors.New("user not found")
 	}
 	if !CheckPasswordHash(password, hashed) {

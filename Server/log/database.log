@@ -1,1983 +1,1248 @@
-2025/08/23 20:50:40 Loading configuration from Server/configs/config.json
-2025/08/23 20:50:40 Configuration loaded successfully
-2025/08/23 20:50:40 All tables created successfully.
-2025/08/23 20:51:00 Loading configuration from Server/configs/config.json
-2025/08/23 20:51:00 Configuration loaded successfully
-2025/08/23 20:51:54 Loading configuration from Server/configs/config.json
-2025/08/23 20:51:54 Configuration loaded successfully
-2025/08/23 20:53:43 Loading configuration from Server/configs/config.json
-2025/08/23 20:53:43 Configuration loaded successfully
-2025/08/23 20:54:35 Loading configuration from Server/configs/config.json
-2025/08/23 20:54:35 Configuration loaded successfully
-2025/08/23 20:54:35 Getting all tasks for user
-2025/08/23 20:54:35 Loading configuration from Server/configs/config.json
-2025/08/23 20:54:35 Configuration loaded successfully
-2025/08/23 20:54:49 Loading configuration from Server/configs/config.json
-2025/08/23 20:54:49 Configuration loaded successfully
-2025/08/23 20:54:49 Received request to add task
-2025/08/23 20:54:49 Loading configuration from Server/configs/config.json
-2025/08/23 20:54:49 Configuration loaded successfully
-2025/08/23 20:54:50 Loading configuration from Server/configs/config.json
-2025/08/23 20:54:50 Configuration loaded successfully
-2025/08/23 20:54:50 Getting all tasks for user
-2025/08/23 20:54:50 Loading configuration from Server/configs/config.json
-2025/08/23 20:54:50 Configuration loaded successfully
-2025/08/23 20:54:53 Loading configuration from Server/configs/config.json
-2025/08/23 20:54:53 Configuration loaded successfully
-2025/08/23 20:54:53 Getting all tasks for user
-2025/08/23 20:54:53 Loading configuration from Server/configs/config.json
-2025/08/23 20:54:53 Configuration loaded successfully
-2025/08/23 20:57:49 Loading configuration from Server/configs/config.json
-2025/08/23 20:57:49 Configuration loaded successfully
-2025/08/23 20:57:49 Getting all tasks for user
-2025/08/23 20:57:49 Loading configuration from Server/configs/config.json
-2025/08/23 20:57:49 Configuration loaded successfully
-2025/08/23 20:57:51 Loading configuration from Server/configs/config.json
-2025/08/23 20:57:51 Configuration loaded successfully
-2025/08/23 20:57:51 Getting all tasks for user
-2025/08/23 20:57:51 Loading configuration from Server/configs/config.json
-2025/08/23 20:57:51 Configuration loaded successfully
-2025/08/23 21:00:47 Loading configuration from Server/configs/config.json
-2025/08/23 21:00:47 Configuration loaded successfully
-2025/08/23 21:00:47 Received request to add task
-2025/08/23 21:00:47 Loading configuration from Server/configs/config.json
-2025/08/23 21:00:47 Configuration loaded successfully
-2025/08/23 21:00:48 Loading configuration from Server/configs/config.json
-2025/08/23 21:00:48 Configuration loaded successfully
-2025/08/23 21:00:48 Getting all tasks for user
-2025/08/23 21:00:48 Loading configuration from Server/configs/config.json
-2025/08/23 21:00:48 Configuration loaded successfully
-2025/08/23 21:00:50 Loading configuration from Server/configs/config.json
-2025/08/23 21:00:50 Configuration loaded successfully
-2025/08/23 21:00:50 Getting all tasks for user
-2025/08/23 21:00:50 Loading configuration from Server/configs/config.json
-2025/08/23 21:00:50 Configuration loaded successfully
-2025/08/23 21:00:52 Loading configuration from Server/configs/config.json
-2025/08/23 21:00:52 Configuration loaded successfully
-2025/08/23 21:00:52 Getting all tasks for user
-2025/08/23 21:00:52 Loading configuration from Server/configs/config.json
-2025/08/23 21:00:52 Configuration loaded successfully
-2025/08/23 21:02:16 Loading configuration from Server/configs/config.json
-2025/08/23 21:02:16 Configuration loaded successfully
-2025/08/23 21:02:16 Getting all tasks for user
-2025/08/23 21:02:16 Loading configuration from Server/configs/config.json
-2025/08/23 21:02:16 Configuration loaded successfully
-2025/08/23 21:02:16 Loading configuration from Server/configs/config.json
-2025/08/23 21:02:16 Configuration loaded successfully
-2025/08/23 21:02:16 Getting all tasks for user
-2025/08/23 21:02:16 Loading configuration from Server/configs/config.json
-2025/08/23 21:02:16 Configuration loaded successfully
-2025/08/23 21:02:17 Loading configuration from Server/configs/config.json
-2025/08/23 21:02:17 Configuration loaded successfully
-2025/08/23 21:02:17 Getting all tasks for user
-2025/08/23 21:02:17 Loading configuration from Server/configs/config.json
-2025/08/23 21:02:17 Configuration loaded successfully
-2025/08/23 21:02:25 Loading configuration from Server/configs/config.json
-2025/08/23 21:02:25 Configuration loaded successfully
-2025/08/23 21:02:25 Received request to add task
-2025/08/23 21:02:25 Loading configuration from Server/configs/config.json
-2025/08/23 21:02:25 Configuration loaded successfully
-2025/08/23 21:02:26 Loading configuration from Server/configs/config.json
-2025/08/23 21:02:26 Configuration loaded successfully
-2025/08/23 21:02:26 Loading configuration from Server/configs/config.json
-2025/08/23 21:02:26 Configuration loaded successfully
-2025/08/23 21:02:26 Getting all tasks for user
-2025/08/23 21:02:26 Loading configuration from Server/configs/config.json
-2025/08/23 21:02:26 Configuration loaded successfully
-2025/08/23 21:02:26 Loading configuration from Server/configs/config.json
-2025/08/23 21:02:26 Configuration loaded successfully
-2025/08/23 21:05:07 Loading configuration from Server/configs/config.json
-2025/08/23 21:05:07 Configuration loaded successfully
-2025/08/23 21:05:07 All tables created successfully.
-2025/08/23 21:05:13 Loading configuration from Server/configs/config.json
-2025/08/23 21:05:13 Configuration loaded successfully
-2025/08/23 21:05:21 Loading configuration from Server/configs/config.json
-2025/08/23 21:05:21 Configuration loaded successfully
-2025/08/23 21:05:21 Loading configuration from Server/configs/config.json
-2025/08/23 21:05:21 Configuration loaded successfully
-2025/08/23 21:05:47 Loading configuration from Server/configs/config.json
-2025/08/23 21:05:47 Configuration loaded successfully
-2025/08/23 21:06:02 Loading configuration from Server/configs/config.json
-2025/08/23 21:06:02 Configuration loaded successfully
-2025/08/23 21:06:15 Loading configuration from Server/configs/config.json
-2025/08/23 21:06:15 Configuration loaded successfully
-2025/08/23 21:06:16 Loading configuration from Server/configs/config.json
-2025/08/23 21:06:16 Configuration loaded successfully
-2025/08/23 21:06:16 Getting all tasks for user
-2025/08/23 21:06:16 Loading configuration from Server/configs/config.json
-2025/08/23 21:06:16 Configuration loaded successfully
-2025/08/23 21:06:25 Loading configuration from Server/configs/config.json
-2025/08/23 21:06:25 Configuration loaded successfully
-2025/08/23 21:06:25 Received request to add task
-2025/08/23 21:06:25 Loading configuration from Server/configs/config.json
-2025/08/23 21:06:25 Configuration loaded successfully
-2025/08/23 21:06:25 Loading configuration from Server/configs/config.json
-2025/08/23 21:06:25 Configuration loaded successfully
-2025/08/23 21:06:25 Getting all tasks for user
-2025/08/23 21:06:25 Loading configuration from Server/configs/config.json
-2025/08/23 21:06:25 Configuration loaded successfully
-2025/08/23 21:06:29 Loading configuration from Server/configs/config.json
-2025/08/23 21:06:29 Configuration loaded successfully
-2025/08/23 21:06:29 Getting all tasks for user
-2025/08/23 21:06:29 Loading configuration from Server/configs/config.json
-2025/08/23 21:06:29 Configuration loaded successfully
-2025/08/23 21:06:30 Loading configuration from Server/configs/config.json
-2025/08/23 21:06:30 Configuration loaded successfully
-2025/08/23 21:06:30 Getting all tasks for user
-2025/08/23 21:06:30 Loading configuration from Server/configs/config.json
-2025/08/23 21:06:30 Configuration loaded successfully
-2025/08/23 21:09:14 Loading configuration from Server/configs/config.json
-2025/08/23 21:09:14 Configuration loaded successfully
-2025/08/23 21:09:14 All tables created successfully.
-2025/08/23 21:09:40 Loading configuration from Server/configs/config.json
-2025/08/23 21:09:40 Configuration loaded successfully
-2025/08/23 21:09:40 Loading configuration from Server/configs/config.json
-2025/08/23 21:09:40 Configuration loaded successfully
-2025/08/23 21:09:40 Getting all tasks for user
-2025/08/23 21:09:40 Loading configuration from Server/configs/config.json
-2025/08/23 21:09:40 Configuration loaded successfully
-2025/08/23 21:09:49 Loading configuration from Server/configs/config.json
-2025/08/23 21:09:49 Configuration loaded successfully
-2025/08/23 21:09:49 Received request to add task
-2025/08/23 21:09:49 Loading configuration from Server/configs/config.json
-2025/08/23 21:09:49 Configuration loaded successfully
-2025/08/23 21:09:49 Loading configuration from Server/configs/config.json
-2025/08/23 21:09:49 Configuration loaded successfully
-2025/08/23 21:09:49 Getting all tasks for user
-2025/08/23 21:09:49 Loading configuration from Server/configs/config.json
-2025/08/23 21:09:49 Configuration loaded successfully
-2025/08/23 21:10:07 Loading configuration from Server/configs/config.json
-2025/08/23 21:10:07 Configuration loaded successfully
-2025/08/23 21:10:07 Getting all tasks for user
-2025/08/23 21:10:07 Loading configuration from Server/configs/config.json
-2025/08/23 21:10:07 Configuration loaded successfully
-2025/08/23 21:11:33 Loading configuration from Server/configs/config.json
-2025/08/23 21:11:33 Configuration loaded successfully
-2025/08/23 21:11:33 Getting all tasks for user
-2025/08/23 21:11:33 Loading configuration from Server/configs/config.json
-2025/08/23 21:11:33 Configuration loaded successfully
-2025/08/23 21:12:22 Loading configuration from Server/configs/config.json
-2025/08/23 21:12:22 Configuration loaded successfully
-2025/08/23 21:12:22 Getting all tasks for user
-2025/08/23 21:12:22 Loading configuration from Server/configs/config.json
-2025/08/23 21:12:22 Configuration loaded successfully
-2025/08/23 21:14:43 Loading configuration from Server/configs/config.json
-2025/08/23 21:14:43 Configuration loaded successfully
-2025/08/23 21:14:43 Getting all tasks for user
-2025/08/23 21:14:43 Loading configuration from Server/configs/config.json
-2025/08/23 21:14:43 Configuration loaded successfully
-2025/08/23 21:14:43 Loading configuration from Server/configs/config.json
-2025/08/23 21:14:43 Configuration loaded successfully
-2025/08/23 21:14:43 Getting all tasks for user
-2025/08/23 21:14:43 Loading configuration from Server/configs/config.json
-2025/08/23 21:14:43 Configuration loaded successfully
-2025/08/23 21:14:44 Loading configuration from Server/configs/config.json
-2025/08/23 21:14:44 Configuration loaded successfully
-2025/08/23 21:14:44 Getting all tasks for user
-2025/08/23 21:14:44 Loading configuration from Server/configs/config.json
-2025/08/23 21:14:44 Configuration loaded successfully
-2025/08/23 21:14:44 Loading configuration from Server/configs/config.json
-2025/08/23 21:14:44 Configuration loaded successfully
-2025/08/23 21:14:44 Getting all tasks for user
-2025/08/23 21:14:44 Loading configuration from Server/configs/config.json
-2025/08/23 21:14:44 Configuration loaded successfully
-2025/08/23 21:14:47 Loading configuration from Server/configs/config.json
-2025/08/23 21:14:47 Configuration loaded successfully
-2025/08/23 21:14:47 Getting all tasks for user
-2025/08/23 21:14:47 Loading configuration from Server/configs/config.json
-2025/08/23 21:14:47 Configuration loaded successfully
-2025/08/23 21:14:47 Loading configuration from Server/configs/config.json
-2025/08/23 21:14:47 Configuration loaded successfully
-2025/08/23 21:14:47 Getting all tasks for user
-2025/08/23 21:14:47 Loading configuration from Server/configs/config.json
-2025/08/23 21:14:47 Configuration loaded successfully
-2025/08/23 21:14:49 Loading configuration from Server/configs/config.json
-2025/08/23 21:14:49 Configuration loaded successfully
-2025/08/23 21:14:49 Getting all tasks for user
-2025/08/23 21:14:49 Loading configuration from Server/configs/config.json
-2025/08/23 21:14:49 Configuration loaded successfully
-2025/08/23 21:14:55 Loading configuration from Server/configs/config.json
-2025/08/23 21:14:55 Configuration loaded successfully
-2025/08/23 21:14:55 Received request to add task
-2025/08/23 21:14:55 Loading configuration from Server/configs/config.json
-2025/08/23 21:14:55 Configuration loaded successfully
-2025/08/23 21:14:55 Loading configuration from Server/configs/config.json
-2025/08/23 21:14:55 Configuration loaded successfully
-2025/08/23 21:14:55 Getting all tasks for user
-2025/08/23 21:14:55 Loading configuration from Server/configs/config.json
-2025/08/23 21:14:55 Configuration loaded successfully
-2025/08/23 21:17:01 Loading configuration from Server/configs/config.json
-2025/08/23 21:17:01 Configuration loaded successfully
-2025/08/23 21:17:01 Getting all tasks for user
-2025/08/23 21:17:01 Loading configuration from Server/configs/config.json
-2025/08/23 21:17:01 Configuration loaded successfully
-2025/08/23 21:17:01 Loading configuration from Server/configs/config.json
-2025/08/23 21:17:01 Configuration loaded successfully
-2025/08/23 21:17:01 Getting all tasks for user
-2025/08/23 21:17:01 Loading configuration from Server/configs/config.json
-2025/08/23 21:17:01 Configuration loaded successfully
-2025/08/23 21:17:11 Loading configuration from Server/configs/config.json
-2025/08/23 21:17:11 Configuration loaded successfully
-2025/08/23 21:17:11 Received request to add task
-2025/08/23 21:17:11 Loading configuration from Server/configs/config.json
-2025/08/23 21:17:11 Configuration loaded successfully
-2025/08/23 21:17:11 Loading configuration from Server/configs/config.json
-2025/08/23 21:17:11 Configuration loaded successfully
-2025/08/23 21:17:11 Getting all tasks for user
-2025/08/23 21:17:11 Loading configuration from Server/configs/config.json
-2025/08/23 21:17:11 Configuration loaded successfully
-2025/08/23 21:17:17 Loading configuration from Server/configs/config.json
-2025/08/23 21:17:17 Configuration loaded successfully
-2025/08/23 21:17:17 Editing task status
-2025/08/23 21:17:17 Loading configuration from Server/configs/config.json
-2025/08/23 21:17:17 Configuration loaded successfully
-2025/08/23 21:17:17 Loading configuration from Server/configs/config.json
-2025/08/23 21:17:17 Configuration loaded successfully
-2025/08/23 21:17:17 Getting all tasks for user
-2025/08/23 21:17:17 Loading configuration from Server/configs/config.json
-2025/08/23 21:17:17 Configuration loaded successfully
-2025/08/23 21:17:18 Loading configuration from Server/configs/config.json
-2025/08/23 21:17:18 Configuration loaded successfully
-2025/08/23 21:17:18 Received request to delete task
-2025/08/23 21:17:18 Loading configuration from Server/configs/config.json
-2025/08/23 21:17:18 Configuration loaded successfully
-2025/08/23 21:17:18 Deleting task with ID 2 for user ID 1
-2025/08/23 21:17:18 Loading configuration from Server/configs/config.json
-2025/08/23 21:17:18 Configuration loaded successfully
-2025/08/23 21:17:18 Getting all tasks for user
-2025/08/23 21:17:18 Loading configuration from Server/configs/config.json
-2025/08/23 21:17:18 Configuration loaded successfully
-2025/08/23 21:17:21 Loading configuration from Server/configs/config.json
-2025/08/23 21:17:21 Configuration loaded successfully
-2025/08/23 21:17:21 Received request to delete task
-2025/08/23 21:17:21 Loading configuration from Server/configs/config.json
-2025/08/23 21:17:21 Configuration loaded successfully
-2025/08/23 21:17:21 Deleting task with ID 1 for user ID 1
-2025/08/23 21:17:21 Loading configuration from Server/configs/config.json
-2025/08/23 21:17:21 Configuration loaded successfully
-2025/08/23 21:17:21 Getting all tasks for user
-2025/08/23 21:17:21 Loading configuration from Server/configs/config.json
-2025/08/23 21:17:21 Configuration loaded successfully
-2025/08/23 21:18:53 Loading configuration from Server/configs/config.json
-2025/08/23 21:18:53 Configuration loaded successfully
-2025/08/23 21:18:53 Getting all tasks for user
-2025/08/23 21:18:53 Loading configuration from Server/configs/config.json
-2025/08/23 21:18:53 Configuration loaded successfully
-2025/08/23 21:21:43 Loading configuration from Server/configs/config.json
-2025/08/23 21:21:43 Configuration loaded successfully
-2025/08/23 21:21:43 Getting all tasks for user
-2025/08/23 21:21:43 Loading configuration from Server/configs/config.json
-2025/08/23 21:21:43 Configuration loaded successfully
-2025/08/23 21:21:47 Loading configuration from Server/configs/config.json
-2025/08/23 21:21:47 Configuration loaded successfully
-2025/08/23 21:21:47 Getting all tasks for user
-2025/08/23 21:21:47 Loading configuration from Server/configs/config.json
-2025/08/23 21:21:47 Configuration loaded successfully
-2025/08/23 21:21:49 Loading configuration from Server/configs/config.json
-2025/08/23 21:21:49 Configuration loaded successfully
-2025/08/23 21:21:49 Getting all tasks for user
-2025/08/23 21:21:49 Loading configuration from Server/configs/config.json
-2025/08/23 21:21:49 Configuration loaded successfully
-2025/08/23 21:21:59 Loading configuration from Server/configs/config.json
-2025/08/23 21:21:59 Configuration loaded successfully
-2025/08/23 21:21:59 Loading configuration from Server/configs/config.json
-2025/08/23 21:21:59 Configuration loaded successfully
-2025/08/23 21:21:59 Getting all tasks for user
-2025/08/23 21:21:59 Loading configuration from Server/configs/config.json
-2025/08/23 21:21:59 Configuration loaded successfully
-2025/08/23 21:25:33 Loading configuration from Server/configs/config.json
-2025/08/23 21:25:33 Configuration loaded successfully
-2025/08/23 21:25:33 All tables created successfully.
-2025/08/23 21:26:27 Loading configuration from Server/configs/config.json
-2025/08/23 21:26:27 Configuration loaded successfully
-2025/08/23 21:26:27 Loading configuration from Server/configs/config.json
-2025/08/23 21:26:27 Configuration loaded successfully
-2025/08/23 21:26:27 Getting all tasks for user
-2025/08/23 21:26:27 Loading configuration from Server/configs/config.json
-2025/08/23 21:26:27 Configuration loaded successfully
-2025/08/23 21:27:16 Loading configuration from Server/configs/config.json
-2025/08/23 21:27:16 Configuration loaded successfully
-2025/08/23 21:27:16 Getting all tasks for user
-2025/08/23 21:27:16 Loading configuration from Server/configs/config.json
-2025/08/23 21:27:16 Configuration loaded successfully
-2025/08/23 21:28:51 Loading configuration from Server/configs/config.json
-2025/08/23 21:28:51 Configuration loaded successfully
-2025/08/23 21:28:51 Getting all tasks for user
-2025/08/23 21:28:52 Loading configuration from Server/configs/config.json
-2025/08/23 21:28:52 Configuration loaded successfully
-2025/08/23 21:29:17 Loading configuration from Server/configs/config.json
-2025/08/23 21:29:17 Configuration loaded successfully
-2025/08/23 21:29:17 Getting all tasks for user
-2025/08/23 21:29:17 Loading configuration from Server/configs/config.json
-2025/08/23 21:29:17 Configuration loaded successfully
-2025/08/23 21:29:17 Loading configuration from Server/configs/config.json
-2025/08/23 21:29:17 Configuration loaded successfully
-2025/08/23 21:29:17 Getting all tasks for user
-2025/08/23 21:29:17 Loading configuration from Server/configs/config.json
-2025/08/23 21:29:17 Configuration loaded successfully
-2025/08/23 21:29:35 Loading configuration from Server/configs/config.json
-2025/08/23 21:29:35 Configuration loaded successfully
-2025/08/23 21:29:35 Getting all tasks for user
-2025/08/23 21:29:35 Loading configuration from Server/configs/config.json
-2025/08/23 21:29:35 Configuration loaded successfully
-2025/08/23 21:33:31 Loading configuration from Server/configs/config.json
-2025/08/23 21:33:31 Configuration loaded successfully
-2025/08/23 21:33:31 Getting all tasks for user
-2025/08/23 21:33:31 Loading configuration from Server/configs/config.json
-2025/08/23 21:33:31 Configuration loaded successfully
-2025/08/23 21:35:21 Loading configuration from Server/configs/config.json
-2025/08/23 21:35:21 Configuration loaded successfully
-2025/08/23 21:35:21 Getting all tasks for user
-2025/08/23 21:35:21 Loading configuration from Server/configs/config.json
-2025/08/23 21:35:21 Configuration loaded successfully
-2025/08/23 21:39:55 Loading configuration from Server/configs/config.json
-2025/08/23 21:39:55 Configuration loaded successfully
-2025/08/23 21:39:55 Getting all tasks for user
-2025/08/23 21:39:55 Loading configuration from Server/configs/config.json
-2025/08/23 21:39:55 Configuration loaded successfully
-2025/08/23 21:39:57 Loading configuration from Server/configs/config.json
-2025/08/23 21:39:57 Configuration loaded successfully
-2025/08/23 21:39:57 Editing task status
-2025/08/23 21:39:57 Loading configuration from Server/configs/config.json
-2025/08/23 21:39:57 Configuration loaded successfully
-2025/08/23 21:39:57 Loading configuration from Server/configs/config.json
-2025/08/23 21:39:57 Configuration loaded successfully
-2025/08/23 21:39:57 Getting all tasks for user
-2025/08/23 21:39:57 Loading configuration from Server/configs/config.json
-2025/08/23 21:39:57 Configuration loaded successfully
-2025/08/23 21:39:58 Loading configuration from Server/configs/config.json
-2025/08/23 21:39:58 Configuration loaded successfully
-2025/08/23 21:39:58 Received request to delete task
-2025/08/23 21:39:58 Loading configuration from Server/configs/config.json
-2025/08/23 21:39:58 Configuration loaded successfully
-2025/08/23 21:39:58 Deleting task with ID 3 for user ID 1
-2025/08/23 21:39:58 Loading configuration from Server/configs/config.json
-2025/08/23 21:39:58 Configuration loaded successfully
-2025/08/23 21:39:58 Getting all tasks for user
-2025/08/23 21:39:58 Loading configuration from Server/configs/config.json
-2025/08/23 21:39:58 Configuration loaded successfully
-2025/08/23 21:40:01 Loading configuration from Server/configs/config.json
-2025/08/23 21:40:01 Configuration loaded successfully
-2025/08/23 21:40:01 Received request to delete task
-2025/08/23 21:40:01 Loading configuration from Server/configs/config.json
-2025/08/23 21:40:01 Configuration loaded successfully
-2025/08/23 21:40:01 Deleting task with ID 7 for user ID 1
-2025/08/23 21:40:01 Loading configuration from Server/configs/config.json
-2025/08/23 21:40:01 Configuration loaded successfully
-2025/08/23 21:40:01 Getting all tasks for user
-2025/08/23 21:40:01 Loading configuration from Server/configs/config.json
-2025/08/23 21:40:01 Configuration loaded successfully
-2025/08/23 21:41:25 Loading configuration from Server/configs/config.json
-2025/08/23 21:41:25 Configuration loaded successfully
-2025/08/23 21:41:25 Getting all tasks for user
-2025/08/23 21:41:25 Loading configuration from Server/configs/config.json
-2025/08/23 21:41:25 Configuration loaded successfully
-2025/08/23 21:41:35 Loading configuration from Server/configs/config.json
-2025/08/23 21:41:35 Configuration loaded successfully
-2025/08/23 21:41:35 Received request to add task
-2025/08/23 21:41:35 Loading configuration from Server/configs/config.json
-2025/08/23 21:41:35 Configuration loaded successfully
-2025/08/23 21:41:35 Loading configuration from Server/configs/config.json
-2025/08/23 21:41:35 Configuration loaded successfully
-2025/08/23 21:41:35 Getting all tasks for user
-2025/08/23 21:41:35 Loading configuration from Server/configs/config.json
-2025/08/23 21:41:35 Configuration loaded successfully
-2025/08/23 21:42:09 Loading configuration from Server/configs/config.json
-2025/08/23 21:42:09 Configuration loaded successfully
-2025/08/23 21:42:09 Getting all tasks for user
-2025/08/23 21:42:09 Loading configuration from Server/configs/config.json
-2025/08/23 21:42:09 Configuration loaded successfully
-2025/08/23 21:42:56 Loading configuration from Server/configs/config.json
-2025/08/23 21:42:56 Configuration loaded successfully
-2025/08/23 21:42:56 Getting all tasks for user
-2025/08/23 21:42:56 Loading configuration from Server/configs/config.json
-2025/08/23 21:42:56 Configuration loaded successfully
-2025/08/23 21:46:07 Loading configuration from Server/configs/config.json
-2025/08/23 21:46:07 Configuration loaded successfully
-2025/08/23 21:46:07 Getting all tasks for user
-2025/08/23 21:46:07 Loading configuration from Server/configs/config.json
-2025/08/23 21:46:07 Configuration loaded successfully
-2025/08/23 21:46:15 Loading configuration from Server/configs/config.json
-2025/08/23 21:46:15 Configuration loaded successfully
-2025/08/23 21:46:15 Getting all tasks for user
-2025/08/23 21:46:15 Loading configuration from Server/configs/config.json
-2025/08/23 21:46:15 Configuration loaded successfully
-2025/08/23 21:46:20 Loading configuration from Server/configs/config.json
-2025/08/23 21:46:20 Configuration loaded successfully
-2025/08/23 21:46:20 Getting all tasks for user
-2025/08/23 21:46:20 Loading configuration from Server/configs/config.json
-2025/08/23 21:46:20 Configuration loaded successfully
-2025/08/23 21:46:26 Loading configuration from Server/configs/config.json
-2025/08/23 21:46:26 Configuration loaded successfully
-2025/08/23 21:46:26 Getting all tasks for user
-2025/08/23 21:46:26 Loading configuration from Server/configs/config.json
-2025/08/23 21:46:26 Configuration loaded successfully
-2025/08/23 21:46:35 Loading configuration from Server/configs/config.json
-2025/08/23 21:46:35 Configuration loaded successfully
-2025/08/23 21:46:35 Getting all tasks for user
-2025/08/23 21:46:35 Loading configuration from Server/configs/config.json
-2025/08/23 21:46:35 Configuration loaded successfully
-2025/08/23 21:46:39 Loading configuration from Server/configs/config.json
-2025/08/23 21:46:39 Configuration loaded successfully
-2025/08/23 21:46:39 Getting all tasks for user
-2025/08/23 21:46:39 Loading configuration from Server/configs/config.json
-2025/08/23 21:46:39 Configuration loaded successfully
-2025/08/23 21:46:51 Loading configuration from Server/configs/config.json
-2025/08/23 21:46:51 Configuration loaded successfully
-2025/08/23 21:46:51 Editing task status
-2025/08/23 21:46:51 Loading configuration from Server/configs/config.json
-2025/08/23 21:46:51 Configuration loaded successfully
-2025/08/23 21:46:51 Loading configuration from Server/configs/config.json
-2025/08/23 21:46:51 Configuration loaded successfully
-2025/08/23 21:46:51 Getting all tasks for user
-2025/08/23 21:46:51 Loading configuration from Server/configs/config.json
-2025/08/23 21:46:51 Configuration loaded successfully
-2025/08/23 21:46:54 Loading configuration from Server/configs/config.json
-2025/08/23 21:46:54 Configuration loaded successfully
-2025/08/23 21:46:54 Received request to delete task
-2025/08/23 21:46:54 Loading configuration from Server/configs/config.json
-2025/08/23 21:46:54 Configuration loaded successfully
-2025/08/23 21:46:54 Deleting task with ID 4 for user ID 1
-2025/08/23 21:46:54 Loading configuration from Server/configs/config.json
-2025/08/23 21:46:54 Configuration loaded successfully
-2025/08/23 21:46:54 Getting all tasks for user
-2025/08/23 21:46:54 Loading configuration from Server/configs/config.json
-2025/08/23 21:46:54 Configuration loaded successfully
-2025/08/23 21:48:17 Loading configuration from Server/configs/config.json
-2025/08/23 21:48:17 Configuration loaded successfully
-2025/08/23 21:48:17 Getting all tasks for user
-2025/08/23 21:48:17 Loading configuration from Server/configs/config.json
-2025/08/23 21:48:17 Configuration loaded successfully
-2025/08/23 21:48:19 Loading configuration from Server/configs/config.json
-2025/08/23 21:48:19 Configuration loaded successfully
-2025/08/23 21:48:19 Editing task status
-2025/08/23 21:48:19 Loading configuration from Server/configs/config.json
-2025/08/23 21:48:19 Configuration loaded successfully
-2025/08/23 21:48:19 Loading configuration from Server/configs/config.json
-2025/08/23 21:48:19 Configuration loaded successfully
-2025/08/23 21:48:19 Getting all tasks for user
-2025/08/23 21:48:19 Loading configuration from Server/configs/config.json
-2025/08/23 21:48:19 Configuration loaded successfully
-2025/08/23 21:48:22 Loading configuration from Server/configs/config.json
-2025/08/23 21:48:22 Configuration loaded successfully
-2025/08/23 21:48:22 Editing task status
-2025/08/23 21:48:22 Loading configuration from Server/configs/config.json
-2025/08/23 21:48:22 Configuration loaded successfully
-2025/08/23 21:48:22 Loading configuration from Server/configs/config.json
-2025/08/23 21:48:22 Configuration loaded successfully
-2025/08/23 21:48:22 Getting all tasks for user
-2025/08/23 21:48:22 Loading configuration from Server/configs/config.json
-2025/08/23 21:48:22 Configuration loaded successfully
-2025/08/23 21:48:23 Loading configuration from Server/configs/config.json
-2025/08/23 21:48:23 Configuration loaded successfully
-2025/08/23 21:48:23 Editing task status
-2025/08/23 21:48:23 Loading configuration from Server/configs/config.json
-2025/08/23 21:48:23 Configuration loaded successfully
-2025/08/23 21:48:24 Loading configuration from Server/configs/config.json
-2025/08/23 21:48:24 Configuration loaded successfully
-2025/08/23 21:48:24 Getting all tasks for user
-2025/08/23 21:48:24 Loading configuration from Server/configs/config.json
-2025/08/23 21:48:24 Configuration loaded successfully
-2025/08/23 21:55:42 Loading configuration from Server/configs/config.json
-2025/08/23 21:55:42 Configuration loaded successfully
-2025/08/23 21:57:03 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:03 Configuration loaded successfully
-2025/08/23 21:57:03 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:03 Configuration loaded successfully
-2025/08/23 21:57:03 Getting all tasks for user
-2025/08/23 21:57:03 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:03 Configuration loaded successfully
-2025/08/23 21:57:03 Getting money stats
-2025/08/23 21:57:12 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:12 Configuration loaded successfully
-2025/08/23 21:57:12 Editing task status
-2025/08/23 21:57:12 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:12 Configuration loaded successfully
-2025/08/23 21:57:12 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:12 Configuration loaded successfully
-2025/08/23 21:57:12 Adding money
-2025/08/23 21:57:12 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:12 Configuration loaded successfully
-2025/08/23 21:57:12 Getting all tasks for user
-2025/08/23 21:57:12 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:12 Configuration loaded successfully
-2025/08/23 21:57:12 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:12 Configuration loaded successfully
-2025/08/23 21:57:12 Getting money stats
-2025/08/23 21:57:13 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:13 Configuration loaded successfully
-2025/08/23 21:57:13 Received request to delete task
-2025/08/23 21:57:13 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:13 Configuration loaded successfully
-2025/08/23 21:57:13 Deleting task with ID 5 for user ID 1
-2025/08/23 21:57:14 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:14 Configuration loaded successfully
-2025/08/23 21:57:14 Getting all tasks for user
-2025/08/23 21:57:14 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:14 Configuration loaded successfully
-2025/08/23 21:57:14 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:14 Configuration loaded successfully
-2025/08/23 21:57:14 Received request to delete task
-2025/08/23 21:57:14 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:14 Configuration loaded successfully
-2025/08/23 21:57:14 Deleting task with ID 6 for user ID 1
-2025/08/23 21:57:14 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:14 Configuration loaded successfully
-2025/08/23 21:57:14 Getting all tasks for user
-2025/08/23 21:57:14 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:14 Configuration loaded successfully
-2025/08/23 21:57:15 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:15 Configuration loaded successfully
-2025/08/23 21:57:15 Received request to delete task
-2025/08/23 21:57:15 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:15 Configuration loaded successfully
-2025/08/23 21:57:15 Deleting task with ID 8 for user ID 1
-2025/08/23 21:57:15 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:15 Configuration loaded successfully
-2025/08/23 21:57:15 Getting all tasks for user
-2025/08/23 21:57:15 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:15 Configuration loaded successfully
-2025/08/23 21:57:16 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:16 Configuration loaded successfully
-2025/08/23 21:57:16 Received request to delete task
-2025/08/23 21:57:16 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:16 Configuration loaded successfully
-2025/08/23 21:57:16 Deleting task with ID 8 for user ID 1
-2025/08/23 21:57:16 Failed to delete task: <nil>
-2025/08/23 21:57:17 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:17 Configuration loaded successfully
-2025/08/23 21:57:17 Received request to delete task
-2025/08/23 21:57:17 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:17 Configuration loaded successfully
-2025/08/23 21:57:17 Deleting task with ID 8 for user ID 1
-2025/08/23 21:57:17 Failed to delete task: <nil>
-2025/08/23 21:57:17 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:17 Configuration loaded successfully
-2025/08/23 21:57:17 Received request to delete task
-2025/08/23 21:57:17 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:17 Configuration loaded successfully
-2025/08/23 21:57:17 Deleting task with ID 8 for user ID 1
-2025/08/23 21:57:17 Failed to delete task: <nil>
-2025/08/23 21:57:18 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:18 Configuration loaded successfully
-2025/08/23 21:57:18 Received request to delete task
-2025/08/23 21:57:18 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:18 Configuration loaded successfully
-2025/08/23 21:57:18 Deleting task with ID 8 for user ID 1
-2025/08/23 21:57:18 Failed to delete task: <nil>
-2025/08/23 21:57:18 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:18 Configuration loaded successfully
-2025/08/23 21:57:18 Received request to delete task
-2025/08/23 21:57:18 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:18 Configuration loaded successfully
-2025/08/23 21:57:18 Deleting task with ID 8 for user ID 1
-2025/08/23 21:57:18 Failed to delete task: <nil>
-2025/08/23 21:57:18 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:18 Configuration loaded successfully
-2025/08/23 21:57:18 Received request to delete task
-2025/08/23 21:57:18 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:18 Configuration loaded successfully
-2025/08/23 21:57:18 Deleting task with ID 8 for user ID 1
-2025/08/23 21:57:18 Failed to delete task: <nil>
-2025/08/23 21:57:19 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:19 Configuration loaded successfully
-2025/08/23 21:57:19 Received request to delete task
-2025/08/23 21:57:19 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:19 Configuration loaded successfully
-2025/08/23 21:57:19 Deleting task with ID 8 for user ID 1
-2025/08/23 21:57:19 Failed to delete task: <nil>
-2025/08/23 21:57:31 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:31 Configuration loaded successfully
-2025/08/23 21:57:31 Received request to add task
-2025/08/23 21:57:31 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:31 Configuration loaded successfully
-2025/08/23 21:57:31 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:31 Configuration loaded successfully
-2025/08/23 21:57:31 Getting all tasks for user
-2025/08/23 21:57:31 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:31 Configuration loaded successfully
-2025/08/23 21:57:36 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:36 Configuration loaded successfully
-2025/08/23 21:57:36 Editing task status
-2025/08/23 21:57:36 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:36 Configuration loaded successfully
-2025/08/23 21:57:36 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:36 Configuration loaded successfully
-2025/08/23 21:57:36 Adding money
-2025/08/23 21:57:36 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:36 Configuration loaded successfully
-2025/08/23 21:57:36 Getting all tasks for user
-2025/08/23 21:57:36 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:36 Configuration loaded successfully
-2025/08/23 21:57:36 Loading configuration from Server/configs/config.json
-2025/08/23 21:57:36 Configuration loaded successfully
-2025/08/23 21:57:36 Getting money stats
-2025/08/23 21:58:01 Loading configuration from Server/configs/config.json
-2025/08/23 21:58:01 Configuration loaded successfully
-2025/08/23 21:58:01 Received request to delete task
-2025/08/23 21:58:01 Loading configuration from Server/configs/config.json
-2025/08/23 21:58:01 Configuration loaded successfully
-2025/08/23 21:58:01 Deleting task with ID 9 for user ID 1
-2025/08/23 21:58:01 Loading configuration from Server/configs/config.json
-2025/08/23 21:58:01 Configuration loaded successfully
-2025/08/23 21:58:01 Getting all tasks for user
-2025/08/23 21:58:01 Loading configuration from Server/configs/config.json
-2025/08/23 21:58:01 Configuration loaded successfully
-2025/08/23 21:58:16 Loading configuration from Server/configs/config.json
-2025/08/23 21:58:16 Configuration loaded successfully
-2025/08/23 21:58:16 Loading configuration from Server/configs/config.json
-2025/08/23 21:58:16 Configuration loaded successfully
-2025/08/23 21:58:16 Getting all tasks for user
-2025/08/23 21:58:16 Getting money stats
-2025/08/23 21:58:16 Loading configuration from Server/configs/config.json
-2025/08/23 21:58:16 Configuration loaded successfully
-2025/08/23 21:58:33 Loading configuration from Server/configs/config.json
-2025/08/23 21:58:33 Configuration loaded successfully
-2025/08/23 21:58:33 All tables created successfully.
-2025/08/23 21:59:49 Loading configuration from Server/configs/config.json
-2025/08/23 21:59:49 Configuration loaded successfully
-2025/08/23 21:59:50 Loading configuration from Server/configs/config.json
-2025/08/23 21:59:50 Configuration loaded successfully
-2025/08/23 21:59:50 Loading configuration from Server/configs/config.json
-2025/08/23 21:59:50 Configuration loaded successfully
-2025/08/23 21:59:50 Getting money stats
-2025/08/23 21:59:50 Loading configuration from Server/configs/config.json
-2025/08/23 21:59:50 Configuration loaded successfully
-2025/08/23 21:59:55 Loading configuration from Server/configs/config.json
-2025/08/23 21:59:55 Configuration loaded successfully
-2025/08/23 21:59:55 Received request to add task
-2025/08/23 21:59:55 Loading configuration from Server/configs/config.json
-2025/08/23 21:59:55 Configuration loaded successfully
-2025/08/23 21:59:55 Loading configuration from Server/configs/config.json
-2025/08/23 21:59:55 Configuration loaded successfully
-2025/08/23 21:59:55 Getting all tasks for user
-2025/08/23 21:59:55 Loading configuration from Server/configs/config.json
-2025/08/23 21:59:55 Configuration loaded successfully
-2025/08/23 22:00:41 Loading configuration from Server/configs/config.json
-2025/08/23 22:00:41 Configuration loaded successfully
-2025/08/23 22:00:41 Editing task status
-2025/08/23 22:00:41 Loading configuration from Server/configs/config.json
-2025/08/23 22:00:41 Configuration loaded successfully
-2025/08/23 22:00:41 Loading configuration from Server/configs/config.json
-2025/08/23 22:00:41 Configuration loaded successfully
-2025/08/23 22:00:41 Adding money
-2025/08/23 22:00:41 Loading configuration from Server/configs/config.json
-2025/08/23 22:00:41 Configuration loaded successfully
-2025/08/23 22:00:41 Getting all tasks for user
-2025/08/23 22:00:41 Loading configuration from Server/configs/config.json
-2025/08/23 22:00:41 Configuration loaded successfully
-2025/08/23 22:00:41 Loading configuration from Server/configs/config.json
-2025/08/23 22:00:41 Configuration loaded successfully
-2025/08/23 22:00:41 Getting money stats
-2025/08/23 22:01:33 Loading configuration from Server/configs/config.json
-2025/08/23 22:01:33 Configuration loaded successfully
-2025/08/23 22:01:33 Received request to delete task
-2025/08/23 22:01:33 Loading configuration from Server/configs/config.json
-2025/08/23 22:01:33 Configuration loaded successfully
-2025/08/23 22:01:33 Deleting task with ID 10 for user ID 1
-2025/08/23 22:01:33 Loading configuration from Server/configs/config.json
-2025/08/23 22:01:33 Configuration loaded successfully
-2025/08/23 22:01:33 Getting all tasks for user
-2025/08/23 22:01:33 Loading configuration from Server/configs/config.json
-2025/08/23 22:01:33 Configuration loaded successfully
-2025/08/23 22:01:47 Loading configuration from Server/configs/config.json
-2025/08/23 22:01:47 Configuration loaded successfully
-2025/08/23 22:01:47 Received request to delete task
-2025/08/23 22:01:47 Loading configuration from Server/configs/config.json
-2025/08/23 22:01:47 Configuration loaded successfully
-2025/08/23 22:01:47 Deleting task with ID 10 for user ID 1
-2025/08/23 22:01:47 Failed to delete task: <nil>
-2025/08/23 22:02:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:02:24 Configuration loaded successfully
-2025/08/23 22:02:24 Getting all tasks for user
-2025/08/23 22:02:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:02:24 Configuration loaded successfully
-2025/08/23 22:02:24 Getting money stats
-2025/08/23 22:02:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:02:24 Configuration loaded successfully
-2025/08/23 22:02:51 Loading configuration from Server/configs/config.json
-2025/08/23 22:02:51 Configuration loaded successfully
-2025/08/23 22:02:51 Received request to add task
-2025/08/23 22:02:51 Loading configuration from Server/configs/config.json
-2025/08/23 22:02:51 Configuration loaded successfully
-2025/08/23 22:02:51 Loading configuration from Server/configs/config.json
-2025/08/23 22:02:51 Configuration loaded successfully
-2025/08/23 22:02:51 Getting all tasks for user
-2025/08/23 22:02:51 Loading configuration from Server/configs/config.json
-2025/08/23 22:02:51 Configuration loaded successfully
-2025/08/23 22:02:57 Loading configuration from Server/configs/config.json
-2025/08/23 22:02:57 Configuration loaded successfully
-2025/08/23 22:02:57 Editing task status
-2025/08/23 22:02:57 Loading configuration from Server/configs/config.json
-2025/08/23 22:02:57 Configuration loaded successfully
-2025/08/23 22:02:57 Loading configuration from Server/configs/config.json
-2025/08/23 22:02:57 Configuration loaded successfully
-2025/08/23 22:02:57 Adding money
-2025/08/23 22:02:57 Loading configuration from Server/configs/config.json
-2025/08/23 22:02:57 Configuration loaded successfully
-2025/08/23 22:02:57 Getting all tasks for user
-2025/08/23 22:02:57 Loading configuration from Server/configs/config.json
-2025/08/23 22:02:57 Configuration loaded successfully
-2025/08/23 22:02:57 Loading configuration from Server/configs/config.json
-2025/08/23 22:02:57 Configuration loaded successfully
-2025/08/23 22:02:57 Getting money stats
-2025/08/23 22:03:47 Loading configuration from Server/configs/config.json
-2025/08/23 22:03:47 Loading configuration from Server/configs/config.json
-2025/08/23 22:03:47 Configuration loaded successfully
-2025/08/23 22:03:47 Configuration loaded successfully
-2025/08/23 22:03:47 Getting all tasks for user
-2025/08/23 22:03:47 Getting money stats
-2025/08/23 22:03:47 Loading configuration from Server/configs/config.json
-2025/08/23 22:03:47 Configuration loaded successfully
-2025/08/23 22:03:47 Configuration loaded successfully
-2025/08/23 22:03:47 Server/db/money_database.db
-2025/08/23 22:04:22 Loading configuration from Server/configs/config.json
-2025/08/23 22:04:22 Configuration loaded successfully
-2025/08/23 22:04:22 Loading configuration from Server/configs/config.json
-2025/08/23 22:04:22 Configuration loaded successfully
-2025/08/23 22:04:22 Getting money stats
-2025/08/23 22:04:22 Getting all tasks for user
-2025/08/23 22:04:22 Loading configuration from Server/configs/config.json
-2025/08/23 22:05:28 Loading configuration from Server/configs/config.json
-2025/08/23 22:05:28 Loading configuration from Server/configs/config.json
-2025/08/23 22:05:28 Configuration loaded successfully
-2025/08/23 22:05:28 Configuration loaded successfully
-2025/08/23 22:05:28 Getting money stats
-2025/08/23 22:05:28 Getting all tasks for user
-2025/08/23 22:05:28 Loading configuration from Server/configs/config.json
-2025/08/23 22:05:28 Configuration loaded successfully
-2025/08/23 22:05:28 Configuration loaded successfully
-2025/08/23 22:05:28 Server/db/money_database.db
-2025/08/23 22:06:48 Loading configuration from Server/configs/config.json
-2025/08/23 22:06:48 Configuration loaded successfully
-2025/08/23 22:06:48 Getting all tasks for user
-2025/08/23 22:06:48 Loading configuration from Server/configs/config.json
-2025/08/23 22:06:48 Configuration loaded successfully
-2025/08/23 22:06:48 Loading configuration from Server/configs/config.json
-2025/08/23 22:06:48 Configuration loaded successfully
-2025/08/23 22:06:48 Getting money stats
-2025/08/23 22:06:49 Loading configuration from Server/configs/config.json
-2025/08/23 22:06:49 Configuration loaded successfully
-2025/08/23 22:06:49 Loading configuration from Server/configs/config.json
-2025/08/23 22:06:49 Configuration loaded successfully
-2025/08/23 22:06:49 Getting all tasks for user
-2025/08/23 22:06:49 Loading configuration from Server/configs/config.json
-2025/08/23 22:06:49 Configuration loaded successfully
-2025/08/23 22:06:49 Getting money stats
-2025/08/23 22:06:50 Loading configuration from Server/configs/config.json
-2025/08/23 22:06:50 Configuration loaded successfully
-2025/08/23 22:06:50 Loading configuration from Server/configs/config.json
-2025/08/23 22:06:50 Configuration loaded successfully
-2025/08/23 22:06:50 Getting money stats
-2025/08/23 22:06:50 Getting all tasks for user
-2025/08/23 22:07:37 Loading configuration from Server/configs/config.json
-2025/08/23 22:07:37 Configuration loaded successfully
-2025/08/23 22:08:08 Loading configuration from Server/configs/config.json
-2025/08/23 22:08:08 Configuration loaded successfully
-2025/08/23 22:08:15 Loading configuration from Server/configs/config.json
-2025/08/23 22:08:15 Configuration loaded successfully
-2025/08/23 22:08:48 Loading configuration from Server/configs/config.json
-2025/08/23 22:08:48 Configuration loaded successfully
-2025/08/23 22:09:03 Loading configuration from Server/configs/config.json
-2025/08/23 22:09:03 Configuration loaded successfully
-2025/08/23 22:09:03 Loading configuration from Server/configs/config.json
-2025/08/23 22:09:03 Configuration loaded successfully
-2025/08/23 22:09:03 Loading configuration from Server/configs/config.json
-2025/08/23 22:09:03 Configuration loaded successfully
-2025/08/23 22:09:03 Getting all tasks for user
-2025/08/23 22:09:03 Getting money stats
-2025/08/23 22:09:03 Loading configuration from Server/configs/config.json
-2025/08/23 22:09:03 Configuration loaded successfully
-2025/08/23 22:09:07 Loading configuration from Server/configs/config.json
-2025/08/23 22:09:07 Configuration loaded successfully
-2025/08/23 22:09:07 Received request to delete task
-2025/08/23 22:09:07 Loading configuration from Server/configs/config.json
-2025/08/23 22:09:07 Configuration loaded successfully
-2025/08/23 22:09:07 Deleting task with ID 11 for user ID 1
-2025/08/23 22:09:07 Loading configuration from Server/configs/config.json
-2025/08/23 22:09:07 Configuration loaded successfully
-2025/08/23 22:09:07 Getting all tasks for user
-2025/08/23 22:09:07 Loading configuration from Server/configs/config.json
-2025/08/23 22:09:07 Configuration loaded successfully
-2025/08/23 22:09:09 Loading configuration from Server/configs/config.json
-2025/08/23 22:09:09 Loading configuration from Server/configs/config.json
-2025/08/23 22:09:09 Configuration loaded successfully
-2025/08/23 22:09:09 Configuration loaded successfully
-2025/08/23 22:09:09 Getting money stats
-2025/08/23 22:09:09 Getting all tasks for user
-2025/08/23 22:09:09 Loading configuration from Server/configs/config.json
-2025/08/23 22:09:09 Configuration loaded successfully
-2025/08/23 22:09:16 Loading configuration from Server/configs/config.json
-2025/08/23 22:09:16 Configuration loaded successfully
-2025/08/23 22:09:16 Getting all tasks for user
-2025/08/23 22:09:16 Loading configuration from Server/configs/config.json
-2025/08/23 22:09:16 Configuration loaded successfully
-2025/08/23 22:09:16 Loading configuration from Server/configs/config.json
-2025/08/23 22:09:16 Configuration loaded successfully
-2025/08/23 22:13:20 Loading configuration from Server/configs/config.json
-2025/08/23 22:13:20 Configuration loaded successfully
-2025/08/23 22:13:23 Loading configuration from Server/configs/config.json
-2025/08/23 22:13:23 Configuration loaded successfully
-2025/08/23 22:14:25 Loading configuration from Server/configs/config.json
-2025/08/23 22:14:25 Configuration loaded successfully
-2025/08/23 22:14:25 All tables created successfully.
-2025/08/23 22:14:35 Loading configuration from Server/configs/config.json
-2025/08/23 22:14:35 Configuration loaded successfully
-2025/08/23 22:14:35 invalid password
-2025/08/23 22:15:11 Loading configuration from Server/configs/config.json
-2025/08/23 22:15:11 Configuration loaded successfully
-2025/08/23 22:15:39 Loading configuration from Server/configs/config.json
-2025/08/23 22:15:39 Configuration loaded successfully
-2025/08/23 22:15:39 Setting money goal
-2025/08/23 22:16:16 Loading configuration from Server/configs/config.json
-2025/08/23 22:16:16 Configuration loaded successfully
-2025/08/23 22:16:16 Loading configuration from Server/configs/config.json
-2025/08/23 22:16:16 Configuration loaded successfully
-2025/08/23 22:16:16 Loading configuration from Server/configs/config.json
-2025/08/23 22:16:16 Configuration loaded successfully
-2025/08/23 22:16:16 Getting all tasks for user
-2025/08/23 22:16:16 Loading configuration from Server/configs/config.json
-2025/08/23 22:16:16 Configuration loaded successfully
-2025/08/23 22:16:28 Loading configuration from Server/configs/config.json
-2025/08/23 22:16:28 Configuration loaded successfully
-2025/08/23 22:16:28 Received request to add task
-2025/08/23 22:16:28 Loading configuration from Server/configs/config.json
-2025/08/23 22:16:28 Configuration loaded successfully
-2025/08/23 22:16:28 Loading configuration from Server/configs/config.json
-2025/08/23 22:16:28 Configuration loaded successfully
-2025/08/23 22:16:28 Getting all tasks for user
-2025/08/23 22:16:28 Loading configuration from Server/configs/config.json
-2025/08/23 22:16:28 Configuration loaded successfully
-2025/08/23 22:16:30 Loading configuration from Server/configs/config.json
-2025/08/23 22:16:30 Configuration loaded successfully
-2025/08/23 22:16:30 Editing task status
-2025/08/23 22:16:30 Loading configuration from Server/configs/config.json
-2025/08/23 22:16:30 Configuration loaded successfully
-2025/08/23 22:16:30 Loading configuration from Server/configs/config.json
-2025/08/23 22:16:30 Configuration loaded successfully
-2025/08/23 22:16:30 Adding money
-2025/08/23 22:16:30 Loading configuration from Server/configs/config.json
-2025/08/23 22:16:30 Configuration loaded successfully
-2025/08/23 22:16:30 Getting all tasks for user
-2025/08/23 22:16:30 Loading configuration from Server/configs/config.json
-2025/08/23 22:16:30 Configuration loaded successfully
-2025/08/23 22:16:30 Loading configuration from Server/configs/config.json
-2025/08/23 22:16:30 Configuration loaded successfully
-2025/08/23 22:16:30 Getting money stats
-2025/08/23 22:16:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:16:38 Configuration loaded successfully
-2025/08/23 22:16:38 Getting all tasks for user
-2025/08/23 22:16:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:16:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:16:38 Configuration loaded successfully
-2025/08/23 22:16:38 Configuration loaded successfully
-2025/08/23 22:20:45 Loading configuration from Server/configs/config.json
-2025/08/23 22:20:45 Loading configuration from Server/configs/config.json
-2025/08/23 22:20:45 Configuration loaded successfully
-2025/08/23 22:20:45 Configuration loaded successfully
-2025/08/23 22:20:45 Getting money stats
-2025/08/23 22:20:45 Getting all tasks for user
-2025/08/23 22:20:45 Loading configuration from Server/configs/config.json
-2025/08/23 22:20:48 Loading configuration from Server/configs/config.json
-2025/08/23 22:20:48 Configuration loaded successfully
-2025/08/23 22:20:48 Editing task status
-2025/08/23 22:20:48 Loading configuration from Server/configs/config.json
-2025/08/23 22:20:48 Configuration loaded successfully
-2025/08/23 22:20:48 Loading configuration from Server/configs/config.json
-2025/08/23 22:20:48 Configuration loaded successfully
-2025/08/23 22:20:48 Adding money
-2025/08/23 22:20:48 Loading configuration from Server/configs/config.json
-2025/08/23 22:20:48 Configuration loaded successfully
-2025/08/23 22:20:48 Getting all tasks for user
-2025/08/23 22:20:48 Loading configuration from Server/configs/config.json
-2025/08/23 22:20:48 Configuration loaded successfully
-2025/08/23 22:20:48 Loading configuration from Server/configs/config.json
-2025/08/23 22:20:48 Configuration loaded successfully
-2025/08/23 22:20:48 Getting money stats
-2025/08/23 22:20:49 Loading configuration from Server/configs/config.json
-2025/08/23 22:20:49 Configuration loaded successfully
-2025/08/23 22:20:49 Received request to delete task
-2025/08/23 22:20:49 Loading configuration from Server/configs/config.json
-2025/08/23 22:20:49 Configuration loaded successfully
-2025/08/23 22:20:49 Deleting task with ID 12 for user ID 1
-2025/08/23 22:20:49 Loading configuration from Server/configs/config.json
-2025/08/23 22:20:49 Configuration loaded successfully
-2025/08/23 22:20:49 Getting all tasks for user
-2025/08/23 22:20:49 Loading configuration from Server/configs/config.json
-2025/08/23 22:20:49 Configuration loaded successfully
-2025/08/23 22:20:57 Loading configuration from Server/configs/config.json
-2025/08/23 22:20:57 Configuration loaded successfully
-2025/08/23 22:20:57 Received request to add task
-2025/08/23 22:20:57 Loading configuration from Server/configs/config.json
-2025/08/23 22:20:57 Configuration loaded successfully
-2025/08/23 22:20:57 Loading configuration from Server/configs/config.json
-2025/08/23 22:20:57 Configuration loaded successfully
-2025/08/23 22:20:57 Getting all tasks for user
-2025/08/23 22:20:57 Loading configuration from Server/configs/config.json
-2025/08/23 22:20:57 Configuration loaded successfully
-2025/08/23 22:20:59 Loading configuration from Server/configs/config.json
-2025/08/23 22:20:59 Configuration loaded successfully
-2025/08/23 22:20:59 Editing task status
-2025/08/23 22:20:59 Loading configuration from Server/configs/config.json
-2025/08/23 22:20:59 Configuration loaded successfully
-2025/08/23 22:20:59 Loading configuration from Server/configs/config.json
-2025/08/23 22:20:59 Configuration loaded successfully
-2025/08/23 22:20:59 Adding money
-2025/08/23 22:20:59 Loading configuration from Server/configs/config.json
-2025/08/23 22:20:59 Configuration loaded successfully
-2025/08/23 22:20:59 Getting all tasks for user
-2025/08/23 22:20:59 Loading configuration from Server/configs/config.json
-2025/08/23 22:20:59 Configuration loaded successfully
-2025/08/23 22:20:59 Loading configuration from Server/configs/config.json
-2025/08/23 22:20:59 Configuration loaded successfully
-2025/08/23 22:20:59 Getting money stats
-2025/08/23 22:21:12 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:12 Configuration loaded successfully
-2025/08/23 22:21:12 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:12 Getting all tasks for user
-2025/08/23 22:21:12 Configuration loaded successfully
-2025/08/23 22:21:12 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:12 Configuration loaded successfully
-2025/08/23 22:21:12 Getting money stats
-2025/08/23 22:21:22 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:22 Configuration loaded successfully
-2025/08/23 22:21:22 Editing task status
-2025/08/23 22:21:22 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:22 Configuration loaded successfully
-2025/08/23 22:21:22 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:22 Configuration loaded successfully
-2025/08/23 22:21:22 Adding money
-2025/08/23 22:21:22 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:22 Configuration loaded successfully
-2025/08/23 22:21:22 Getting all tasks for user
-2025/08/23 22:21:22 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:22 Configuration loaded successfully
-2025/08/23 22:21:22 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:22 Configuration loaded successfully
-2025/08/23 22:21:22 Getting money stats
-2025/08/23 22:21:22 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:22 Configuration loaded successfully
-2025/08/23 22:21:22 Editing task status
-2025/08/23 22:21:22 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:22 Configuration loaded successfully
-2025/08/23 22:21:22 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:22 Configuration loaded successfully
-2025/08/23 22:21:22 Adding money
-2025/08/23 22:21:22 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:22 Configuration loaded successfully
-2025/08/23 22:21:22 Getting all tasks for user
-2025/08/23 22:21:22 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:22 Configuration loaded successfully
-2025/08/23 22:21:22 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:22 Configuration loaded successfully
-2025/08/23 22:21:22 Getting money stats
-2025/08/23 22:21:22 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:22 Configuration loaded successfully
-2025/08/23 22:21:22 Editing task status
-2025/08/23 22:21:22 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:22 Configuration loaded successfully
-2025/08/23 22:21:22 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:22 Configuration loaded successfully
-2025/08/23 22:21:22 Adding money
-2025/08/23 22:21:22 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:22 Configuration loaded successfully
-2025/08/23 22:21:22 Getting all tasks for user
-2025/08/23 22:21:22 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:22 Configuration loaded successfully
-2025/08/23 22:21:22 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:22 Configuration loaded successfully
-2025/08/23 22:21:22 Getting money stats
-2025/08/23 22:21:23 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:23 Configuration loaded successfully
-2025/08/23 22:21:23 Editing task status
-2025/08/23 22:21:23 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:23 Configuration loaded successfully
-2025/08/23 22:21:23 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:23 Configuration loaded successfully
-2025/08/23 22:21:23 Adding money
-2025/08/23 22:21:23 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:23 Configuration loaded successfully
-2025/08/23 22:21:23 Getting all tasks for user
-2025/08/23 22:21:23 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:23 Configuration loaded successfully
-2025/08/23 22:21:23 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:23 Configuration loaded successfully
-2025/08/23 22:21:23 Getting money stats
-2025/08/23 22:21:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:24 Configuration loaded successfully
-2025/08/23 22:21:24 Editing task status
-2025/08/23 22:21:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:24 Configuration loaded successfully
-2025/08/23 22:21:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:24 Configuration loaded successfully
-2025/08/23 22:21:24 Adding money
-2025/08/23 22:21:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:24 Configuration loaded successfully
-2025/08/23 22:21:24 Getting all tasks for user
-2025/08/23 22:21:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:24 Configuration loaded successfully
-2025/08/23 22:21:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:21:24 Configuration loaded successfully
-2025/08/23 22:21:24 Getting money stats
-2025/08/23 22:24:07 Loading configuration from Server/configs/config.json
-2025/08/23 22:24:07 Configuration loaded successfully
-2025/08/23 22:24:07 Received request to delete task
-2025/08/23 22:24:07 Loading configuration from Server/configs/config.json
-2025/08/23 22:24:07 Configuration loaded successfully
-2025/08/23 22:24:07 Deleting task with ID 13 for user ID 1
-2025/08/23 22:24:07 Loading configuration from Server/configs/config.json
-2025/08/23 22:24:07 Configuration loaded successfully
-2025/08/23 22:24:07 Getting all tasks for user
-2025/08/23 22:24:07 Loading configuration from Server/configs/config.json
-2025/08/23 22:24:07 Configuration loaded successfully
-2025/08/23 22:24:13 Loading configuration from Server/configs/config.json
-2025/08/23 22:24:13 Configuration loaded successfully
-2025/08/23 22:24:13 Received request to add task
-2025/08/23 22:24:13 Loading configuration from Server/configs/config.json
-2025/08/23 22:24:13 Configuration loaded successfully
-2025/08/23 22:24:13 Loading configuration from Server/configs/config.json
-2025/08/23 22:24:13 Configuration loaded successfully
-2025/08/23 22:24:13 Getting all tasks for user
-2025/08/23 22:24:13 Loading configuration from Server/configs/config.json
-2025/08/23 22:24:13 Configuration loaded successfully
-2025/08/23 22:24:15 Loading configuration from Server/configs/config.json
-2025/08/23 22:24:15 Configuration loaded successfully
-2025/08/23 22:24:15 Editing task status
-2025/08/23 22:24:15 Loading configuration from Server/configs/config.json
-2025/08/23 22:24:15 Configuration loaded successfully
-2025/08/23 22:24:15 Loading configuration from Server/configs/config.json
-2025/08/23 22:24:15 Configuration loaded successfully
-2025/08/23 22:24:15 Adding money
-2025/08/23 22:24:15 Loading configuration from Server/configs/config.json
-2025/08/23 22:24:15 Configuration loaded successfully
-2025/08/23 22:24:15 Getting all tasks for user
-2025/08/23 22:24:15 Loading configuration from Server/configs/config.json
-2025/08/23 22:24:15 Configuration loaded successfully
-2025/08/23 22:24:15 Loading configuration from Server/configs/config.json
-2025/08/23 22:24:15 Configuration loaded successfully
-2025/08/23 22:24:15 Getting money stats
-2025/08/23 22:24:17 Loading configuration from Server/configs/config.json
-2025/08/23 22:24:17 Configuration loaded successfully
-2025/08/23 22:24:17 Loading configuration from Server/configs/config.json
-2025/08/23 22:24:17 Configuration loaded successfully
-2025/08/23 22:24:17 Getting money stats
-2025/08/23 22:24:17 Getting all tasks for user
-2025/08/23 22:24:17 Loading configuration from Server/configs/config.json
-2025/08/23 22:24:17 Configuration loaded successfully
-2025/08/23 22:25:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:27 Configuration loaded successfully
-2025/08/23 22:25:27 Received request to delete task
-2025/08/23 22:25:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:27 Configuration loaded successfully
-2025/08/23 22:25:27 Deleting task with ID 14 for user ID 1
-2025/08/23 22:25:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:27 Configuration loaded successfully
-2025/08/23 22:25:27 Getting all tasks for user
-2025/08/23 22:25:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:27 Configuration loaded successfully
-2025/08/23 22:25:32 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:32 Configuration loaded successfully
-2025/08/23 22:25:32 Received request to add task
-2025/08/23 22:25:32 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:32 Configuration loaded successfully
-2025/08/23 22:25:32 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:32 Configuration loaded successfully
-2025/08/23 22:25:32 Getting all tasks for user
-2025/08/23 22:25:32 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:32 Configuration loaded successfully
-2025/08/23 22:25:35 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:35 Configuration loaded successfully
-2025/08/23 22:25:35 Editing task status
-2025/08/23 22:25:35 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:35 Configuration loaded successfully
-2025/08/23 22:25:35 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:35 Configuration loaded successfully
-2025/08/23 22:25:35 Adding money
-2025/08/23 22:25:35 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:35 Configuration loaded successfully
-2025/08/23 22:25:35 Getting all tasks for user
-2025/08/23 22:25:35 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:35 Configuration loaded successfully
-2025/08/23 22:25:35 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:35 Configuration loaded successfully
-2025/08/23 22:25:35 Getting money stats
-2025/08/23 22:25:37 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:37 Configuration loaded successfully
-2025/08/23 22:25:37 Editing task status
-2025/08/23 22:25:37 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:37 Configuration loaded successfully
-2025/08/23 22:25:37 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:37 Configuration loaded successfully
-2025/08/23 22:25:37 Adding money
-2025/08/23 22:25:37 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:37 Configuration loaded successfully
-2025/08/23 22:25:37 Getting all tasks for user
-2025/08/23 22:25:37 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:37 Configuration loaded successfully
-2025/08/23 22:25:37 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:37 Configuration loaded successfully
-2025/08/23 22:25:37 Getting money stats
-2025/08/23 22:25:37 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:37 Configuration loaded successfully
-2025/08/23 22:25:37 Editing task status
-2025/08/23 22:25:37 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:37 Configuration loaded successfully
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Adding money
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Getting all tasks for user
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Getting money stats
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Editing task status
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Adding money
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Getting all tasks for user
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Getting money stats
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Editing task status
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Adding money
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Getting all tasks for user
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Getting money stats
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Editing task status
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Adding money
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Getting all tasks for user
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Getting money stats
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Editing task status
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Adding money
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Getting all tasks for user
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:38 Configuration loaded successfully
-2025/08/23 22:25:38 Getting money stats
-2025/08/23 22:25:39 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:39 Configuration loaded successfully
-2025/08/23 22:25:39 Editing task status
-2025/08/23 22:25:39 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:39 Configuration loaded successfully
-2025/08/23 22:25:39 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:39 Configuration loaded successfully
-2025/08/23 22:25:39 Adding money
-2025/08/23 22:25:39 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:39 Configuration loaded successfully
-2025/08/23 22:25:39 Getting all tasks for user
-2025/08/23 22:25:39 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:39 Configuration loaded successfully
-2025/08/23 22:25:39 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:39 Configuration loaded successfully
-2025/08/23 22:25:39 Getting money stats
-2025/08/23 22:25:39 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:39 Configuration loaded successfully
-2025/08/23 22:25:39 Editing task status
-2025/08/23 22:25:39 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:39 Configuration loaded successfully
-2025/08/23 22:25:39 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:39 Configuration loaded successfully
-2025/08/23 22:25:39 Adding money
-2025/08/23 22:25:39 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:39 Configuration loaded successfully
-2025/08/23 22:25:39 Getting all tasks for user
-2025/08/23 22:25:39 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:39 Configuration loaded successfully
-2025/08/23 22:25:39 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:39 Configuration loaded successfully
-2025/08/23 22:25:39 Getting money stats
-2025/08/23 22:25:39 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:39 Configuration loaded successfully
-2025/08/23 22:25:39 Editing task status
-2025/08/23 22:25:39 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:39 Configuration loaded successfully
-2025/08/23 22:25:39 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:39 Configuration loaded successfully
-2025/08/23 22:25:39 Adding money
-2025/08/23 22:25:39 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:39 Configuration loaded successfully
-2025/08/23 22:25:39 Getting all tasks for user
-2025/08/23 22:25:39 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:39 Configuration loaded successfully
-2025/08/23 22:25:39 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:39 Configuration loaded successfully
-2025/08/23 22:25:39 Getting money stats
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Editing task status
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Adding money
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Getting all tasks for user
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Getting money stats
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Editing task status
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Adding money
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Getting all tasks for user
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Getting money stats
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Editing task status
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Adding money
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Getting all tasks for user
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Getting money stats
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Editing task status
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Adding money
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Getting all tasks for user
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Getting money stats
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Editing task status
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Adding money
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Getting all tasks for user
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Getting money stats
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Editing task status
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Adding money
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Getting all tasks for user
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:40 Configuration loaded successfully
-2025/08/23 22:25:40 Getting money stats
-2025/08/23 22:25:41 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:41 Configuration loaded successfully
-2025/08/23 22:25:41 Editing task status
-2025/08/23 22:25:41 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:41 Configuration loaded successfully
-2025/08/23 22:25:41 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:41 Configuration loaded successfully
-2025/08/23 22:25:41 Adding money
-2025/08/23 22:25:41 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:41 Configuration loaded successfully
-2025/08/23 22:25:41 Getting all tasks for user
-2025/08/23 22:25:41 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:41 Configuration loaded successfully
-2025/08/23 22:25:41 Loading configuration from Server/configs/config.json
-2025/08/23 22:25:41 Configuration loaded successfully
-2025/08/23 22:25:41 Getting money stats
-2025/08/23 22:27:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:27:38 Configuration loaded successfully
-2025/08/23 22:27:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:27:38 Configuration loaded successfully
-2025/08/23 22:27:38 Getting all tasks for user
-2025/08/23 22:27:38 Getting money stats
-2025/08/23 22:27:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:27:38 Configuration loaded successfully
-2025/08/23 22:28:11 Loading configuration from Server/configs/config.json
-2025/08/23 22:28:11 Configuration loaded successfully
-2025/08/23 22:28:11 Getting money stats
-2025/08/23 22:29:16 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:16 Configuration loaded successfully
-2025/08/23 22:29:16 Getting all tasks for user
-2025/08/23 22:29:16 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:16 Configuration loaded successfully
-2025/08/23 22:29:16 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:16 Configuration loaded successfully
-2025/08/23 22:29:16 Getting money stats
-2025/08/23 22:29:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:24 Configuration loaded successfully
-2025/08/23 22:29:24 Editing task status
-2025/08/23 22:29:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:24 Configuration loaded successfully
-2025/08/23 22:29:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:24 Configuration loaded successfully
-2025/08/23 22:29:24 Adding money
-2025/08/23 22:29:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:24 Configuration loaded successfully
-2025/08/23 22:29:24 Getting all tasks for user
-2025/08/23 22:29:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:24 Configuration loaded successfully
-2025/08/23 22:29:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:24 Configuration loaded successfully
-2025/08/23 22:29:24 Getting money stats
-2025/08/23 22:29:26 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:26 Configuration loaded successfully
-2025/08/23 22:29:26 Editing task status
-2025/08/23 22:29:26 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:26 Configuration loaded successfully
-2025/08/23 22:29:26 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:26 Configuration loaded successfully
-2025/08/23 22:29:26 Adding money
-2025/08/23 22:29:26 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:26 Configuration loaded successfully
-2025/08/23 22:29:26 Getting all tasks for user
-2025/08/23 22:29:26 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:26 Configuration loaded successfully
-2025/08/23 22:29:26 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:26 Configuration loaded successfully
-2025/08/23 22:29:26 Getting money stats
-2025/08/23 22:29:26 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:26 Configuration loaded successfully
-2025/08/23 22:29:26 Editing task status
-2025/08/23 22:29:26 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:26 Configuration loaded successfully
-2025/08/23 22:29:26 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:26 Configuration loaded successfully
-2025/08/23 22:29:26 Adding money
-2025/08/23 22:29:26 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:26 Configuration loaded successfully
-2025/08/23 22:29:26 Getting all tasks for user
-2025/08/23 22:29:26 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:26 Configuration loaded successfully
-2025/08/23 22:29:26 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:26 Configuration loaded successfully
-2025/08/23 22:29:26 Getting money stats
-2025/08/23 22:29:26 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:26 Configuration loaded successfully
-2025/08/23 22:29:26 Editing task status
-2025/08/23 22:29:26 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:26 Configuration loaded successfully
-2025/08/23 22:29:26 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:26 Configuration loaded successfully
-2025/08/23 22:29:26 Adding money
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Getting all tasks for user
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Getting money stats
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Editing task status
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Adding money
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Getting all tasks for user
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Getting money stats
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Editing task status
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Adding money
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Getting all tasks for user
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Getting money stats
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Editing task status
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Adding money
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Getting all tasks for user
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Getting money stats
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Editing task status
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Adding money
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Getting all tasks for user
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:27 Configuration loaded successfully
-2025/08/23 22:29:27 Getting money stats
-2025/08/23 22:29:50 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:50 Configuration loaded successfully
-2025/08/23 22:29:50 Getting all tasks for user
-2025/08/23 22:29:50 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:50 Configuration loaded successfully
-2025/08/23 22:29:50 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:50 Configuration loaded successfully
-2025/08/23 22:29:50 Getting money stats
-2025/08/23 22:29:53 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:53 Configuration loaded successfully
-2025/08/23 22:29:53 Received request to delete task
-2025/08/23 22:29:53 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:53 Configuration loaded successfully
-2025/08/23 22:29:53 Deleting task with ID 15 for user ID 1
-2025/08/23 22:29:53 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:53 Configuration loaded successfully
-2025/08/23 22:29:53 Getting all tasks for user
-2025/08/23 22:29:53 Loading configuration from Server/configs/config.json
-2025/08/23 22:29:53 Configuration loaded successfully
-2025/08/23 22:34:02 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:02 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:02 Configuration loaded successfully
-2025/08/23 22:34:02 Configuration loaded successfully
-2025/08/23 22:34:02 Getting all tasks for user
-2025/08/23 22:34:02 Getting money stats
-2025/08/23 22:34:02 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:02 Configuration loaded successfully
-2025/08/23 22:34:12 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:12 Configuration loaded successfully
-2025/08/23 22:34:12 Received request to add task
-2025/08/23 22:34:12 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:12 Configuration loaded successfully
-2025/08/23 22:34:12 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:12 Configuration loaded successfully
-2025/08/23 22:34:12 Getting all tasks for user
-2025/08/23 22:34:12 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:12 Configuration loaded successfully
-2025/08/23 22:34:17 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:17 Configuration loaded successfully
-2025/08/23 22:34:17 Editing task status
-2025/08/23 22:34:17 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:17 Configuration loaded successfully
-2025/08/23 22:34:17 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:17 Configuration loaded successfully
-2025/08/23 22:34:17 Adding money
-2025/08/23 22:34:17 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:17 Configuration loaded successfully
-2025/08/23 22:34:17 Getting all tasks for user
-2025/08/23 22:34:17 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:17 Configuration loaded successfully
-2025/08/23 22:34:17 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:17 Configuration loaded successfully
-2025/08/23 22:34:17 Getting money stats
-2025/08/23 22:34:44 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:44 Configuration loaded successfully
-2025/08/23 22:34:44 Editing task status
-2025/08/23 22:34:44 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:44 Configuration loaded successfully
-2025/08/23 22:34:44 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:44 Configuration loaded successfully
-2025/08/23 22:34:44 Adding money
-2025/08/23 22:34:44 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:44 Configuration loaded successfully
-2025/08/23 22:34:44 Getting all tasks for user
-2025/08/23 22:34:44 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:44 Configuration loaded successfully
-2025/08/23 22:34:44 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:44 Configuration loaded successfully
-2025/08/23 22:34:44 Getting money stats
-2025/08/23 22:34:44 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:44 Configuration loaded successfully
-2025/08/23 22:34:44 Editing task status
-2025/08/23 22:34:44 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:44 Configuration loaded successfully
-2025/08/23 22:34:44 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:44 Configuration loaded successfully
-2025/08/23 22:34:44 Adding money
-2025/08/23 22:34:44 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:44 Configuration loaded successfully
-2025/08/23 22:34:44 Getting all tasks for user
-2025/08/23 22:34:44 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:44 Configuration loaded successfully
-2025/08/23 22:34:44 Loading configuration from Server/configs/config.json
-2025/08/23 22:34:44 Configuration loaded successfully
-2025/08/23 22:34:44 Getting money stats
-2025/08/23 22:35:08 Loading configuration from Server/configs/config.json
-2025/08/23 22:35:08 Configuration loaded successfully
-2025/08/23 22:35:08 Setting money goal
-2025/08/23 22:35:55 Loading configuration from Server/configs/config.json
-2025/08/23 22:35:55 Configuration loaded successfully
-2025/08/23 22:35:55 Received request to delete task
-2025/08/23 22:35:55 Loading configuration from Server/configs/config.json
-2025/08/23 22:35:55 Configuration loaded successfully
-2025/08/23 22:35:55 Deleting task with ID 16 for user ID 1
-2025/08/23 22:35:55 Loading configuration from Server/configs/config.json
-2025/08/23 22:35:55 Configuration loaded successfully
-2025/08/23 22:35:55 Getting all tasks for user
-2025/08/23 22:35:55 Loading configuration from Server/configs/config.json
-2025/08/23 22:35:55 Configuration loaded successfully
-2025/08/23 22:36:01 Loading configuration from Server/configs/config.json
-2025/08/23 22:36:01 Configuration loaded successfully
-2025/08/23 22:36:01 Received request to add task
-2025/08/23 22:36:01 Loading configuration from Server/configs/config.json
-2025/08/23 22:36:01 Configuration loaded successfully
-2025/08/23 22:36:01 Loading configuration from Server/configs/config.json
-2025/08/23 22:36:01 Configuration loaded successfully
-2025/08/23 22:36:01 Getting all tasks for user
-2025/08/23 22:36:01 Loading configuration from Server/configs/config.json
-2025/08/23 22:36:01 Configuration loaded successfully
-2025/08/23 22:36:03 Loading configuration from Server/configs/config.json
-2025/08/23 22:36:03 Configuration loaded successfully
-2025/08/23 22:36:03 Editing task status
-2025/08/23 22:36:03 Loading configuration from Server/configs/config.json
-2025/08/23 22:36:03 Configuration loaded successfully
-2025/08/23 22:36:03 Loading configuration from Server/configs/config.json
-2025/08/23 22:36:03 Configuration loaded successfully
-2025/08/23 22:36:03 Adding money
-2025/08/23 22:36:03 Loading configuration from Server/configs/config.json
-2025/08/23 22:36:03 Configuration loaded successfully
-2025/08/23 22:36:03 Getting all tasks for user
-2025/08/23 22:36:03 Loading configuration from Server/configs/config.json
-2025/08/23 22:36:03 Configuration loaded successfully
-2025/08/23 22:36:03 Loading configuration from Server/configs/config.json
-2025/08/23 22:36:03 Configuration loaded successfully
-2025/08/23 22:36:03 Getting money stats
-2025/08/23 22:36:22 Loading configuration from Server/configs/config.json
-2025/08/23 22:36:22 Configuration loaded successfully
-2025/08/23 22:36:22 Loading configuration from Server/configs/config.json
-2025/08/23 22:36:22 Configuration loaded successfully
-2025/08/23 22:36:22 Getting all tasks for user
-2025/08/23 22:36:22 Getting money stats
-2025/08/23 22:36:22 Loading configuration from Server/configs/config.json
-2025/08/23 22:36:22 Configuration loaded successfully
-2025/08/23 22:36:23 Loading configuration from Server/configs/config.json
-2025/08/23 22:36:23 Loading configuration from Server/configs/config.json
-2025/08/23 22:36:23 Configuration loaded successfully
-2025/08/23 22:36:23 Configuration loaded successfully
-2025/08/23 22:36:23 Getting all tasks for user
-2025/08/23 22:36:23 Getting money stats
-2025/08/23 22:36:23 Loading configuration from Server/configs/config.json
-2025/08/23 22:36:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:36:24 Configuration loaded successfully
-2025/08/23 22:36:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:36:24 Configuration loaded successfully
-2025/08/23 22:36:24 Getting all tasks for user
-2025/08/23 22:36:24 Getting money stats
-2025/08/23 22:36:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:36:24 Configuration loaded successfully
-2025/08/23 22:36:24 Configuration loaded successfully
-2025/08/23 22:36:24 Server/db/money_database.db
-2025/08/23 22:39:18 Loading configuration from Server/configs/config.json
-2025/08/23 22:39:18 Configuration loaded successfully
-2025/08/23 22:39:18 All tables created successfully.
-2025/08/23 22:39:41 Loading configuration from Server/configs/config.json
-2025/08/23 22:39:41 Configuration loaded successfully
-2025/08/23 22:39:58 Loading configuration from Server/configs/config.json
-2025/08/23 22:39:58 Configuration loaded successfully
-2025/08/23 22:39:58 Setting money goal
-2025/08/23 22:40:47 Loading configuration from Server/configs/config.json
-2025/08/23 22:40:47 Configuration loaded successfully
-2025/08/23 22:40:54 Loading configuration from Server/configs/config.json
-2025/08/23 22:40:54 Configuration loaded successfully
-2025/08/23 22:41:08 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:08 Configuration loaded successfully
-2025/08/23 22:41:08 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:08 Configuration loaded successfully
-2025/08/23 22:41:08 Getting money stats
-2025/08/23 22:41:14 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:14 Configuration loaded successfully
-2025/08/23 22:41:14 Received request to add task
-2025/08/23 22:41:14 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:14 Configuration loaded successfully
-2025/08/23 22:41:44 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:44 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:44 Configuration loaded successfully
-2025/08/23 22:41:44 Configuration loaded successfully
-2025/08/23 22:41:44 Getting all tasks for user
-2025/08/23 22:41:44 Getting money stats
-2025/08/23 22:41:44 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:44 Configuration loaded successfully
-2025/08/23 22:41:47 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:47 Configuration loaded successfully
-2025/08/23 22:41:47 Editing task status
-2025/08/23 22:41:47 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:47 Configuration loaded successfully
-2025/08/23 22:41:47 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:47 Configuration loaded successfully
-2025/08/23 22:41:47 Adding money
-2025/08/23 22:41:47 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:47 Configuration loaded successfully
-2025/08/23 22:41:47 Getting all tasks for user
-2025/08/23 22:41:47 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:47 Configuration loaded successfully
-2025/08/23 22:41:47 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:47 Configuration loaded successfully
-2025/08/23 22:41:47 Getting money stats
-2025/08/23 22:41:49 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:49 Configuration loaded successfully
-2025/08/23 22:41:49 Editing task status
-2025/08/23 22:41:49 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:49 Configuration loaded successfully
-2025/08/23 22:41:49 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:49 Configuration loaded successfully
-2025/08/23 22:41:49 Adding money
-2025/08/23 22:41:49 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:49 Configuration loaded successfully
-2025/08/23 22:41:49 Getting all tasks for user
-2025/08/23 22:41:49 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:49 Configuration loaded successfully
-2025/08/23 22:41:49 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:49 Configuration loaded successfully
-2025/08/23 22:41:49 Getting money stats
-2025/08/23 22:41:51 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:51 Configuration loaded successfully
-2025/08/23 22:41:51 Received request to delete task
-2025/08/23 22:41:51 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:51 Configuration loaded successfully
-2025/08/23 22:41:51 Deleting task with ID 18 for user ID 1
-2025/08/23 22:41:51 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:51 Configuration loaded successfully
-2025/08/23 22:41:51 Getting all tasks for user
-2025/08/23 22:41:51 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:51 Configuration loaded successfully
-2025/08/23 22:41:51 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:51 Configuration loaded successfully
-2025/08/23 22:41:51 Received request to delete task
-2025/08/23 22:41:51 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:51 Configuration loaded successfully
-2025/08/23 22:41:51 Deleting task with ID 17 for user ID 1
-2025/08/23 22:41:52 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:52 Configuration loaded successfully
-2025/08/23 22:41:52 Getting all tasks for user
-2025/08/23 22:41:52 Loading configuration from Server/configs/config.json
-2025/08/23 22:41:52 Configuration loaded successfully
-2025/08/23 22:43:12 Loading configuration from Server/configs/config.json
-2025/08/23 22:43:12 Configuration loaded successfully
-2025/08/23 22:43:12 Loading configuration from Server/configs/config.json
-2025/08/23 22:43:12 Configuration loaded successfully
-2025/08/23 22:43:12 Getting money stats
-2025/08/23 22:43:12 Getting all tasks for user
-2025/08/23 22:43:12 Loading configuration from Server/configs/config.json
-2025/08/23 22:43:12 Configuration loaded successfully
-2025/08/23 22:43:12 Configuration loaded successfully
-2025/08/23 22:43:12 Server/db/money_database.db
-2025/08/23 22:43:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:43:24 Configuration loaded successfully
-2025/08/23 22:43:24 Received request to add task
-2025/08/23 22:43:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:43:24 Configuration loaded successfully
-2025/08/23 22:43:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:43:24 Configuration loaded successfully
-2025/08/23 22:43:24 Getting all tasks for user
-2025/08/23 22:43:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:43:24 Configuration loaded successfully
-2025/08/23 22:43:31 Loading configuration from Server/configs/config.json
-2025/08/23 22:43:31 Configuration loaded successfully
-2025/08/23 22:43:31 Editing task status
-2025/08/23 22:43:31 Loading configuration from Server/configs/config.json
-2025/08/23 22:43:31 Configuration loaded successfully
-2025/08/23 22:43:32 Loading configuration from Server/configs/config.json
-2025/08/23 22:43:32 Configuration loaded successfully
-2025/08/23 22:43:32 Adding money
-2025/08/23 22:43:32 Loading configuration from Server/configs/config.json
-2025/08/23 22:43:32 Configuration loaded successfully
-2025/08/23 22:43:32 Getting all tasks for user
-2025/08/23 22:43:32 Loading configuration from Server/configs/config.json
-2025/08/23 22:43:32 Configuration loaded successfully
-2025/08/23 22:43:32 Loading configuration from Server/configs/config.json
-2025/08/23 22:43:32 Configuration loaded successfully
-2025/08/23 22:43:32 Getting money stats
-2025/08/23 22:44:21 Loading configuration from Server/configs/config.json
-2025/08/23 22:44:21 Configuration loaded successfully
-2025/08/23 22:44:21 Loading configuration from Server/configs/config.json
-2025/08/23 22:44:21 Configuration loaded successfully
-2025/08/23 22:44:21 Getting all tasks for user
-2025/08/23 22:44:21 Getting money stats
-2025/08/23 22:44:21 Loading configuration from Server/configs/config.json
-2025/08/23 22:44:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:44:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:44:24 Configuration loaded successfully
-2025/08/23 22:44:24 Configuration loaded successfully
-2025/08/23 22:44:24 Getting all tasks for user
-2025/08/23 22:44:24 Getting money stats
-2025/08/23 22:44:24 Loading configuration from Server/configs/config.json
-2025/08/23 22:44:24 Configuration loaded successfully
-2025/08/23 22:44:24 Configuration loaded successfully
-2025/08/23 22:44:24 Server/db/money_database.db
-2025/08/23 22:44:32 Loading configuration from Server/configs/config.json
-2025/08/23 22:44:32 Configuration loaded successfully
-2025/08/23 22:44:32 Received request to delete task
-2025/08/23 22:44:32 Loading configuration from Server/configs/config.json
-2025/08/23 22:44:32 Configuration loaded successfully
-2025/08/23 22:44:32 Deleting task with ID 19 for user ID 1
-2025/08/23 22:44:32 Loading configuration from Server/configs/config.json
-2025/08/23 22:44:32 Configuration loaded successfully
-2025/08/23 22:44:32 Getting all tasks for user
-2025/08/23 22:44:32 Loading configuration from Server/configs/config.json
-2025/08/23 22:44:32 Configuration loaded successfully
-2025/08/23 22:44:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:44:38 Configuration loaded successfully
-2025/08/23 22:44:38 Received request to add task
-2025/08/23 22:44:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:44:38 Configuration loaded successfully
-2025/08/23 22:44:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:44:38 Configuration loaded successfully
-2025/08/23 22:44:38 Getting all tasks for user
-2025/08/23 22:44:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:44:38 Configuration loaded successfully
-2025/08/23 22:44:43 Loading configuration from Server/configs/config.json
-2025/08/23 22:44:43 Configuration loaded successfully
-2025/08/23 22:44:43 Editing task status
-2025/08/23 22:44:43 Loading configuration from Server/configs/config.json
-2025/08/23 22:44:43 Configuration loaded successfully
-2025/08/23 22:44:43 Loading configuration from Server/configs/config.json
-2025/08/23 22:44:43 Configuration loaded successfully
-2025/08/23 22:44:43 Adding money
-2025/08/23 22:44:43 Loading configuration from Server/configs/config.json
-2025/08/23 22:44:43 Configuration loaded successfully
-2025/08/23 22:44:43 Getting all tasks for user
-2025/08/23 22:44:43 Loading configuration from Server/configs/config.json
-2025/08/23 22:44:43 Configuration loaded successfully
-2025/08/23 22:44:43 Loading configuration from Server/configs/config.json
-2025/08/23 22:44:43 Configuration loaded successfully
-2025/08/23 22:44:43 Getting money stats
-2025/08/23 22:46:28 Loading configuration from Server/configs/config.json
-2025/08/23 22:46:28 Configuration loaded successfully
-2025/08/23 22:46:28 Loading configuration from Server/configs/config.json
-2025/08/23 22:46:28 Configuration loaded successfully
-2025/08/23 22:46:28 Getting all tasks for user
-2025/08/23 22:46:28 Getting money stats
-2025/08/23 22:46:28 Loading configuration from Server/configs/config.json
-2025/08/23 22:46:28 Configuration loaded successfully
-2025/08/23 22:46:28 Server/db/money_database.db
-2025/08/23 22:46:28 Configuration loaded successfully
-2025/08/23 22:46:29 Loading configuration from Server/configs/config.json
-2025/08/23 22:46:29 Configuration loaded successfully
-2025/08/23 22:46:29 Received request to delete task
-2025/08/23 22:46:29 Loading configuration from Server/configs/config.json
-2025/08/23 22:46:29 Configuration loaded successfully
-2025/08/23 22:46:29 Deleting task with ID 20 for user ID 1
-2025/08/23 22:46:29 Loading configuration from Server/configs/config.json
-2025/08/23 22:46:29 Configuration loaded successfully
-2025/08/23 22:46:29 Getting all tasks for user
-2025/08/23 22:46:29 Loading configuration from Server/configs/config.json
-2025/08/23 22:46:29 Configuration loaded successfully
-2025/08/23 22:46:36 Loading configuration from Server/configs/config.json
-2025/08/23 22:46:36 Configuration loaded successfully
-2025/08/23 22:46:36 Received request to add task
-2025/08/23 22:46:36 Loading configuration from Server/configs/config.json
-2025/08/23 22:46:36 Configuration loaded successfully
-2025/08/23 22:46:36 Loading configuration from Server/configs/config.json
-2025/08/23 22:46:36 Configuration loaded successfully
-2025/08/23 22:46:36 Getting all tasks for user
-2025/08/23 22:46:36 Loading configuration from Server/configs/config.json
-2025/08/23 22:46:36 Configuration loaded successfully
-2025/08/23 22:46:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:46:38 Configuration loaded successfully
-2025/08/23 22:46:38 Editing task status
-2025/08/23 22:46:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:46:38 Configuration loaded successfully
-2025/08/23 22:46:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:46:38 Configuration loaded successfully
-2025/08/23 22:46:38 Adding money
-2025/08/23 22:46:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:46:38 Configuration loaded successfully
-2025/08/23 22:46:38 Getting all tasks for user
-2025/08/23 22:46:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:46:38 Configuration loaded successfully
-2025/08/23 22:46:38 Loading configuration from Server/configs/config.json
-2025/08/23 22:46:38 Configuration loaded successfully
-2025/08/23 22:46:38 Getting money stats
-2025/08/23 22:46:41 Loading configuration from Server/configs/config.json
-2025/08/23 22:46:41 Configuration loaded successfully
-2025/08/23 22:46:41 Loading configuration from Server/configs/config.json
-2025/08/23 22:46:41 Configuration loaded successfully
-2025/08/23 22:46:41 Getting all tasks for user
-2025/08/23 22:46:41 Getting money stats
-2025/08/23 22:46:41 Loading configuration from Server/configs/config.json
-2025/08/23 22:47:11 Loading configuration from Server/configs/config.json
-2025/08/23 22:47:11 Configuration loaded successfully
-2025/08/23 22:47:11 Loading configuration from Server/configs/config.json
-2025/08/23 22:47:11 Configuration loaded successfully
-2025/08/23 22:47:11 Getting all tasks for user
-2025/08/23 22:47:11 Getting money stats
-2025/08/23 22:47:11 Loading configuration from Server/configs/config.json
-2025/08/23 22:47:17 Loading configuration from Server/configs/config.json
-2025/08/23 22:47:17 Configuration loaded successfully
-2025/08/23 22:47:17 Received request to add task
-2025/08/23 22:47:17 Loading configuration from Server/configs/config.json
-2025/08/23 22:47:17 Configuration loaded successfully
-2025/08/23 22:47:17 Loading configuration from Server/configs/config.json
-2025/08/23 22:47:17 Configuration loaded successfully
-2025/08/23 22:47:17 Getting all tasks for user
-2025/08/23 22:47:17 Loading configuration from Server/configs/config.json
-2025/08/23 22:47:17 Configuration loaded successfully
-2025/08/23 22:47:18 Loading configuration from Server/configs/config.json
-2025/08/23 22:47:18 Configuration loaded successfully
-2025/08/23 22:47:18 Editing task status
-2025/08/23 22:47:18 Loading configuration from Server/configs/config.json
-2025/08/23 22:47:18 Configuration loaded successfully
-2025/08/23 22:47:19 Loading configuration from Server/configs/config.json
-2025/08/23 22:47:19 Configuration loaded successfully
-2025/08/23 22:47:19 Adding money
-2025/08/23 22:47:19 Loading configuration from Server/configs/config.json
-2025/08/23 22:47:19 Configuration loaded successfully
-2025/08/23 22:47:19 Getting all tasks for user
-2025/08/23 22:47:19 Loading configuration from Server/configs/config.json
-2025/08/23 22:47:19 Configuration loaded successfully
-2025/08/23 22:47:19 Loading configuration from Server/configs/config.json
-2025/08/23 22:47:19 Configuration loaded successfully
-2025/08/23 22:47:19 Getting money stats
-2025/08/23 22:51:46 Loading configuration from Server/configs/config.json
-2025/08/23 22:51:46 Configuration loaded successfully
-2025/08/23 22:51:46 Getting all tasks for user
-2025/08/23 22:51:46 Loading configuration from Server/configs/config.json
-2025/08/23 22:51:46 Configuration loaded successfully
-2025/08/23 22:51:46 Getting money stats
-2025/08/23 22:51:46 Loading configuration from Server/configs/config.json
-2025/08/23 22:51:46 Configuration loaded successfully
-2025/08/23 22:51:46 Configuration loaded successfully
-2025/08/23 22:51:46 Server/db/money_database.db
-2025/08/23 22:51:51 Loading configuration from Server/configs/config.json
-2025/08/23 22:51:51 Configuration loaded successfully
-2025/08/23 22:51:51 Received request to delete task
-2025/08/23 22:51:51 Loading configuration from Server/configs/config.json
-2025/08/23 22:51:51 Configuration loaded successfully
-2025/08/23 22:51:51 Deleting task with ID 21 for user ID 1
-2025/08/23 22:51:51 Loading configuration from Server/configs/config.json
-2025/08/23 22:51:51 Configuration loaded successfully
-2025/08/23 22:51:51 Getting all tasks for user
-2025/08/23 22:51:51 Loading configuration from Server/configs/config.json
-2025/08/23 22:51:51 Configuration loaded successfully
-2025/08/23 22:51:51 Loading configuration from Server/configs/config.json
-2025/08/23 22:51:51 Configuration loaded successfully
-2025/08/23 22:51:51 Received request to delete task
-2025/08/23 22:51:51 Loading configuration from Server/configs/config.json
-2025/08/23 22:51:51 Configuration loaded successfully
-2025/08/23 22:51:51 Deleting task with ID 22 for user ID 1
-2025/08/23 22:51:51 Loading configuration from Server/configs/config.json
-2025/08/23 22:51:51 Configuration loaded successfully
-2025/08/23 22:51:51 Getting all tasks for user
-2025/08/23 22:51:51 Loading configuration from Server/configs/config.json
-2025/08/23 22:51:51 Configuration loaded successfully
-2025/08/23 22:51:57 Loading configuration from Server/configs/config.json
-2025/08/23 22:51:57 Configuration loaded successfully
-2025/08/23 22:51:57 Received request to add task
-2025/08/23 22:51:57 Loading configuration from Server/configs/config.json
-2025/08/23 22:51:57 Configuration loaded successfully
-2025/08/23 22:51:57 Loading configuration from Server/configs/config.json
-2025/08/23 22:51:57 Configuration loaded successfully
-2025/08/23 22:51:57 Getting all tasks for user
-2025/08/23 22:51:57 Loading configuration from Server/configs/config.json
-2025/08/23 22:51:57 Configuration loaded successfully
-2025/08/23 22:51:59 Loading configuration from Server/configs/config.json
-2025/08/23 22:51:59 Configuration loaded successfully
-2025/08/23 22:51:59 Editing task status
-2025/08/23 22:51:59 Loading configuration from Server/configs/config.json
-2025/08/23 22:51:59 Configuration loaded successfully
-2025/08/23 22:51:59 Loading configuration from Server/configs/config.json
-2025/08/23 22:51:59 Configuration loaded successfully
-2025/08/23 22:51:59 Adding money
-2025/08/23 22:51:59 Loading configuration from Server/configs/config.json
-2025/08/23 22:51:59 Configuration loaded successfully
-2025/08/23 22:51:59 Getting all tasks for user
-2025/08/23 22:51:59 Loading configuration from Server/configs/config.json
-2025/08/23 22:51:59 Configuration loaded successfully
-2025/08/23 22:52:03 Loading configuration from Server/configs/config.json
-2025/08/23 22:52:03 Configuration loaded successfully
-2025/08/23 22:52:03 Received request to delete task
-2025/08/23 22:52:03 Loading configuration from Server/configs/config.json
-2025/08/23 22:52:03 Configuration loaded successfully
-2025/08/23 22:52:03 Deleting task with ID 23 for user ID 1
-2025/08/23 22:52:03 Loading configuration from Server/configs/config.json
-2025/08/23 22:52:03 Configuration loaded successfully
-2025/08/23 22:52:03 Getting all tasks for user
-2025/08/23 22:52:03 Loading configuration from Server/configs/config.json
-2025/08/23 22:52:03 Configuration loaded successfully
+2025/08/24 09:22:56 Loading configuration from Server/configs/config.json
+2025/08/24 09:22:56 Configuration loaded successfully
+2025/08/24 09:22:56 All tables created successfully.
+2025/08/24 09:23:16 Loading configuration from Server/configs/config.json
+2025/08/24 09:23:16 Configuration loaded successfully
+2025/08/24 09:23:16 Loading configuration from Server/configs/config.json
+2025/08/24 09:23:16 Configuration loaded successfully
+2025/08/24 09:23:32 Loading configuration from Server/configs/config.json
+2025/08/24 09:23:32 Configuration loaded successfully
+2025/08/24 09:23:48 Loading configuration from Server/configs/config.json
+2025/08/24 09:23:48 Configuration loaded successfully
+2025/08/24 09:23:48 user not found
+2025/08/24 09:23:55 Loading configuration from Server/configs/config.json
+2025/08/24 09:23:55 Configuration loaded successfully
+2025/08/24 09:23:55 user not found
+2025/08/24 09:25:03 Loading configuration from Server/configs/config.json
+2025/08/24 09:25:03 Configuration loaded successfully
+2025/08/24 09:25:03 user not found
+2025/08/24 09:26:48 Loading configuration from Server/configs/config.json
+2025/08/24 09:26:48 Configuration loaded successfully
+2025/08/24 09:26:48 All tables created successfully.
+2025/08/24 09:27:12 Loading configuration from Server/configs/config.json
+2025/08/24 09:27:12 Configuration loaded successfully
+2025/08/24 09:27:12 sql: no rows in result set
+2025/08/24 09:27:12 user not found
+2025/08/24 09:27:20 Loading configuration from Server/configs/config.json
+2025/08/24 09:27:20 Configuration loaded successfully
+2025/08/24 09:27:22 Loading configuration from Server/configs/config.json
+2025/08/24 09:27:22 Configuration loaded successfully
+2025/08/24 09:27:22 Loading configuration from Server/configs/config.json
+2025/08/24 09:27:22 Configuration loaded successfully
+2025/08/24 09:27:22 Loading configuration from Server/configs/config.json
+2025/08/24 09:27:22 Configuration loaded successfully
+2025/08/24 09:27:22 Getting all tasks for user
+2025/08/24 09:27:22 Loading configuration from Server/configs/config.json
+2025/08/24 09:27:22 Configuration loaded successfully
+2025/08/24 09:27:22 Getting money stats
+2025/08/24 09:27:37 Loading configuration from Server/configs/config.json
+2025/08/24 09:27:37 Configuration loaded successfully
+2025/08/24 09:27:37 Received request to add task
+2025/08/24 09:27:37 Loading configuration from Server/configs/config.json
+2025/08/24 09:27:37 Configuration loaded successfully
+2025/08/24 09:27:37 Loading configuration from Server/configs/config.json
+2025/08/24 09:27:37 Configuration loaded successfully
+2025/08/24 09:27:37 Getting all tasks for user
+2025/08/24 09:27:37 Loading configuration from Server/configs/config.json
+2025/08/24 09:27:37 Configuration loaded successfully
+2025/08/24 09:27:59 Loading configuration from Server/configs/config.json
+2025/08/24 09:27:59 Configuration loaded successfully
+2025/08/24 09:27:59 Received request to add task
+2025/08/24 09:27:59 Loading configuration from Server/configs/config.json
+2025/08/24 09:27:59 Configuration loaded successfully
+2025/08/24 09:27:59 Loading configuration from Server/configs/config.json
+2025/08/24 09:27:59 Configuration loaded successfully
+2025/08/24 09:27:59 Getting all tasks for user
+2025/08/24 09:27:59 Loading configuration from Server/configs/config.json
+2025/08/24 09:27:59 Configuration loaded successfully
+2025/08/24 09:30:16 Loading configuration from Server/configs/config.json
+2025/08/24 09:30:16 Configuration loaded successfully
+2025/08/24 09:30:16 Loading configuration from Server/configs/config.json
+2025/08/24 09:30:16 Getting all tasks for user
+2025/08/24 09:30:16 Configuration loaded successfully
+2025/08/24 09:30:16 Getting money stats
+2025/08/24 09:30:16 Loading configuration from Server/configs/config.json
+2025/08/24 09:30:29 Loading configuration from Server/configs/config.json
+2025/08/24 09:30:29 Configuration loaded successfully
+2025/08/24 09:30:29 Received request to add task
+2025/08/24 09:30:29 Loading configuration from Server/configs/config.json
+2025/08/24 09:30:29 Configuration loaded successfully
+2025/08/24 09:30:29 Loading configuration from Server/configs/config.json
+2025/08/24 09:30:29 Configuration loaded successfully
+2025/08/24 09:30:29 Getting all tasks for user
+2025/08/24 09:30:29 Loading configuration from Server/configs/config.json
+2025/08/24 09:30:29 Configuration loaded successfully
+2025/08/24 09:32:02 Loading configuration from Server/configs/config.json
+2025/08/24 09:32:02 Configuration loaded successfully
+2025/08/24 09:32:02 Loading configuration from Server/configs/config.json
+2025/08/24 09:32:02 Configuration loaded successfully
+2025/08/24 09:32:02 Getting all tasks for user
+2025/08/24 09:32:02 Getting money stats
+2025/08/24 09:32:02 Loading configuration from Server/configs/config.json
+2025/08/24 09:32:02 Configuration loaded successfully
+2025/08/24 09:32:02 Configuration loaded successfully
+2025/08/24 09:32:02 Server/db/money_database.db
+2025/08/24 09:32:09 Loading configuration from Server/configs/config.json
+2025/08/24 09:32:09 Configuration loaded successfully
+2025/08/24 09:32:09 Received request to add task
+2025/08/24 09:32:09 Loading configuration from Server/configs/config.json
+2025/08/24 09:32:09 Configuration loaded successfully
+2025/08/24 09:32:09 Loading configuration from Server/configs/config.json
+2025/08/24 09:32:09 Configuration loaded successfully
+2025/08/24 09:32:09 Getting all tasks for user
+2025/08/24 09:32:09 Loading configuration from Server/configs/config.json
+2025/08/24 09:32:09 Configuration loaded successfully
+2025/08/24 09:34:41 Loading configuration from Server/configs/config.json
+2025/08/24 09:34:41 Configuration loaded successfully
+2025/08/24 09:34:41 All tables created successfully.
+2025/08/24 09:35:01 Loading configuration from Server/configs/config.json
+2025/08/24 09:35:01 Configuration loaded successfully
+2025/08/24 09:35:01 Loading configuration from Server/configs/config.json
+2025/08/24 09:35:01 Configuration loaded successfully
+2025/08/24 09:35:59 Loading configuration from Server/configs/config.json
+2025/08/24 09:35:59 Configuration loaded successfully
+2025/08/24 09:35:59 Loading configuration from Server/configs/config.json
+2025/08/24 09:35:59 Configuration loaded successfully
+2025/08/24 09:35:59 Getting money stats
+2025/08/24 09:35:59 Loading configuration from Server/configs/config.json
+2025/08/24 09:35:59 Configuration loaded successfully
+2025/08/24 09:35:59 Loading configuration from Server/configs/config.json
+2025/08/24 09:35:59 Configuration loaded successfully
+2025/08/24 09:36:15 Loading configuration from Server/configs/config.json
+2025/08/24 09:36:15 Configuration loaded successfully
+2025/08/24 09:36:15 Received request to add task
+2025/08/24 09:36:15 Loading configuration from Server/configs/config.json
+2025/08/24 09:36:15 Configuration loaded successfully
+2025/08/24 09:36:15 Loading configuration from Server/configs/config.json
+2025/08/24 09:36:15 Configuration loaded successfully
+2025/08/24 09:36:15 Getting all tasks for user
+2025/08/24 09:36:15 Loading configuration from Server/configs/config.json
+2025/08/24 09:36:15 Configuration loaded successfully
+2025/08/24 09:37:09 Loading configuration from Server/configs/config.json
+2025/08/24 09:37:09 Configuration loaded successfully
+2025/08/24 09:37:09 Editing task status
+2025/08/24 09:37:09 Loading configuration from Server/configs/config.json
+2025/08/24 09:37:09 Configuration loaded successfully
+2025/08/24 09:37:09 Loading configuration from Server/configs/config.json
+2025/08/24 09:37:09 Configuration loaded successfully
+2025/08/24 09:37:09 Adding money
+2025/08/24 09:37:09 Loading configuration from Server/configs/config.json
+2025/08/24 09:37:09 Configuration loaded successfully
+2025/08/24 09:37:09 Getting all tasks for user
+2025/08/24 09:37:09 Loading configuration from Server/configs/config.json
+2025/08/24 09:37:09 Configuration loaded successfully
+2025/08/24 09:38:24 Loading configuration from Server/configs/config.json
+2025/08/24 09:38:24 Configuration loaded successfully
+2025/08/24 09:38:24 Getting all tasks for user
+2025/08/24 09:38:24 Loading configuration from Server/configs/config.json
+2025/08/24 09:38:24 Configuration loaded successfully
+2025/08/24 09:38:24 Loading configuration from Server/configs/config.json
+2025/08/24 09:38:24 Configuration loaded successfully
+2025/08/24 09:38:26 Loading configuration from Server/configs/config.json
+2025/08/24 09:38:26 Configuration loaded successfully
+2025/08/24 09:38:26 Getting all tasks for user
+2025/08/24 09:38:26 Loading configuration from Server/configs/config.json
+2025/08/24 09:38:26 Configuration loaded successfully
+2025/08/24 09:38:26 Loading configuration from Server/configs/config.json
+2025/08/24 09:38:26 Configuration loaded successfully
+2025/08/24 09:38:26 Getting money stats
+2025/08/24 09:38:27 Loading configuration from Server/configs/config.json
+2025/08/24 09:38:27 Configuration loaded successfully
+2025/08/24 09:38:27 Received request to delete task
+2025/08/24 09:38:27 Loading configuration from Server/configs/config.json
+2025/08/24 09:38:27 Configuration loaded successfully
+2025/08/24 09:38:27 Deleting task with ID 1 for user ID 1
+2025/08/24 09:38:27 Loading configuration from Server/configs/config.json
+2025/08/24 09:38:27 Configuration loaded successfully
+2025/08/24 09:38:27 Getting all tasks for user
+2025/08/24 09:38:27 Loading configuration from Server/configs/config.json
+2025/08/24 09:38:27 Configuration loaded successfully
+2025/08/24 09:38:35 Loading configuration from Server/configs/config.json
+2025/08/24 09:38:35 Configuration loaded successfully
+2025/08/24 09:38:35 Received request to add task
+2025/08/24 09:38:35 Loading configuration from Server/configs/config.json
+2025/08/24 09:38:35 Configuration loaded successfully
+2025/08/24 09:38:35 Loading configuration from Server/configs/config.json
+2025/08/24 09:38:35 Configuration loaded successfully
+2025/08/24 09:38:35 Getting all tasks for user
+2025/08/24 09:38:35 Loading configuration from Server/configs/config.json
+2025/08/24 09:38:35 Configuration loaded successfully
+2025/08/24 09:39:35 Loading configuration from Server/configs/config.json
+2025/08/24 09:39:35 Configuration loaded successfully
+2025/08/24 09:39:35 Loading configuration from Server/configs/config.json
+2025/08/24 09:39:35 Configuration loaded successfully
+2025/08/24 09:39:35 Getting all tasks for user
+2025/08/24 09:39:35 Loading configuration from Server/configs/config.json
+2025/08/24 09:39:35 Configuration loaded successfully
+2025/08/24 09:39:47 Loading configuration from Server/configs/config.json
+2025/08/24 09:39:47 Configuration loaded successfully
+2025/08/24 09:39:47 Editing task status
+2025/08/24 09:39:47 Loading configuration from Server/configs/config.json
+2025/08/24 09:39:47 Configuration loaded successfully
+2025/08/24 09:39:47 Loading configuration from Server/configs/config.json
+2025/08/24 09:39:47 Configuration loaded successfully
+2025/08/24 09:39:47 Adding money
+2025/08/24 09:39:47 Loading configuration from Server/configs/config.json
+2025/08/24 09:39:47 Configuration loaded successfully
+2025/08/24 09:39:47 Getting all tasks for user
+2025/08/24 09:39:47 Loading configuration from Server/configs/config.json
+2025/08/24 09:39:47 Configuration loaded successfully
+2025/08/24 09:40:50 Loading configuration from Server/configs/config.json
+2025/08/24 09:40:50 Configuration loaded successfully
+2025/08/24 09:40:50 Getting all tasks for user
+2025/08/24 09:40:50 Loading configuration from Server/configs/config.json
+2025/08/24 09:40:50 Configuration loaded successfully
+2025/08/24 09:40:50 Loading configuration from Server/configs/config.json
+2025/08/24 09:40:50 Configuration loaded successfully
+2025/08/24 09:40:54 Loading configuration from Server/configs/config.json
+2025/08/24 09:40:54 Configuration loaded successfully
+2025/08/24 09:40:54 Received request to delete task
+2025/08/24 09:40:54 Loading configuration from Server/configs/config.json
+2025/08/24 09:40:54 Configuration loaded successfully
+2025/08/24 09:40:54 Deleting task with ID 2 for user ID 1
+2025/08/24 09:40:54 Loading configuration from Server/configs/config.json
+2025/08/24 09:40:54 Configuration loaded successfully
+2025/08/24 09:40:54 Getting all tasks for user
+2025/08/24 09:40:54 Loading configuration from Server/configs/config.json
+2025/08/24 09:40:54 Configuration loaded successfully
+2025/08/24 09:41:02 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:02 Configuration loaded successfully
+2025/08/24 09:41:02 Received request to add task
+2025/08/24 09:41:02 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:02 Configuration loaded successfully
+2025/08/24 09:41:02 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:02 Configuration loaded successfully
+2025/08/24 09:41:02 Getting all tasks for user
+2025/08/24 09:41:02 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:02 Configuration loaded successfully
+2025/08/24 09:41:18 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:18 Configuration loaded successfully
+2025/08/24 09:41:18 Received request to add task
+2025/08/24 09:41:18 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:18 Configuration loaded successfully
+2025/08/24 09:41:18 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:18 Configuration loaded successfully
+2025/08/24 09:41:18 Getting all tasks for user
+2025/08/24 09:41:18 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:18 Configuration loaded successfully
+2025/08/24 09:41:26 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:26 Configuration loaded successfully
+2025/08/24 09:41:26 Received request to add task
+2025/08/24 09:41:26 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:26 Configuration loaded successfully
+2025/08/24 09:41:26 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:26 Configuration loaded successfully
+2025/08/24 09:41:26 Getting all tasks for user
+2025/08/24 09:41:26 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:26 Configuration loaded successfully
+2025/08/24 09:41:35 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:35 Configuration loaded successfully
+2025/08/24 09:41:35 Received request to add task
+2025/08/24 09:41:35 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:35 Configuration loaded successfully
+2025/08/24 09:41:35 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:35 Configuration loaded successfully
+2025/08/24 09:41:35 Getting all tasks for user
+2025/08/24 09:41:35 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:35 Configuration loaded successfully
+2025/08/24 09:41:42 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:42 Configuration loaded successfully
+2025/08/24 09:41:42 Editing task status
+2025/08/24 09:41:42 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:42 Configuration loaded successfully
+2025/08/24 09:41:42 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:42 Configuration loaded successfully
+2025/08/24 09:41:42 Adding money
+2025/08/24 09:41:42 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:42 Configuration loaded successfully
+2025/08/24 09:41:42 Getting all tasks for user
+2025/08/24 09:41:42 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:42 Configuration loaded successfully
+2025/08/24 09:41:42 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:42 Configuration loaded successfully
+2025/08/24 09:41:42 Received request to delete task
+2025/08/24 09:41:42 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:42 Configuration loaded successfully
+2025/08/24 09:41:42 Deleting task with ID 6 for user ID 1
+2025/08/24 09:41:42 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:42 Configuration loaded successfully
+2025/08/24 09:41:42 Getting all tasks for user
+2025/08/24 09:41:42 Loading configuration from Server/configs/config.json
+2025/08/24 09:41:42 Configuration loaded successfully
+2025/08/24 09:42:56 Loading configuration from Server/configs/config.json
+2025/08/24 09:42:56 Configuration loaded successfully
+2025/08/24 09:42:56 Getting all tasks for user
+2025/08/24 09:42:56 Loading configuration from Server/configs/config.json
+2025/08/24 09:42:56 Configuration loaded successfully
+2025/08/24 09:42:56 Loading configuration from Server/configs/config.json
+2025/08/24 09:42:56 Configuration loaded successfully
+2025/08/24 09:42:56 Getting money stats
+2025/08/24 09:42:57 Loading configuration from Server/configs/config.json
+2025/08/24 09:42:57 Configuration loaded successfully
+2025/08/24 09:42:57 Getting all tasks for user
+2025/08/24 09:42:57 Loading configuration from Server/configs/config.json
+2025/08/24 09:42:57 Configuration loaded successfully
+2025/08/24 09:42:57 Loading configuration from Server/configs/config.json
+2025/08/24 09:42:57 Configuration loaded successfully
+2025/08/24 09:42:57 Getting money stats
+2025/08/24 09:42:58 Loading configuration from Server/configs/config.json
+2025/08/24 09:42:58 Configuration loaded successfully
+2025/08/24 09:42:58 Loading configuration from Server/configs/config.json
+2025/08/24 09:42:58 Configuration loaded successfully
+2025/08/24 09:42:58 Getting all tasks for user
+2025/08/24 09:42:58 Loading configuration from Server/configs/config.json
+2025/08/24 09:42:58 Configuration loaded successfully
+2025/08/24 09:45:45 Loading configuration from Server/configs/config.json
+2025/08/24 09:45:45 Configuration loaded successfully
+2025/08/24 09:45:45 Loading configuration from Server/configs/config.json
+2025/08/24 09:45:45 Configuration loaded successfully
+2025/08/24 09:45:45 Getting all tasks for user
+2025/08/24 09:45:45 Getting money stats
+2025/08/24 09:45:45 Loading configuration from Server/configs/config.json
+2025/08/24 09:45:45 Configuration loaded successfully
+2025/08/24 09:45:45 Server/db/money_database.db
+2025/08/24 09:45:45 Configuration loaded successfully
+2025/08/24 09:46:01 Loading configuration from Server/configs/config.json
+2025/08/24 09:46:01 Configuration loaded successfully
+2025/08/24 09:46:01 Editing task status
+2025/08/24 09:46:01 Loading configuration from Server/configs/config.json
+2025/08/24 09:46:01 Configuration loaded successfully
+2025/08/24 09:46:01 Loading configuration from Server/configs/config.json
+2025/08/24 09:46:01 Configuration loaded successfully
+2025/08/24 09:46:01 Adding money
+2025/08/24 09:46:01 Loading configuration from Server/configs/config.json
+2025/08/24 09:46:01 Configuration loaded successfully
+2025/08/24 09:46:01 Getting all tasks for user
+2025/08/24 09:46:01 Loading configuration from Server/configs/config.json
+2025/08/24 09:46:01 Configuration loaded successfully
+2025/08/24 09:46:05 Loading configuration from Server/configs/config.json
+2025/08/24 09:46:05 Configuration loaded successfully
+2025/08/24 09:46:05 Received request to delete task
+2025/08/24 09:46:05 Loading configuration from Server/configs/config.json
+2025/08/24 09:46:05 Configuration loaded successfully
+2025/08/24 09:46:05 Deleting task with ID 3 for user ID 1
+2025/08/24 09:46:05 Loading configuration from Server/configs/config.json
+2025/08/24 09:46:05 Configuration loaded successfully
+2025/08/24 09:46:05 Getting all tasks for user
+2025/08/24 09:46:05 Loading configuration from Server/configs/config.json
+2025/08/24 09:46:05 Configuration loaded successfully
+2025/08/24 09:47:21 Loading configuration from Server/configs/config.json
+2025/08/24 09:47:21 Loading configuration from Server/configs/config.json
+2025/08/24 09:47:21 Configuration loaded successfully
+2025/08/24 09:47:21 Configuration loaded successfully
+2025/08/24 09:47:21 Getting money stats
+2025/08/24 09:47:21 Getting all tasks for user
+2025/08/24 09:47:21 Loading configuration from Server/configs/config.json
+2025/08/24 09:47:21 Configuration loaded successfully
+2025/08/24 09:48:31 Loading configuration from Server/configs/config.json
+2025/08/24 09:48:31 Configuration loaded successfully
+2025/08/24 09:48:31 Loading configuration from Server/configs/config.json
+2025/08/24 09:48:31 Configuration loaded successfully
+2025/08/24 09:48:31 Getting all tasks for user
+2025/08/24 09:48:31 Getting money stats
+2025/08/24 09:48:31 Loading configuration from Server/configs/config.json
+2025/08/24 09:48:47 Loading configuration from Server/configs/config.json
+2025/08/24 09:48:47 Configuration loaded successfully
+2025/08/24 09:48:47 Getting all tasks for user
+2025/08/24 09:48:47 Loading configuration from Server/configs/config.json
+2025/08/24 09:48:47 Configuration loaded successfully
+2025/08/24 09:48:47 Loading configuration from Server/configs/config.json
+2025/08/24 09:48:47 Configuration loaded successfully
+2025/08/24 09:48:47 Getting money stats
+2025/08/24 09:50:28 Loading configuration from Server/configs/config.json
+2025/08/24 09:50:28 Configuration loaded successfully
+2025/08/24 09:50:28 Getting all tasks for user
+2025/08/24 09:50:28 Loading configuration from Server/configs/config.json
+2025/08/24 09:50:28 Configuration loaded successfully
+2025/08/24 09:50:28 Loading configuration from Server/configs/config.json
+2025/08/24 09:50:28 Configuration loaded successfully
+2025/08/24 09:50:28 Getting money stats
+2025/08/24 09:51:39 Loading configuration from Server/configs/config.json
+2025/08/24 09:51:39 Configuration loaded successfully
+2025/08/24 09:51:39 Getting all tasks for user
+2025/08/24 09:51:39 Loading configuration from Server/configs/config.json
+2025/08/24 09:51:39 Configuration loaded successfully
+2025/08/24 09:51:39 Loading configuration from Server/configs/config.json
+2025/08/24 09:51:39 Configuration loaded successfully
+2025/08/24 09:51:39 Getting money stats
+2025/08/24 09:51:46 Loading configuration from Server/configs/config.json
+2025/08/24 09:51:46 Configuration loaded successfully
+2025/08/24 09:51:47 invalid password
+2025/08/24 09:51:52 Loading configuration from Server/configs/config.json
+2025/08/24 09:51:52 Configuration loaded successfully
+2025/08/24 09:51:52 Loading configuration from Server/configs/config.json
+2025/08/24 09:51:52 Configuration loaded successfully
+2025/08/24 09:51:52 Loading configuration from Server/configs/config.json
+2025/08/24 09:51:52 Configuration loaded successfully
+2025/08/24 09:51:52 Getting all tasks for user
+2025/08/24 09:51:52 Getting money stats
+2025/08/24 09:51:52 Loading configuration from Server/configs/config.json
+2025/08/24 09:51:52 Configuration loaded successfully
+2025/08/24 09:51:57 Loading configuration from Server/configs/config.json
+2025/08/24 09:51:57 Configuration loaded successfully
+2025/08/24 09:51:57 Editing task status
+2025/08/24 09:51:57 Loading configuration from Server/configs/config.json
+2025/08/24 09:51:57 Configuration loaded successfully
+2025/08/24 09:51:57 Loading configuration from Server/configs/config.json
+2025/08/24 09:51:57 Configuration loaded successfully
+2025/08/24 09:51:57 Adding money
+2025/08/24 09:51:57 Loading configuration from Server/configs/config.json
+2025/08/24 09:51:57 Configuration loaded successfully
+2025/08/24 09:51:57 Getting all tasks for user
+2025/08/24 09:51:57 Loading configuration from Server/configs/config.json
+2025/08/24 09:51:57 Configuration loaded successfully
+2025/08/24 09:51:58 Loading configuration from Server/configs/config.json
+2025/08/24 09:51:58 Configuration loaded successfully
+2025/08/24 09:51:58 Received request to delete task
+2025/08/24 09:51:58 Loading configuration from Server/configs/config.json
+2025/08/24 09:51:58 Configuration loaded successfully
+2025/08/24 09:51:58 Deleting task with ID 4 for user ID 1
+2025/08/24 09:51:58 Loading configuration from Server/configs/config.json
+2025/08/24 09:51:58 Configuration loaded successfully
+2025/08/24 09:51:58 Getting all tasks for user
+2025/08/24 09:51:58 Loading configuration from Server/configs/config.json
+2025/08/24 09:51:58 Configuration loaded successfully
+2025/08/24 09:54:12 Loading configuration from Server/configs/config.json
+2025/08/24 09:54:12 Configuration loaded successfully
+2025/08/24 09:54:12 Getting all tasks for user
+2025/08/24 09:54:12 Loading configuration from Server/configs/config.json
+2025/08/24 09:54:12 Configuration loaded successfully
+2025/08/24 09:54:12 Getting money stats
+2025/08/24 09:54:12 Loading configuration from Server/configs/config.json
+2025/08/24 09:54:12 Configuration loaded successfully
+2025/08/24 09:54:12 Configuration loaded successfully
+2025/08/24 09:54:12 Server/db/money_database.db
+2025/08/24 09:54:13 Loading configuration from Server/configs/config.json
+2025/08/24 09:54:13 Configuration loaded successfully
+2025/08/24 09:54:13 Getting all tasks for user
+2025/08/24 09:54:13 Loading configuration from Server/configs/config.json
+2025/08/24 09:54:13 Configuration loaded successfully
+2025/08/24 09:54:13 Loading configuration from Server/configs/config.json
+2025/08/24 09:54:13 Configuration loaded successfully
+2025/08/24 09:54:13 Getting money stats
+2025/08/24 09:54:13 Loading configuration from Server/configs/config.json
+2025/08/24 09:54:13 Configuration loaded successfully
+2025/08/24 09:54:13 Getting all tasks for user
+2025/08/24 09:54:13 Loading configuration from Server/configs/config.json
+2025/08/24 09:54:13 Configuration loaded successfully
+2025/08/24 09:54:13 Loading configuration from Server/configs/config.json
+2025/08/24 09:54:13 Configuration loaded successfully
+2025/08/24 09:54:13 Getting money stats
+2025/08/24 09:56:28 Loading configuration from Server/configs/config.json
+2025/08/24 09:56:28 Configuration loaded successfully
+2025/08/24 09:56:28 All tables created successfully.
+2025/08/24 09:56:44 Loading configuration from Server/configs/config.json
+2025/08/24 09:56:44 Configuration loaded successfully
+2025/08/24 09:56:45 Loading configuration from Server/configs/config.json
+2025/08/24 09:56:45 Configuration loaded successfully
+2025/08/24 09:56:45 Getting all tasks for user
+2025/08/24 09:56:45 Loading configuration from Server/configs/config.json
+2025/08/24 09:56:45 Configuration loaded successfully
+2025/08/24 09:56:45 Loading configuration from Server/configs/config.json
+2025/08/24 09:56:45 Configuration loaded successfully
+2025/08/24 09:56:45 Getting money stats
+2025/08/24 11:38:26 Loading configuration from Server/configs/config.json
+2025/08/24 11:38:26 Loading configuration from Server/configs/config.json
+2025/08/24 11:38:26 Configuration loaded successfully
+2025/08/24 11:38:26 Configuration loaded successfully
+2025/08/24 11:38:43 Loading configuration from Server/configs/config.json
+2025/08/24 11:38:43 Configuration loaded successfully
+2025/08/24 11:38:43 Loading configuration from Server/configs/config.json
+2025/08/24 11:38:43 Configuration loaded successfully
+2025/08/24 11:38:43 Getting all tasks for user
+2025/08/24 11:38:43 Loading configuration from Server/configs/config.json
+2025/08/24 11:38:43 Configuration loaded successfully
+2025/08/24 11:38:43 Loading configuration from Server/configs/config.json
+2025/08/24 11:38:43 Configuration loaded successfully
+2025/08/24 11:38:51 Loading configuration from Server/configs/config.json
+2025/08/24 11:38:51 Configuration loaded successfully
+2025/08/24 11:38:51 Editing task status
+2025/08/24 11:38:51 Loading configuration from Server/configs/config.json
+2025/08/24 11:38:51 Configuration loaded successfully
+2025/08/24 11:38:51 Loading configuration from Server/configs/config.json
+2025/08/24 11:38:51 Configuration loaded successfully
+2025/08/24 11:38:51 Adding money
+2025/08/24 11:38:51 Loading configuration from Server/configs/config.json
+2025/08/24 11:38:51 Configuration loaded successfully
+2025/08/24 11:38:51 Getting all tasks for user
+2025/08/24 11:38:51 Loading configuration from Server/configs/config.json
+2025/08/24 11:38:51 Configuration loaded successfully
+2025/08/24 11:38:53 Loading configuration from Server/configs/config.json
+2025/08/24 11:38:53 Configuration loaded successfully
+2025/08/24 11:38:53 Received request to delete task
+2025/08/24 11:38:53 Loading configuration from Server/configs/config.json
+2025/08/24 11:38:53 Configuration loaded successfully
+2025/08/24 11:38:53 Deleting task with ID 5 for user ID 1
+2025/08/24 11:38:53 Loading configuration from Server/configs/config.json
+2025/08/24 11:38:53 Configuration loaded successfully
+2025/08/24 11:38:53 Getting all tasks for user
+2025/08/24 11:38:53 Loading configuration from Server/configs/config.json
+2025/08/24 11:38:53 Configuration loaded successfully
+2025/08/24 11:39:08 Loading configuration from Server/configs/config.json
+2025/08/24 11:39:08 Configuration loaded successfully
+2025/08/24 11:39:08 Loading configuration from Server/configs/config.json
+2025/08/24 11:39:08 Configuration loaded successfully
+2025/08/24 11:39:08 Getting all tasks for user
+2025/08/24 11:39:08 Loading configuration from Server/configs/config.json
+2025/08/24 11:39:08 Configuration loaded successfully
+2025/08/24 11:39:08 Getting money stats
+2025/08/24 11:39:21 Loading configuration from Server/configs/config.json
+2025/08/24 11:39:21 Configuration loaded successfully
+2025/08/24 11:39:21 Received request to add task
+2025/08/24 11:39:21 Loading configuration from Server/configs/config.json
+2025/08/24 11:39:21 Configuration loaded successfully
+2025/08/24 11:39:21 Loading configuration from Server/configs/config.json
+2025/08/24 11:39:21 Configuration loaded successfully
+2025/08/24 11:39:21 Getting all tasks for user
+2025/08/24 11:39:21 Loading configuration from Server/configs/config.json
+2025/08/24 11:39:21 Configuration loaded successfully
+2025/08/24 11:40:22 Loading configuration from Server/configs/config.json
+2025/08/24 11:40:22 Configuration loaded successfully
+2025/08/24 11:40:22 Loading configuration from Server/configs/config.json
+2025/08/24 11:40:22 Configuration loaded successfully
+2025/08/24 11:40:22 Getting all tasks for user
+2025/08/24 11:40:22 Getting money stats
+2025/08/24 11:40:22 Loading configuration from Server/configs/config.json
+2025/08/24 11:40:22 Configuration loaded successfully
+2025/08/24 11:40:22 Configuration loaded successfully
+2025/08/24 11:40:22 Server/db/money_database.db
+2025/08/24 11:40:54 Loading configuration from Server/configs/config.json
+2025/08/24 11:40:54 Configuration loaded successfully
+2025/08/24 11:40:54 Received request to add task
+2025/08/24 11:40:54 Loading configuration from Server/configs/config.json
+2025/08/24 11:40:54 Configuration loaded successfully
+2025/08/24 11:40:54 Loading configuration from Server/configs/config.json
+2025/08/24 11:40:54 Configuration loaded successfully
+2025/08/24 11:40:54 Getting all tasks for user
+2025/08/24 11:40:54 Loading configuration from Server/configs/config.json
+2025/08/24 11:40:54 Configuration loaded successfully
+2025/08/24 11:41:20 Loading configuration from Server/configs/config.json
+2025/08/24 11:41:20 Configuration loaded successfully
+2025/08/24 11:41:20 Loading configuration from Server/configs/config.json
+2025/08/24 11:41:20 Configuration loaded successfully
+2025/08/24 11:41:20 Getting all tasks for user
+2025/08/24 11:41:20 Loading configuration from Server/configs/config.json
+2025/08/24 11:41:20 Getting money stats
+2025/08/24 11:41:20 Configuration loaded successfully
+2025/08/24 11:41:26 Loading configuration from Server/configs/config.json
+2025/08/24 11:41:26 Configuration loaded successfully
+2025/08/24 11:41:26 Received request to add task
+2025/08/24 11:41:26 Loading configuration from Server/configs/config.json
+2025/08/24 11:41:26 Configuration loaded successfully
+2025/08/24 11:41:26 Loading configuration from Server/configs/config.json
+2025/08/24 11:41:26 Configuration loaded successfully
+2025/08/24 11:41:26 Getting all tasks for user
+2025/08/24 11:41:26 Loading configuration from Server/configs/config.json
+2025/08/24 11:41:26 Configuration loaded successfully
+2025/08/24 11:41:33 Loading configuration from Server/configs/config.json
+2025/08/24 11:41:33 Configuration loaded successfully
+2025/08/24 11:41:33 Received request to add task
+2025/08/24 11:41:33 Loading configuration from Server/configs/config.json
+2025/08/24 11:41:33 Configuration loaded successfully
+2025/08/24 11:41:33 Loading configuration from Server/configs/config.json
+2025/08/24 11:41:33 Configuration loaded successfully
+2025/08/24 11:41:33 Getting all tasks for user
+2025/08/24 11:41:33 Loading configuration from Server/configs/config.json
+2025/08/24 11:41:33 Configuration loaded successfully
+2025/08/24 11:42:07 Loading configuration from Server/configs/config.json
+2025/08/24 11:42:07 Configuration loaded successfully
+2025/08/24 11:42:07 Loading configuration from Server/configs/config.json
+2025/08/24 11:42:07 Configuration loaded successfully
+2025/08/24 11:42:07 Getting money stats
+2025/08/24 11:42:07 Getting all tasks for user
+2025/08/24 11:42:07 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:02 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:02 Configuration loaded successfully
+2025/08/24 11:43:02 Getting all tasks for user
+2025/08/24 11:43:02 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:02 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:02 Configuration loaded successfully
+2025/08/24 11:43:03 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:03 Configuration loaded successfully
+2025/08/24 11:43:03 Editing task status
+2025/08/24 11:43:03 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:03 Configuration loaded successfully
+2025/08/24 11:43:03 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:03 Configuration loaded successfully
+2025/08/24 11:43:03 Adding money
+2025/08/24 11:43:03 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:03 Configuration loaded successfully
+2025/08/24 11:43:03 Getting all tasks for user
+2025/08/24 11:43:03 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:03 Configuration loaded successfully
+2025/08/24 11:43:06 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:06 Configuration loaded successfully
+2025/08/24 11:43:06 Editing task status
+2025/08/24 11:43:07 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:07 Configuration loaded successfully
+2025/08/24 11:43:07 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:07 Configuration loaded successfully
+2025/08/24 11:43:07 Adding money
+2025/08/24 11:43:07 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:07 Configuration loaded successfully
+2025/08/24 11:43:07 Getting all tasks for user
+2025/08/24 11:43:07 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:07 Configuration loaded successfully
+2025/08/24 11:43:25 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:25 Configuration loaded successfully
+2025/08/24 11:43:25 Editing task status
+2025/08/24 11:43:25 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:25 Configuration loaded successfully
+2025/08/24 11:43:25 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:25 Configuration loaded successfully
+2025/08/24 11:43:25 Adding money
+2025/08/24 11:43:25 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:25 Configuration loaded successfully
+2025/08/24 11:43:25 Getting all tasks for user
+2025/08/24 11:43:25 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:25 Configuration loaded successfully
+2025/08/24 11:43:31 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:31 Configuration loaded successfully
+2025/08/24 11:43:31 Editing task status
+2025/08/24 11:43:31 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:31 Configuration loaded successfully
+2025/08/24 11:43:31 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:31 Configuration loaded successfully
+2025/08/24 11:43:31 Adding money
+2025/08/24 11:43:31 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:31 Configuration loaded successfully
+2025/08/24 11:43:31 Getting all tasks for user
+2025/08/24 11:43:31 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:31 Configuration loaded successfully
+2025/08/24 11:43:34 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:34 Configuration loaded successfully
+2025/08/24 11:43:34 Received request to delete task
+2025/08/24 11:43:34 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:34 Configuration loaded successfully
+2025/08/24 11:43:34 Deleting task with ID 7 for user ID 1
+2025/08/24 11:43:34 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:34 Configuration loaded successfully
+2025/08/24 11:43:34 Getting all tasks for user
+2025/08/24 11:43:34 Loading configuration from Server/configs/config.json
+2025/08/24 11:43:34 Configuration loaded successfully
+2025/08/24 11:46:15 Loading configuration from Server/configs/config.json
+2025/08/24 11:46:15 Loading configuration from Server/configs/config.json
+2025/08/24 11:46:15 Configuration loaded successfully
+2025/08/24 11:46:15 Configuration loaded successfully
+2025/08/24 11:46:15 Getting money stats
+2025/08/24 11:46:15 Getting all tasks for user
+2025/08/24 11:46:15 Loading configuration from Server/configs/config.json
+2025/08/24 11:46:15 Configuration loaded successfully
+2025/08/24 11:46:15 Configuration loaded successfully
+2025/08/24 11:46:15 Server/db/money_database.db
+2025/08/24 11:46:31 Loading configuration from Server/configs/config.json
+2025/08/24 11:46:31 Configuration loaded successfully
+2025/08/24 11:46:31 Getting all tasks for user
+2025/08/24 11:46:31 Loading configuration from Server/configs/config.json
+2025/08/24 11:46:31 Configuration loaded successfully
+2025/08/24 11:46:31 Loading configuration from Server/configs/config.json
+2025/08/24 11:46:31 Configuration loaded successfully
+2025/08/24 11:46:59 Loading configuration from Server/configs/config.json
+2025/08/24 11:46:59 Loading configuration from Server/configs/config.json
+2025/08/24 11:46:59 Configuration loaded successfully
+2025/08/24 11:46:59 Configuration loaded successfully
+2025/08/24 11:46:59 Getting money stats
+2025/08/24 11:46:59 Getting all tasks for user
+2025/08/24 11:46:59 Loading configuration from Server/configs/config.json
+2025/08/24 11:46:59 Configuration loaded successfully
+2025/08/24 11:46:59 Loading configuration from Server/configs/config.json
+2025/08/24 11:46:59 Server/db/money_database.db
+2025/08/24 11:46:59 Configuration loaded successfully
+2025/08/24 11:47:30 Loading configuration from Server/configs/config.json
+2025/08/24 11:47:30 Configuration loaded successfully
+2025/08/24 11:47:30 Getting all tasks for user
+2025/08/24 11:47:30 Loading configuration from Server/configs/config.json
+2025/08/24 11:47:30 Configuration loaded successfully
+2025/08/24 11:47:30 Loading configuration from Server/configs/config.json
+2025/08/24 11:47:30 Configuration loaded successfully
+2025/08/24 11:47:30 Getting money stats
+2025/08/24 11:48:01 Loading configuration from Server/configs/config.json
+2025/08/24 11:48:01 Loading configuration from Server/configs/config.json
+2025/08/24 11:48:01 Configuration loaded successfully
+2025/08/24 11:48:01 Configuration loaded successfully
+2025/08/24 11:48:01 Getting all tasks for user
+2025/08/24 11:48:01 Getting money stats
+2025/08/24 11:48:01 Loading configuration from Server/configs/config.json
+2025/08/24 11:48:01 Configuration loaded successfully
+2025/08/24 13:50:00 Loading configuration from Server/configs/config.json
+2025/08/24 13:50:00 Configuration loaded successfully
+2025/08/24 13:50:00 All tables created successfully.
+2025/08/24 13:50:15 Loading configuration from Server/configs/config.json
+2025/08/24 13:50:15 Configuration loaded successfully
+2025/08/24 13:50:15 Loading configuration from Server/configs/config.json
+2025/08/24 13:50:15 Configuration loaded successfully
+2025/08/24 13:50:15 Loading configuration from Server/configs/config.json
+2025/08/24 13:50:15 Configuration loaded successfully
+2025/08/24 13:50:15 Getting all tasks for user
+2025/08/24 13:50:15 Getting money stats
+2025/08/24 13:50:15 Loading configuration from Server/configs/config.json
+2025/08/24 13:50:15 Configuration loaded successfully
+2025/08/24 13:51:17 Loading configuration from Server/configs/config.json
+2025/08/24 13:51:17 Configuration loaded successfully
+2025/08/24 13:51:17 Received request to add task
+2025/08/24 13:51:17 Loading configuration from Server/configs/config.json
+2025/08/24 13:51:17 Configuration loaded successfully
+2025/08/24 13:51:17 Loading configuration from Server/configs/config.json
+2025/08/24 13:51:17 Configuration loaded successfully
+2025/08/24 13:51:17 Getting all tasks for user
+2025/08/24 13:51:17 Loading configuration from Server/configs/config.json
+2025/08/24 13:51:17 Configuration loaded successfully
+2025/08/24 13:53:28 Loading configuration from Server/configs/config.json
+2025/08/24 13:53:28 Configuration loaded successfully
+2025/08/24 13:53:28 Getting all tasks for user
+2025/08/24 13:53:28 Loading configuration from Server/configs/config.json
+2025/08/24 13:53:28 Configuration loaded successfully
+2025/08/24 13:53:28 Getting money stats
+2025/08/24 13:53:28 Loading configuration from Server/configs/config.json
+2025/08/24 13:55:17 Loading configuration from Server/configs/config.json
+2025/08/24 13:55:17 Configuration loaded successfully
+2025/08/24 13:55:17 Getting all tasks for user
+2025/08/24 13:55:17 Loading configuration from Server/configs/config.json
+2025/08/24 13:55:17 Configuration loaded successfully
+2025/08/24 13:55:17 Getting money stats
+2025/08/24 13:55:17 Loading configuration from Server/configs/config.json
+2025/08/24 13:55:17 Configuration loaded successfully
+2025/08/24 13:55:17 Server/db/money_database.db
+2025/08/24 13:55:17 Configuration loaded successfully
+2025/08/24 13:56:10 Loading configuration from Server/configs/config.json
+2025/08/24 13:56:10 Configuration loaded successfully
+2025/08/24 13:56:10 Received request to add task
+2025/08/24 13:56:10 Loading configuration from Server/configs/config.json
+2025/08/24 13:56:10 Configuration loaded successfully
+2025/08/24 13:56:10 Loading configuration from Server/configs/config.json
+2025/08/24 13:56:10 Configuration loaded successfully
+2025/08/24 13:56:10 Getting all tasks for user
+2025/08/24 13:56:10 Loading configuration from Server/configs/config.json
+2025/08/24 13:56:10 Configuration loaded successfully
+2025/08/24 13:56:24 Loading configuration from Server/configs/config.json
+2025/08/24 13:56:24 Configuration loaded successfully
+2025/08/24 13:56:24 Received request to add task
+2025/08/24 13:56:24 Loading configuration from Server/configs/config.json
+2025/08/24 13:56:24 Configuration loaded successfully
+2025/08/24 13:56:24 Loading configuration from Server/configs/config.json
+2025/08/24 13:56:24 Configuration loaded successfully
+2025/08/24 13:56:24 Getting all tasks for user
+2025/08/24 13:56:24 Loading configuration from Server/configs/config.json
+2025/08/24 13:56:24 Configuration loaded successfully
+2025/08/24 13:57:12 Loading configuration from Server/configs/config.json
+2025/08/24 13:57:12 Configuration loaded successfully
+2025/08/24 13:57:12 Getting all tasks for user
+2025/08/24 13:57:12 Loading configuration from Server/configs/config.json
+2025/08/24 13:57:12 Loading configuration from Server/configs/config.json
+2025/08/24 13:57:12 Configuration loaded successfully
+2025/08/24 13:57:12 Getting money stats
+2025/08/24 14:00:37 Loading configuration from Server/configs/config.json
+2025/08/24 14:00:37 Configuration loaded successfully
+2025/08/24 14:00:37 Getting all tasks for user
+2025/08/24 14:00:37 Loading configuration from Server/configs/config.json
+2025/08/24 14:00:37 Configuration loaded successfully
+2025/08/24 14:00:51 Loading configuration from Server/configs/config.json
+2025/08/24 14:00:51 Configuration loaded successfully
+2025/08/24 14:00:51 Received request to delete task
+2025/08/24 14:00:51 Loading configuration from Server/configs/config.json
+2025/08/24 14:00:51 Configuration loaded successfully
+2025/08/24 14:00:51 Deleting task with ID 9 for user ID 1
+2025/08/24 14:00:51 Loading configuration from Server/configs/config.json
+2025/08/24 14:00:51 Configuration loaded successfully
+2025/08/24 14:00:51 Getting all tasks for user
+2025/08/24 14:00:51 Loading configuration from Server/configs/config.json
+2025/08/24 14:00:51 Configuration loaded successfully
+2025/08/24 14:00:52 Loading configuration from Server/configs/config.json
+2025/08/24 14:00:52 Configuration loaded successfully
+2025/08/24 14:00:52 Received request to delete task
+2025/08/24 14:00:52 Loading configuration from Server/configs/config.json
+2025/08/24 14:00:52 Configuration loaded successfully
+2025/08/24 14:00:52 Deleting task with ID 10 for user ID 1
+2025/08/24 14:00:52 Loading configuration from Server/configs/config.json
+2025/08/24 14:00:52 Configuration loaded successfully
+2025/08/24 14:00:52 Getting all tasks for user
+2025/08/24 14:00:52 Loading configuration from Server/configs/config.json
+2025/08/24 14:00:52 Configuration loaded successfully
+2025/08/24 14:01:47 Loading configuration from Server/configs/config.json
+2025/08/24 14:01:47 Configuration loaded successfully
+2025/08/24 14:01:47 Getting all tasks for user
+2025/08/24 14:01:47 Loading configuration from Server/configs/config.json
+2025/08/24 14:01:47 Loading configuration from Server/configs/config.json
+2025/08/24 14:01:47 Configuration loaded successfully
+2025/08/24 14:01:47 Configuration loaded successfully
+2025/08/24 14:02:44 Loading configuration from Server/configs/config.json
+2025/08/24 14:02:44 Configuration loaded successfully
+2025/08/24 14:02:44 Getting all tasks for user
+2025/08/24 14:02:44 Loading configuration from Server/configs/config.json
+2025/08/24 14:02:44 Configuration loaded successfully
+2025/08/24 14:03:12 Loading configuration from Server/configs/config.json
+2025/08/24 14:03:12 Configuration loaded successfully
+2025/08/24 14:03:12 Loading configuration from Server/configs/config.json
+2025/08/24 14:03:12 Configuration loaded successfully
+2025/08/24 14:03:12 Getting all tasks for user
+2025/08/24 14:03:12 Loading configuration from Server/configs/config.json
+2025/08/24 14:03:12 Configuration loaded successfully
+2025/08/24 14:03:56 Loading configuration from Server/configs/config.json
+2025/08/24 14:03:56 Configuration loaded successfully
+2025/08/24 14:03:56 Editing task status
+2025/08/24 14:03:56 Loading configuration from Server/configs/config.json
+2025/08/24 14:03:56 Configuration loaded successfully
+2025/08/24 14:03:56 Loading configuration from Server/configs/config.json
+2025/08/24 14:03:56 Configuration loaded successfully
+2025/08/24 14:03:56 Adding money
+2025/08/24 14:03:56 Loading configuration from Server/configs/config.json
+2025/08/24 14:03:56 Configuration loaded successfully
+2025/08/24 14:03:56 Getting all tasks for user
+2025/08/24 14:03:56 Loading configuration from Server/configs/config.json
+2025/08/24 14:03:56 Configuration loaded successfully
+2025/08/24 14:03:59 Loading configuration from Server/configs/config.json
+2025/08/24 14:03:59 Configuration loaded successfully
+2025/08/24 14:03:59 Received request to delete task
+2025/08/24 14:03:59 Loading configuration from Server/configs/config.json
+2025/08/24 14:03:59 Configuration loaded successfully
+2025/08/24 14:03:59 Deleting task with ID 11 for user ID 1
+2025/08/24 14:03:59 Loading configuration from Server/configs/config.json
+2025/08/24 14:03:59 Configuration loaded successfully
+2025/08/24 14:03:59 Getting all tasks for user
+2025/08/24 14:03:59 Loading configuration from Server/configs/config.json
+2025/08/24 14:03:59 Configuration loaded successfully
+2025/08/24 14:04:01 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:01 Configuration loaded successfully
+2025/08/24 14:04:01 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:01 Configuration loaded successfully
+2025/08/24 14:04:01 Getting all tasks for user
+2025/08/24 14:04:01 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:01 Configuration loaded successfully
+2025/08/24 14:04:04 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:04 Configuration loaded successfully
+2025/08/24 14:04:04 Editing task status
+2025/08/24 14:04:04 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:04 Configuration loaded successfully
+2025/08/24 14:04:04 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:04 Configuration loaded successfully
+2025/08/24 14:04:04 Adding money
+2025/08/24 14:04:04 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:04 Configuration loaded successfully
+2025/08/24 14:04:04 Getting all tasks for user
+2025/08/24 14:04:04 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:04 Configuration loaded successfully
+2025/08/24 14:04:16 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:16 Configuration loaded successfully
+2025/08/24 14:04:16 Editing task status
+2025/08/24 14:04:16 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:16 Configuration loaded successfully
+2025/08/24 14:04:16 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:16 Configuration loaded successfully
+2025/08/24 14:04:16 Adding money
+2025/08/24 14:04:16 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:16 Configuration loaded successfully
+2025/08/24 14:04:16 Getting all tasks for user
+2025/08/24 14:04:16 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:16 Configuration loaded successfully
+2025/08/24 14:04:17 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:17 Configuration loaded successfully
+2025/08/24 14:04:17 Editing task status
+2025/08/24 14:04:17 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:17 Configuration loaded successfully
+2025/08/24 14:04:17 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:17 Configuration loaded successfully
+2025/08/24 14:04:17 Adding money
+2025/08/24 14:04:17 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:17 Configuration loaded successfully
+2025/08/24 14:04:17 Getting all tasks for user
+2025/08/24 14:04:17 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:17 Configuration loaded successfully
+2025/08/24 14:04:17 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:17 Configuration loaded successfully
+2025/08/24 14:04:17 Received request to delete task
+2025/08/24 14:04:17 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:17 Configuration loaded successfully
+2025/08/24 14:04:17 Deleting task with ID 12 for user ID 1
+2025/08/24 14:04:17 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:17 Configuration loaded successfully
+2025/08/24 14:04:17 Getting all tasks for user
+2025/08/24 14:04:17 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:17 Configuration loaded successfully
+2025/08/24 14:04:18 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:18 Configuration loaded successfully
+2025/08/24 14:04:18 Received request to delete task
+2025/08/24 14:04:18 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:18 Configuration loaded successfully
+2025/08/24 14:04:18 Deleting task with ID 8 for user ID 1
+2025/08/24 14:04:18 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:18 Configuration loaded successfully
+2025/08/24 14:04:18 Getting all tasks for user
+2025/08/24 14:04:18 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:18 Configuration loaded successfully
+2025/08/24 14:04:18 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:18 Configuration loaded successfully
+2025/08/24 14:04:18 Received request to delete task
+2025/08/24 14:04:18 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:18 Configuration loaded successfully
+2025/08/24 14:04:18 Deleting task with ID 13 for user ID 1
+2025/08/24 14:04:18 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:18 Configuration loaded successfully
+2025/08/24 14:04:18 Getting all tasks for user
+2025/08/24 14:04:18 Loading configuration from Server/configs/config.json
+2025/08/24 14:04:18 Configuration loaded successfully
+2025/08/24 14:05:32 Loading configuration from Server/configs/config.json
+2025/08/24 14:05:32 Configuration loaded successfully
+2025/08/24 14:05:32 Getting all tasks for user
+2025/08/24 14:05:32 Loading configuration from Server/configs/config.json
+2025/08/24 14:05:32 Configuration loaded successfully
+2025/08/24 14:05:32 Loading configuration from Server/configs/config.json
+2025/08/24 14:05:32 Configuration loaded successfully
+2025/08/24 14:05:32 Getting money stats
+2025/08/24 14:05:38 Loading configuration from Server/configs/config.json
+2025/08/24 14:05:38 Configuration loaded successfully
+2025/08/24 14:05:38 Received request to add task
+2025/08/24 14:05:38 Loading configuration from Server/configs/config.json
+2025/08/24 14:05:38 Configuration loaded successfully
+2025/08/24 14:05:39 Loading configuration from Server/configs/config.json
+2025/08/24 14:05:39 Configuration loaded successfully
+2025/08/24 14:05:39 Getting all tasks for user
+2025/08/24 14:05:39 Loading configuration from Server/configs/config.json
+2025/08/24 14:05:39 Configuration loaded successfully
+2025/08/24 14:05:47 Loading configuration from Server/configs/config.json
+2025/08/24 14:05:47 Configuration loaded successfully
+2025/08/24 14:05:47 Received request to delete task
+2025/08/24 14:05:47 Loading configuration from Server/configs/config.json
+2025/08/24 14:05:47 Configuration loaded successfully
+2025/08/24 14:05:47 Deleting task with ID 14 for user ID 1
+2025/08/24 14:05:47 Loading configuration from Server/configs/config.json
+2025/08/24 14:05:47 Configuration loaded successfully
+2025/08/24 14:05:47 Getting all tasks for user
+2025/08/24 14:05:47 Loading configuration from Server/configs/config.json
+2025/08/24 14:05:47 Configuration loaded successfully
+2025/08/24 14:06:06 Loading configuration from Server/configs/config.json
+2025/08/24 14:06:06 Configuration loaded successfully
+2025/08/24 14:06:06 Loading configuration from Server/configs/config.json
+2025/08/24 14:06:06 Getting money stats
+2025/08/24 14:06:06 Loading configuration from Server/configs/config.json
+2025/08/24 14:06:06 Configuration loaded successfully
+2025/08/24 14:06:26 Loading configuration from Server/configs/config.json
+2025/08/24 14:06:26 Configuration loaded successfully
+2025/08/24 14:06:26 Received request to add task
+2025/08/24 14:06:26 Loading configuration from Server/configs/config.json
+2025/08/24 14:06:26 Configuration loaded successfully
+2025/08/24 14:06:26 Loading configuration from Server/configs/config.json
+2025/08/24 14:06:26 Configuration loaded successfully
+2025/08/24 14:06:26 Getting all tasks for user
+2025/08/24 14:06:26 Loading configuration from Server/configs/config.json
+2025/08/24 14:06:26 Configuration loaded successfully
+2025/08/24 14:07:21 Loading configuration from Server/configs/config.json
+2025/08/24 14:07:21 Configuration loaded successfully
+2025/08/24 14:07:21 Getting all tasks for user
+2025/08/24 14:07:21 Loading configuration from Server/configs/config.json
+2025/08/24 14:07:21 Configuration loaded successfully
+2025/08/24 14:07:21 Loading configuration from Server/configs/config.json
+2025/08/24 14:07:21 Configuration loaded successfully
+2025/08/24 14:07:21 Getting money stats
+2025/08/24 14:10:15 Loading configuration from Server/configs/config.json
+2025/08/24 14:10:15 Configuration loaded successfully
+2025/08/24 14:10:15 Getting all tasks for user
+2025/08/24 14:10:15 Loading configuration from Server/configs/config.json
+2025/08/24 14:10:15 Configuration loaded successfully
+2025/08/24 14:10:15 Getting money stats
+2025/08/24 14:10:15 Loading configuration from Server/configs/config.json
+2025/08/24 14:10:15 Configuration loaded successfully
+2025/08/24 14:10:50 Loading configuration from Server/configs/config.json
+2025/08/24 14:10:50 Configuration loaded successfully
+2025/08/24 14:10:50 Loading configuration from Server/configs/config.json
+2025/08/24 14:10:50 Configuration loaded successfully
+2025/08/24 14:11:05 Loading configuration from Server/configs/config.json
+2025/08/24 14:11:05 Configuration loaded successfully
+2025/08/24 14:11:06 Loading configuration from Server/configs/config.json
+2025/08/24 14:11:06 Configuration loaded successfully
+2025/08/24 14:11:06 Loading configuration from Server/configs/config.json
+2025/08/24 14:11:06 Configuration loaded successfully
+2025/08/24 14:11:06 Getting all tasks for user
+2025/08/24 14:11:06 Loading configuration from Server/configs/config.json
+2025/08/24 14:11:06 Configuration loaded successfully
+2025/08/24 14:11:26 Loading configuration from Server/configs/config.json
+2025/08/24 14:11:26 Configuration loaded successfully
+2025/08/24 14:11:26 Loading configuration from Server/configs/config.json
+2025/08/24 14:11:26 Configuration loaded successfully
+2025/08/24 14:12:04 Loading configuration from Server/configs/config.json
+2025/08/24 14:12:04 Configuration loaded successfully
+2025/08/24 14:12:04 Loading configuration from Server/configs/config.json
+2025/08/24 14:12:04 Configuration loaded successfully
+2025/08/24 14:12:04 Loading configuration from Server/configs/config.json
+2025/08/24 14:12:04 Configuration loaded successfully
+2025/08/24 14:12:04 Getting money stats
+2025/08/24 14:12:04 Getting all tasks for user
+2025/08/24 14:12:04 Loading configuration from Server/configs/config.json
+2025/08/24 14:12:04 Configuration loaded successfully
+2025/08/24 14:12:14 Loading configuration from Server/configs/config.json
+2025/08/24 14:12:14 Configuration loaded successfully
+2025/08/24 14:12:14 Loading configuration from Server/configs/config.json
+2025/08/24 14:12:14 Configuration loaded successfully
+2025/08/24 14:12:23 Loading configuration from Server/configs/config.json
+2025/08/24 14:12:23 Configuration loaded successfully
+2025/08/24 14:12:23 Loading configuration from Server/configs/config.json
+2025/08/24 14:12:23 Configuration loaded successfully
+2025/08/24 14:12:23 Loading configuration from Server/configs/config.json
+2025/08/24 14:12:23 Configuration loaded successfully
+2025/08/24 14:12:23 Getting all tasks for user
+2025/08/24 14:12:23 Loading configuration from Server/configs/config.json
+2025/08/24 14:12:23 Configuration loaded successfully
+2025/08/24 14:12:28 Loading configuration from Server/configs/config.json
+2025/08/24 14:12:28 Configuration loaded successfully
+2025/08/24 14:12:28 Loading configuration from Server/configs/config.json
+2025/08/24 14:12:28 Configuration loaded successfully
+2025/08/24 14:12:28 Loading configuration from Server/configs/config.json
+2025/08/24 14:12:28 Configuration loaded successfully
+2025/08/24 14:12:28 Getting money stats
+2025/08/24 14:12:28 Getting all tasks for user
+2025/08/24 14:12:28 Loading configuration from Server/configs/config.json
+2025/08/24 14:12:28 Configuration loaded successfully
+2025/08/24 14:12:51 Loading configuration from Server/configs/config.json
+2025/08/24 14:12:51 Configuration loaded successfully
+2025/08/24 14:12:51 Getting all tasks for user
+2025/08/24 14:12:51 Loading configuration from Server/configs/config.json
+2025/08/24 14:12:51 Configuration loaded successfully
+2025/08/24 14:12:51 Loading configuration from Server/configs/config.json
+2025/08/24 14:12:51 Configuration loaded successfully
+2025/08/24 14:12:51 Getting money stats
+2025/08/24 14:13:36 Loading configuration from Server/configs/config.json
+2025/08/24 14:13:36 Configuration loaded successfully
+2025/08/24 14:13:36 Getting all tasks for user
+2025/08/24 14:13:36 Loading configuration from Server/configs/config.json
+2025/08/24 14:13:36 Configuration loaded successfully
+2025/08/24 14:13:36 Loading configuration from Server/configs/config.json
+2025/08/24 14:13:36 Configuration loaded successfully
+2025/08/24 14:13:36 Getting money stats
+2025/08/24 14:13:41 Loading configuration from Server/configs/config.json
+2025/08/24 14:13:41 Configuration loaded successfully
+2025/08/24 14:13:41 Loading configuration from Server/configs/config.json
+2025/08/24 14:13:41 Configuration loaded successfully
+2025/08/24 14:13:41 Loading configuration from Server/configs/config.json
+2025/08/24 14:13:41 Getting all tasks for user
+2025/08/24 14:13:41 Configuration loaded successfully
+2025/08/24 14:13:41 Loading configuration from Server/configs/config.json
+2025/08/24 14:13:41 Configuration loaded successfully
+2025/08/24 14:13:41 Getting money stats
+2025/08/24 14:14:03 Loading configuration from Server/configs/config.json
+2025/08/24 14:14:03 Configuration loaded successfully
+2025/08/24 14:14:03 Loading configuration from Server/configs/config.json
+2025/08/24 14:14:03 Configuration loaded successfully
+2025/08/24 14:14:03 Getting all tasks for user
+2025/08/24 14:14:03 Loading configuration from Server/configs/config.json
+2025/08/24 14:14:03 Configuration loaded successfully
+2025/08/24 14:15:13 Loading configuration from Server/configs/config.json
+2025/08/24 14:15:13 Configuration loaded successfully
+2025/08/24 14:15:13 Loading configuration from Server/configs/config.json
+2025/08/24 14:15:13 Configuration loaded successfully
+2025/08/24 14:15:17 Loading configuration from Server/configs/config.json
+2025/08/24 14:15:17 Configuration loaded successfully
+2025/08/24 14:15:17 Loading configuration from Server/configs/config.json
+2025/08/24 14:15:17 Configuration loaded successfully
+2025/08/24 14:15:25 Loading configuration from Server/configs/config.json
+2025/08/24 14:15:25 Configuration loaded successfully
+2025/08/24 14:15:25 Loading configuration from Server/configs/config.json
+2025/08/24 14:15:25 Configuration loaded successfully
+2025/08/24 14:15:25 Loading configuration from Server/configs/config.json
+2025/08/24 14:15:25 Configuration loaded successfully
+2025/08/24 14:15:25 Getting all tasks for user
+2025/08/24 14:15:25 Loading configuration from Server/configs/config.json
+2025/08/24 14:15:31 Loading configuration from Server/configs/config.json
+2025/08/24 14:15:31 Configuration loaded successfully
+2025/08/24 14:15:31 Loading configuration from Server/configs/config.json
+2025/08/24 14:15:31 Configuration loaded successfully
+2025/08/24 14:15:31 Getting all tasks for user
+2025/08/24 14:15:31 Getting money stats
+2025/08/24 14:15:31 Loading configuration from Server/configs/config.json
+2025/08/24 14:15:31 Configuration loaded successfully
+2025/08/24 14:15:33 Loading configuration from Server/configs/config.json
+2025/08/24 14:15:33 Configuration loaded successfully
+2025/08/24 14:15:33 Loading configuration from Server/configs/config.json
+2025/08/24 14:15:33 Configuration loaded successfully
+2025/08/24 14:15:34 Getting all tasks for user
+2025/08/24 14:15:34 Loading configuration from Server/configs/config.json
+2025/08/24 14:15:34 Getting money stats
+2025/08/24 14:15:34 Configuration loaded successfully
+2025/08/24 14:21:14 Loading configuration from Server/configs/config.json
+2025/08/24 14:21:14 Loading configuration from Server/configs/config.json
+2025/08/24 14:21:14 Configuration loaded successfully
+2025/08/24 14:21:14 Configuration loaded successfully
+2025/08/24 14:21:14 Getting all tasks for user
+2025/08/24 14:21:14 Getting money stats
+2025/08/24 14:21:14 Loading configuration from Server/configs/config.json
+2025/08/24 14:21:14 Configuration loaded successfully
+2025/08/24 14:21:35 Loading configuration from Server/configs/config.json
+2025/08/24 14:21:35 Configuration loaded successfully
+2025/08/24 14:21:35 Getting all tasks for user
+2025/08/24 14:21:35 Loading configuration from Server/configs/config.json
+2025/08/24 14:21:35 Configuration loaded successfully
+2025/08/24 14:21:35 Loading configuration from Server/configs/config.json
+2025/08/24 14:21:35 Configuration loaded successfully
+2025/08/24 14:21:35 Getting money stats
+2025/08/24 14:21:39 Loading configuration from Server/configs/config.json
+2025/08/24 14:21:39 Configuration loaded successfully
+2025/08/24 14:21:40 Loading configuration from Server/configs/config.json
+2025/08/24 14:21:40 Configuration loaded successfully
+2025/08/24 14:21:40 Loading configuration from Server/configs/config.json
+2025/08/24 14:21:40 Configuration loaded successfully
+2025/08/24 14:21:40 Getting money stats
+2025/08/24 14:21:40 Loading configuration from Server/configs/config.json
+2025/08/24 14:21:40 Configuration loaded successfully
+2025/08/24 14:22:20 Loading configuration from Server/configs/config.json
+2025/08/24 14:22:20 Configuration loaded successfully
+2025/08/24 14:22:20 Loading configuration from Server/configs/config.json
+2025/08/24 14:22:20 Configuration loaded successfully
+2025/08/24 14:22:20 Getting all tasks for user
+2025/08/24 14:22:20 Getting money stats
+2025/08/24 14:22:20 Loading configuration from Server/configs/config.json
+2025/08/24 14:22:41 Loading configuration from Server/configs/config.json
+2025/08/24 14:22:41 Configuration loaded successfully
+2025/08/24 14:22:41 Loading configuration from Server/configs/config.json
+2025/08/24 14:22:41 Configuration loaded successfully
+2025/08/24 14:22:41 Loading configuration from Server/configs/config.json
+2025/08/24 14:22:41 Configuration loaded successfully
+2025/08/24 14:22:41 Getting all tasks for user
+2025/08/24 14:22:41 Loading configuration from Server/configs/config.json
+2025/08/24 14:22:41 Configuration loaded successfully
+2025/08/24 14:23:13 Loading configuration from Server/configs/config.json
+2025/08/24 14:23:13 Configuration loaded successfully
+2025/08/24 14:23:13 Loading configuration from Server/configs/config.json
+2025/08/24 14:23:13 Configuration loaded successfully
+2025/08/24 14:23:13 Getting all tasks for user
+2025/08/24 14:23:13 Loading configuration from Server/configs/config.json
+2025/08/24 14:23:13 Configuration loaded successfully
+2025/08/24 14:23:13 Getting money stats
+2025/08/24 14:23:34 Loading configuration from Server/configs/config.json
+2025/08/24 14:23:34 Configuration loaded successfully
+2025/08/24 14:23:34 Getting all tasks for user
+2025/08/24 14:23:34 Loading configuration from Server/configs/config.json
+2025/08/24 14:23:34 Configuration loaded successfully
+2025/08/24 14:23:34 Loading configuration from Server/configs/config.json
+2025/08/24 14:23:39 Loading configuration from Server/configs/config.json
+2025/08/24 14:23:39 Configuration loaded successfully
+2025/08/24 14:23:39 Loading configuration from Server/configs/config.json
+2025/08/24 14:23:39 Configuration loaded successfully
+2025/08/24 14:23:39 Loading configuration from Server/configs/config.json
+2025/08/24 14:23:39 Configuration loaded successfully
+2025/08/24 14:23:39 Getting all tasks for user
+2025/08/24 14:23:39 Loading configuration from Server/configs/config.json
+2025/08/24 14:23:39 Configuration loaded successfully
+2025/08/24 14:23:39 Getting money stats
+2025/08/24 14:28:18 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:18 Configuration loaded successfully
+2025/08/24 14:28:18 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:18 Configuration loaded successfully
+2025/08/24 14:28:18 Getting all tasks for user
+2025/08/24 14:28:18 Getting money stats
+2025/08/24 14:28:18 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:18 Configuration loaded successfully
+2025/08/24 14:28:18 Configuration loaded successfully
+2025/08/24 14:28:18 Server/db/money_database.db
+2025/08/24 14:28:34 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:34 Configuration loaded successfully
+2025/08/24 14:28:34 Received request to add task
+2025/08/24 14:28:34 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:34 Configuration loaded successfully
+2025/08/24 14:28:34 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:34 Configuration loaded successfully
+2025/08/24 14:28:34 Getting all tasks for user
+2025/08/24 14:28:34 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:34 Configuration loaded successfully
+2025/08/24 14:28:39 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:39 Configuration loaded successfully
+2025/08/24 14:28:39 Getting all tasks for user
+2025/08/24 14:28:39 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:39 Configuration loaded successfully
+2025/08/24 14:28:39 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:39 Configuration loaded successfully
+2025/08/24 14:28:40 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:40 Configuration loaded successfully
+2025/08/24 14:28:40 Editing task status
+2025/08/24 14:28:40 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:40 Configuration loaded successfully
+2025/08/24 14:28:40 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:40 Configuration loaded successfully
+2025/08/24 14:28:40 Adding money
+2025/08/24 14:28:40 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:40 Configuration loaded successfully
+2025/08/24 14:28:40 Getting all tasks for user
+2025/08/24 14:28:40 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:40 Configuration loaded successfully
+2025/08/24 14:28:42 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:42 Configuration loaded successfully
+2025/08/24 14:28:42 Editing task status
+2025/08/24 14:28:42 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:42 Configuration loaded successfully
+2025/08/24 14:28:42 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:42 Configuration loaded successfully
+2025/08/24 14:28:42 Adding money
+2025/08/24 14:28:42 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:42 Configuration loaded successfully
+2025/08/24 14:28:42 Getting all tasks for user
+2025/08/24 14:28:42 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:42 Configuration loaded successfully
+2025/08/24 14:28:43 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:43 Configuration loaded successfully
+2025/08/24 14:28:43 Received request to delete task
+2025/08/24 14:28:43 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:43 Configuration loaded successfully
+2025/08/24 14:28:43 Deleting task with ID 15 for user ID 1
+2025/08/24 14:28:43 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:43 Configuration loaded successfully
+2025/08/24 14:28:43 Getting all tasks for user
+2025/08/24 14:28:43 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:43 Configuration loaded successfully
+2025/08/24 14:28:43 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:43 Configuration loaded successfully
+2025/08/24 14:28:43 Received request to delete task
+2025/08/24 14:28:43 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:43 Configuration loaded successfully
+2025/08/24 14:28:43 Deleting task with ID 16 for user ID 1
+2025/08/24 14:28:43 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:43 Configuration loaded successfully
+2025/08/24 14:28:43 Getting all tasks for user
+2025/08/24 14:28:43 Loading configuration from Server/configs/config.json
+2025/08/24 14:28:43 Configuration loaded successfully
+2025/08/24 14:31:04 Loading configuration from Server/configs/config.json
+2025/08/24 14:31:04 Configuration loaded successfully
+2025/08/24 14:33:43 Loading configuration from Server/configs/config.json
+2025/08/24 14:33:43 Configuration loaded successfully
+2025/08/24 14:33:43 All tables created successfully.
+2025/08/24 14:33:48 Loading configuration from Server/configs/config.json
+2025/08/24 14:33:48 Configuration loaded successfully
+2025/08/24 14:33:54 Loading configuration from Server/configs/config.json
+2025/08/24 14:33:54 Configuration loaded successfully
+2025/08/24 14:33:54 invalid password
+2025/08/24 14:34:04 Loading configuration from Server/configs/config.json
+2025/08/24 14:34:04 Configuration loaded successfully
+2025/08/24 14:34:23 Loading configuration from Server/configs/config.json
+2025/08/24 14:34:23 Configuration loaded successfully
+2025/08/24 14:34:23 Setting money goal
+2025/08/24 14:34:29 Loading configuration from Server/configs/config.json
+2025/08/24 14:34:29 Configuration loaded successfully
+2025/08/24 14:34:29 Loading configuration from Server/configs/config.json
+2025/08/24 14:34:29 Configuration loaded successfully
+2025/08/24 14:34:43 Loading configuration from Server/configs/config.json
+2025/08/24 14:34:43 Configuration loaded successfully
+2025/08/24 14:34:44 Loading configuration from Server/configs/config.json
+2025/08/24 14:34:44 Configuration loaded successfully
+2025/08/24 14:34:44 Loading configuration from Server/configs/config.json
+2025/08/24 14:34:44 Configuration loaded successfully
+2025/08/24 14:34:44 Getting all tasks for user
+2025/08/24 14:34:44 Loading configuration from Server/configs/config.json
+2025/08/24 14:34:44 Configuration loaded successfully
+2025/08/24 14:34:44 Getting money stats
+2025/08/24 14:38:19 Loading configuration from Server/configs/config.json
+2025/08/24 14:38:19 Configuration loaded successfully
+2025/08/24 14:38:19 Received request to add task
+2025/08/24 14:38:19 Loading configuration from Server/configs/config.json
+2025/08/24 14:38:19 Configuration loaded successfully
+2025/08/24 14:38:19 Loading configuration from Server/configs/config.json
+2025/08/24 14:38:19 Configuration loaded successfully
+2025/08/24 14:38:19 Getting all tasks for user
+2025/08/24 14:38:19 Loading configuration from Server/configs/config.json
+2025/08/24 14:38:19 Configuration loaded successfully
+2025/08/24 14:38:39 Loading configuration from Server/configs/config.json
+2025/08/24 14:38:39 Configuration loaded successfully
+2025/08/24 14:38:39 Received request to delete task
+2025/08/24 14:38:39 Loading configuration from Server/configs/config.json
+2025/08/24 14:38:39 Configuration loaded successfully
+2025/08/24 14:38:39 Deleting task with ID 1 for user ID 1
+2025/08/24 14:38:39 Loading configuration from Server/configs/config.json
+2025/08/24 14:38:39 Configuration loaded successfully
+2025/08/24 14:38:39 Getting all tasks for user
+2025/08/24 14:38:39 Loading configuration from Server/configs/config.json
+2025/08/24 14:38:39 Configuration loaded successfully
